@@ -98,16 +98,7 @@ jobs:
           {
             echo "## Build Summary"
             echo ""
-            if [ -f reports/build-metrics.json ]; then
-              cat reports/build-metrics.json | python3 -c "
-import json,sys
-m = json.load(sys.stdin)
-print('| Source | Changed | Reused | Refreshed | Removed | Failed | Time |')
-print('|--------|---------|--------|-----------|---------|--------|------|')
-for sid, x in sorted(m.items()):
-    print(f\"| {sid} | {x.get('changed')} | {x.get('reused')} | {x.get('refreshed')} | {x.get('removed')} | {x.get('failed')} | {x.get('seconds')}s |\")
-"
-            fi
+            python3 scripts/summary.py
             echo ""
             echo "data_hash: ${{ steps.build.outputs.data_hash }}"
             echo ""
