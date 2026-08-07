@@ -1,0 +1,94 @@
+name: Update Rule Index
+
+on:
+  schedule:
+    # 每天 06:17 UTC (约北京时间 14:17) 扫描一次
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+    # 手动触发: Actions 页面点 Run workflow
+    inputs:
+      force:
+        description: "Force rebuild (ignore unchanged)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rule-index
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
+      - name: Install dependencies
+        run: python3 -m pip install -r requirements.txt
+
+      - name: Run index build
+        env:
+          RI_WORKERS: "16"
+        run: python3 -u scripts/index.py
+
+      - name: Validate outputs
+        run: python3 scripts/validate.py
+
+      - name: Stage deploy site (dist + index.html)
+        run: |
+          mkdir -p dist
+          cp deploy-site/index.html dist/
+          ls -la dist/
+
+      - name: Configure git
+        run: |
+          git config user.name "rule-index-bot"
+          git config user.email "rule-index-bot@users.noreply.github.com"
+
+      - name: Commit and push dist (only if changed)
+        run: |
+          git add dist/
+          if git diff --cached --quiet; then
+            echo "no changes to dist/ — skipping commit"
+          else
+            git commit -m "chore: update rule index [skip ci]" --no-verify
+            git push origin HEAD
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

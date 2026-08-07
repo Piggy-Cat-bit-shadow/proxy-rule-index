@@ -1,0 +1,219 @@
+[
+  {
+    "id": "blackmatrix7",
+    "name": "blackmatrix7",
+    "repo": "blackmatrix7/ios_rule_script",
+    "homepage": "https://github.com/blackmatrix7/ios_rule_script",
+    "author": "blackmatrix7",
+    "license": "MIT",
+    "tier": "A",
+    "type": "app-rules",
+    "validation_mode": "standard",
+    "clients": {
+      "surge": "native",
+      "clash": "native",
+      "loon": "native",
+      "shadowrocket": "native",
+      "quantumultx": "native",
+      "adguard": "compatible"
+    },
+    "rule_files": 3265,
+    "available_files": 3240,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "repcz",
+    "name": "Repcz",
+    "repo": "Repcz/Tool",
+    "homepage": "https://github.com/Repcz/Tool",
+    "author": "Repcz",
+    "license": "unknown",
+    "tier": "A",
+    "type": "app-rules",
+    "validation_mode": "standard",
+    "clients": {
+      "surge": "native",
+      "loon": "native",
+      "shadowrocket": "native",
+      "stash": "native",
+      "surfboard": "native",
+      "quantumultx": "native",
+      "egern": "native",
+      "mihomo": "native",
+      "sing-box": "native"
+    },
+    "rule_files": 467,
+    "available_files": 467,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "sukka",
+    "name": "SukkaW",
+    "repo": "SukkaW/Surge",
+    "homepage": "https://github.com/SukkaW/Surge",
+    "author": "Sukka (SukkaW)",
+    "license": "AGPL-3.0",
+    "tier": "A",
+    "type": "app-rules",
+    "validation_mode": "standard",
+    "clients": {
+      "surge": "native",
+      "mihomo": "native",
+      "sing-box": "native",
+      "surfboard": "compatible"
+    },
+    "rule_files": 32,
+    "available_files": 13,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "metacubex",
+    "name": "MetaCubeX",
+    "repo": "MetaCubeX/meta-rules-dat",
+    "homepage": "https://github.com/MetaCubeX/meta-rules-dat",
+    "author": "MetaCubeX",
+    "license": "MIT",
+    "tier": "A",
+    "type": "geo",
+    "validation_mode": "standard",
+    "clients": {},
+    "rule_files": 52,
+    "available_files": 39,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "quixoticheart",
+    "name": "QuixoticHeart",
+    "repo": "QuixoticHeart/rule-set",
+    "homepage": "https://github.com/QuixoticHeart/rule-set",
+    "author": "QuixoticHeart",
+    "license": "unknown",
+    "tier": "B",
+    "type": "app-rules",
+    "validation_mode": "standard",
+    "clients": {
+      "surge": "compatible",
+      "loon": "compatible",
+      "mihomo": "native",
+      "shadowrocket": "compatible",
+      "stash": "native",
+      "sing-box": "compatible",
+      "egern": "native",
+      "quantumultx": "compatible"
+    },
+    "rule_files": 288,
+    "available_files": 287,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "kelee",
+    "name": "KeLee",
+    "repo": "luestr/ShuntRules",
+    "homepage": "https://rule.kelee.one",
+    "author": "KeLee",
+    "license": "unknown",
+    "tier": "C",
+    "type": "special",
+    "validation_mode": "special",
+    "clients": {
+      "loon": "native",
+      "mihomo": "native"
+    },
+    "rule_files": 154,
+    "available_files": 154,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "ddgksf2013",
+    "name": "ddgksf2013",
+    "repo": "ddgksf2013/Filter",
+    "homepage": "https://github.com/ddgksf2013/Filter",
+    "author": "ddgksf2013",
+    "license": "unknown",
+    "tier": "C",
+    "type": "special",
+    "validation_mode": "standard",
+    "clients": {
+      "surge": "compatible",
+      "loon": "compatible",
+      "mihomo": "compatible"
+    },
+    "rule_files": 0,
+    "available_files": 0,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "fugfconfig",
+    "name": "FuGfConfig",
+    "repo": "Elysian-Realme/FuGfConfig",
+    "homepage": "https://github.com/Elysian-Realme/FuGfConfig",
+    "author": "FuGfConfig",
+    "license": "MIT",
+    "tier": "C",
+    "type": "special",
+    "validation_mode": "standard",
+    "clients": {
+      "surge": "native",
+      "loon": "native",
+      "shadowrocket": "compatible",
+      "sing-box": "native"
+    },
+    "rule_files": 0,
+    "available_files": 0,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "cats-team",
+    "name": "Cats-Team",
+    "repo": "Cats-Team/AdRules",
+    "homepage": "https://github.com/Cats-Team/AdRules",
+    "author": "Cats-Team",
+    "license": "MIT",
+    "tier": "C",
+    "type": "ads",
+    "validation_mode": "standard",
+    "clients": {
+      "adguard": "native",
+      "mihomo": "compatible",
+      "sing-box": "compatible"
+    },
+    "rule_files": 0,
+    "available_files": 0,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "hackl0us",
+    "name": "Hackl0us",
+    "repo": "Hackl0us/GeoIP2-CN",
+    "homepage": "https://github.com/Hackl0us/GeoIP2-CN",
+    "author": "Hackl0us",
+    "license": "MIT",
+    "tier": "C",
+    "type": "geo",
+    "validation_mode": "standard",
+    "clients": {
+      "mihomo": "native",
+      "sing-box": "native"
+    },
+    "rule_files": 0,
+    "available_files": 0,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  },
+  {
+    "id": "iab0x00",
+    "name": "iab0x00",
+    "repo": "iab0x00/ProxyRules",
+    "homepage": "https://github.com/iab0x00/ProxyRules",
+    "author": "iab0x00",
+    "license": "unknown",
+    "tier": "C",
+    "type": "special",
+    "validation_mode": "standard",
+    "clients": {
+      "shadowrocket": "compatible"
+    },
+    "rule_files": 1,
+    "available_files": 0,
+    "last_indexed": "2026-08-07T16:42:51.652162+00:00"
+  }
+]

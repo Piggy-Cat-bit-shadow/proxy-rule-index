@@ -1,0 +1,19 @@
+# 项目文件
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# 运行时缓存
+cache/
+tmp/
+*.tmp
+
+# 本地报告 (构建时生成, 无需入库)
+reports/
+
+# deploy-site/ 是开发预览目录, 部署时由 dist/ 承担
+deploy-site/
+
+# dist/ 需要入库: 工作流生成后提交, 用于 GitHub Pages 部署与无变化检测

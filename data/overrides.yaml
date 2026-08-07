@@ -1,0 +1,104 @@
+# 人工覆盖配置 (Manual Overrides)
+#
+# 原则: 自动扫描为主, 人工 override 为辅。
+# 用于解决自动识别不了的特殊情况, 例如:
+#   - 特殊规则名称映射
+#   - 特殊客户端映射
+#   - 错误分类修正
+#   - 强制别名
+#   - 排除某个文件
+#
+# 不要把所有东西硬编码进扫描程序, 集中在这里配置。
+
+# ---- 1. 服务级别修正 ----
+# 对扫描结果做基于 (provider, 文件名) 的修正。
+service_overrides:
+  # 特定文件的规则粒度覆盖
+  granularity:
+    - match: { provider: blackmatrix7, file: TelegramNL }
+      granularity: app
+    - match: { provider: blackmatrix7, file: TelegramSG }
+      granularity: app
+    - match: { provider: blackmatrix7, file: TelegramUS }
+      granularity: app
+    - match: { provider: blackmatrix7, file: OpenAI }
+      granularity: app
+    - match: { provider: repcz, file: Telegram_NoIP }
+      granularity: app
+
+  # 强制排除 (provider, file) 不被索引
+  exclude:
+    # blackmatrix7 的巨型兜底/广告合集, 不参与 APP 搜索
+    - { provider: blackmatrix7, file: Advertising }
+    - { provider: blackmatrix7, file: AdvertisingLite }
+    - { provider: blackmatrix7, file: AdvertisingTest }
+    - { provider: blackmatrix7, file: AdGuardSDNSFilter }
+    - { provider: blackmatrix7, file: Hijacking }
+    - { provider: blackmatrix7, file: Privacy }
+    - { provider: blackmatrix7, file: EasyPrivacy }
+    - { provider: blackmatrix7, file: EasyList }
+    - { provider: blackmatrix7, file: Proxy }
+    - { provider: blackmatrix7, file: China }
+    - { provider: blackmatrix7, file: Global }
+    - { provider: blackmatrix7, file: Direct }
+    - { provider: blackmatrix7, file: Reject }
+    - { provider: quixoticheart, file: adrules }   # 6MB 纯广告合集, 不参与 APP 搜索
+    - { provider: quixoticheart, file: cn }        # 中国综合合集, 不属于 APP
+    - { provider: quixoticheart, file: gfw }
+    - { provider: metacubex, file: ad }
+    - { provider: metacubex, file: geolocation }
+    - { provider: sukka, file: reject }
+    - { provider: sukka, file: reject-drop }
+    - { provider: sukka, file: reject-no-drop }
+    - { provider: sukka, file: reject-url-regex }
+    - { provider: sukka, file: reject_extra }
+    - { provider: sukka, file: cdn }
+    - { provider: sukka, file: download }
+    - { provider: sukka, file: domestic }
+    - { provider: sukka, file: direct }
+    - { provider: sukka, file: global }
+    - { provider: sukka, file: my_direct }
+    - { provider: sukka, file: my_git }
+    - { provider: sukka, file: my_plus }
+    - { provider: sukka, file: my_proxy }
+    - { provider: sukka, file: my_reject }
+    - { provider: sukka, file: my_tw }
+    - { provider: sukka, file: my_us }
+    - { provider: sukka, file: lan }
+    - { provider: sukka, file: neteasemusic }
+    - { provider: sukka, file: apple_services }
+
+  # 显式粒度声明 (当自动判断不可靠时)
+  granularity_override:
+    - { provider: metacubex, file: "*.list", granularity: geo }
+
+# ---- 2. 客户端格式修正 ----
+# 某些 client 目录下虽然文件扩展名相同, 但实际格式不同。
+client_format_overrides:
+  - { provider: repcz, client: sing-box, ext: .json, format: singbox_json }
+  - { provider: repcz, client: sing-box, ext: .srs, format: singbox_srs }
+  - { provider: metacubex, client: mihomo, ext: .mrs, format: mrs }
+  - { provider: metacubex, client: sing-box, ext: .srs, format: singbox_srs }
+  - { provider: metacubex, client: mihomo, ext: .list, format: plain_ruleset }
+  - { provider: quixoticheart, client: meta, ext: .list, format: plain_ruleset }
+  - { provider: fugfconfig, client: sing-box, ext: .list, format: plain_ruleset }
+
+# ---- 3. 文件名 -> 展示名称修正 ----
+# 当仓库文件名不规范时, 覆盖展示名称。
+name_overrides:
+  - { provider: repcz, file: Telegram_NoIP, name: Telegram (No IP) }
+  - { provider: blackmatrix7, file: Telegram_Resolve, name: Telegram (Resolve) }
+
+# ---- 4. 来源级客户端剔除 ----
+# 某些来源的特定客户端产物质量较差, 可选择性剔除。
+client_excludes:
+  - { provider: blackmatrix7, client: adguard }
+
+# ---- 5. 特殊情况说明 ----
+# 记录不可自动化的特殊情况, 仅作文档, 不影响扫描。
+notes:
+  - "KeLee (rule.kelee.one) 使用 special 验证模式: 不因普通 HTTP 探测异常而判定失效。"
+  - "SukkaW 通过 ruleset.skk.moe 分发, 源码在 SukkaW/Surge 的 Source/ 目录, 构建后生成规则。"
+  - "MetaCubeX 的 mrs/srs 为二进制格式, 无法读取具体规则类型, rule_types 记录为 null, 但可记录 size 与 mrs 版本。"
+  - "Hackl0us/GeoIP2-CN 通过 Release 提供 CN.mmdb, 仅作 geoip 条目收录, 不统计规则条数。"
+  - "Cats-Team/AdRules 通过 Release 提供 DNS/去广告规则, 仓库内 mod/rules/*.txt 为源码, 不直接用于 APP 搜索。"

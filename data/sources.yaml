@@ -1,0 +1,368 @@
+# 规则来源配置 (Rule Source Configuration)
+#
+# 人工精选规则源。扫描器根据本文件自动发现规则文件。
+# 原则: 规则源人工精选, 规则文件自动发现, 元数据自动生成。
+#
+# 字段说明:
+#   id            内部稳定标识 (provider id)
+#   name          展示名称
+#   repo          GitHub 仓库
+#   tier          A / B / C 来源等级 (A 最高, 默认排序优先)
+#   type          规则类型: app-rules / geo / ads / special
+#   enabled       是否参与扫描
+#   homepage      官方主页
+#   author        维护者
+#   license       许可证 (不确定写 unknown, 不要猜)
+#   validation    standard=普通 HTTP 探测; special=特殊访问 (不做普通可用性判定)
+#   scan         扫描配置 (分支 / 客户端目录 / 忽略目录)
+#   clients      客户端支持与格式 (native=官方原生, compatible=兼容)
+#   record       需要手工收录的规则 (用于特殊来源, 如 KeLee)
+
+- id: blackmatrix7
+  name: blackmatrix7
+  repo: blackmatrix7/ios_rule_script
+  tier: A
+  type: app-rules
+  enabled: true
+  dynamic_services: true
+  homepage: https://github.com/blackmatrix7/ios_rule_script
+  author: blackmatrix7
+  license: MIT
+  validation:
+    mode: standard
+  scan:
+    branch: master
+    root: rule
+    nested: true
+    client_dirs:
+      surge: Surge
+      clash: Clash
+      loon: Loon
+      shadowrocket: Shadowrocket
+      quantumultx: QuantumultX
+      adguard: AdGuard
+    rule_files: [.list, .yaml, .txt]
+    ignore_dirs: []
+    resolve_variants: [_Classical_No_Resolve, _Classical_No_IPv6_No_Resolve, _All_No_Resolve, _No_IPv6_Resolve, _Domain_For_Clash, _Classical_No_IPv6, _Classical, _No_Resolve, _No_IPv6, _Resolve, _All, _Domain]
+  clients:
+    surge: { support: native }
+    clash: { support: native }
+    loon: { support: native }
+    shadowrocket: { support: native }
+    quantumultx: { support: native }
+    adguard: { support: compatible }
+
+- id: repcz
+  name: Repcz
+  repo: Repcz/Tool
+  tier: A
+  type: app-rules
+  enabled: true
+  dynamic_services: true
+  homepage: https://github.com/Repcz/Tool
+  author: Repcz
+  license: unknown
+  validation:
+    mode: standard
+  scan:
+    branch: X
+    root: ""
+    client_dirs:
+      surge: Surge/Rules
+      loon: Loon/Rules
+      shadowrocket: Shadowrocket/Rules
+      stash: Stash/Rules
+      surfboard: Surfboard/Rules
+      quantumultx: QuantumultX/Rules
+      egern: Egern/Rules
+      mihomo: mihomo/Rules
+      sing-box: sing-box/Rules
+    rule_files: [.list, .json, .srs]
+    ignore_dirs: [Client, Server, Script, Module, Custom, v1.14.x, example]
+    resolve_variants: [_NoIP]
+  clients:
+    surge: { support: native }
+    loon: { support: native }
+    shadowrocket: { support: native }
+    stash: { support: native }
+    surfboard: { support: native }
+    quantumultx: { support: native }
+    egern: { support: native }
+    mihomo: { support: native }
+    sing-box: { support: native }
+
+- id: sukka
+  name: SukkaW
+  repo: SukkaW/Surge
+  tier: A
+  type: app-rules
+  enabled: true
+  homepage: https://github.com/SukkaW/Surge
+  author: Sukka (SukkaW)
+  license: AGPL-3.0
+  validation:
+    mode: standard
+  scan:
+    mode: url_list
+    branch: master
+    base_url: https://ruleset.skk.moe
+    url_patterns:
+      - client: surge
+        path: List/non_ip/{name}.conf
+        format: ruleset
+      - client: surge
+        path: List/ip/{name}.conf
+        format: ruleset
+      - client: mihomo
+        path: Clash/non_ip/{name}.txt
+        format: ruleset
+      - client: mihomo
+        path: Clash/ip/{name}.txt
+        format: ruleset
+      - client: mihomo
+        path: Clash/domainset/{name}.txt
+        format: domainset
+      - client: sing-box
+        path: sing-box/non_ip/{name}.json
+        format: singbox_json
+      - client: sing-box
+        path: sing-box/ip/{name}.json
+        format: singbox_json
+      - client: sing-box
+        path: sing-box/domainset/{name}.json
+        format: singbox_json
+      - client: surfboard
+        path: Surfboard/non_ip/{name}.conf
+        format: ruleset
+    names: [ai, apple_cn, apple_intelligence, apple_services, cdn, cloudmounter, direct, domestic, download, gitlab, global, microsoft, neteasemusic, reject, reject-drop, reject-no-drop, reject-url-regex, reject_extra, speedtest, telegram, my_direct, my_git, my_plus, my_proxy, my_reject, my_tw, my_us]
+    native_format: true
+  clients:
+    surge: { support: native }
+    mihomo: { support: native }
+    sing-box: { support: native }
+    surfboard: { support: compatible }
+
+- id: metacubex
+  name: MetaCubeX
+  repo: MetaCubeX/meta-rules-dat
+  tier: A
+  type: geo
+  enabled: true
+  homepage: https://github.com/MetaCubeX/meta-rules-dat
+  author: MetaCubeX
+  license: MIT
+  validation:
+    mode: standard
+  scan:
+    mode: git_subtree
+    branches:
+      - branch: meta
+        base: meta-rules-dat
+        dirs:
+          - geo/geosite
+          - geo/geoip
+        rule_files: [.list, .mrs, .yaml]
+        preferred: [.mrs, .yaml, .list]
+        client: mihomo
+      - branch: sing
+        base: sing-rules-dat
+        dirs:
+          - geo/geosite
+          - geo/geoip
+        rule_files: [.json, .srs]
+        preferred: [.srs, .json]
+        client: sing-box
+    release_assets:
+      - geosite.dat
+      - geosite-lite.dat
+      - geosite.db
+      - geosite-lite.db
+      - geoip.dat
+      - geoip-lite.dat
+      - geoip.db
+      - geoip-lite.db
+      - country.mmdb
+      - country-lite.mmdb
+      - GeoLite2-ASN.mmdb
+      - geosite.srs
+      - geoip.srs
+    release_owner: MetaCubeX
+    release_repo: meta-rules-dat
+    clients:
+      mihomo: { support: native }
+      sing-box: { support: native }
+
+- id: quixoticheart
+  name: QuixoticHeart
+  repo: QuixoticHeart/rule-set
+  tier: B
+  type: app-rules
+  enabled: true
+  dynamic_services: true
+  homepage: https://github.com/QuixoticHeart/rule-set
+  author: QuixoticHeart
+  license: unknown
+  validation:
+    mode: standard
+  scan:
+    branch: ruleset
+    root: ""
+    client_dirs:
+      surge: surge
+      loon: loon
+      meta: meta
+      shadowrocket: shadowrocket
+      stash: stash
+      singbox: sing-box
+      egern: egern
+      quantumultx: quantumultx
+    rule_files: [.list]
+    ignore_dirs: [classical]
+    resolve_variants: []
+  clients:
+    surge: { support: compatible }
+    loon: { support: compatible }
+    mihomo: { support: native }
+    shadowrocket: { support: compatible }
+    stash: { support: native }
+    sing-box: { support: compatible }
+    egern: { support: native }
+    quantumultx: { support: compatible }
+
+- id: kelee
+  name: KeLee
+  repo: luestr/ShuntRules
+  tier: C
+  type: special
+  enabled: true
+  homepage: https://rule.kelee.one
+  author: KeLee
+  license: unknown
+  validation:
+    mode: special
+  catalog_url: https://raw.githubusercontent.com/luestr/ShuntRules/master/README.md
+  clients:
+    loon:
+      support: native
+      url_pattern: https://rule.kelee.one/Loon/{name}.lsr
+      format: loon_ruleset
+    mihomo:
+      support: native
+      url_pattern: https://rule.kelee.one/Clash/{name}.yaml
+      format: clash_ruleset
+
+- id: ddgksf2013
+  name: ddgksf2013
+  repo: ddgksf2013/Filter
+  tier: C
+  type: special
+  enabled: true
+  homepage: https://github.com/ddgksf2013/Filter
+  author: ddgksf2013
+  license: unknown
+  validation:
+    mode: standard
+  scan:
+    mode: root_files
+    branch: master
+    root: ""
+    rule_files: [.list, .yaml]
+    ignore_files: [README.md]
+  clients:
+    surge: { support: compatible }
+    loon: { support: compatible }
+    mihomo: { support: compatible }
+
+- id: fugfconfig
+  name: FuGfConfig
+  repo: Elysian-Realme/FuGfConfig
+  tier: C
+  type: special
+  enabled: true
+  homepage: https://github.com/Elysian-Realme/FuGfConfig
+  author: FuGfConfig
+  license: MIT
+  validation:
+    mode: standard
+  scan:
+    branch: main
+    root: ConfigFile
+    nested: true
+    client_dirs:
+      surge: Surge
+      loon: Loon
+      shadowrocket: Shadowrocket
+      sing-box: sing-box
+    rule_files: [.list]
+    ignore_dirs: [LoonPlugin, SurgeModule]
+    resolve_variants: []
+  clients:
+    surge: { support: native }
+    loon: { support: native }
+    shadowrocket: { support: compatible }
+    sing-box: { support: native }
+
+- id: cats-team
+  name: Cats-Team
+  repo: Cats-Team/AdRules
+  tier: C
+  type: ads
+  enabled: true
+  homepage: https://github.com/Cats-Team/AdRules
+  author: Cats-Team
+  license: MIT
+  validation:
+    mode: standard
+  scan:
+    branch: script
+    root: mod/rules
+    mode: root_files
+    rule_files: [.txt]
+  clients:
+    adguard: { support: native }
+    mihomo: { support: compatible }
+    sing-box: { support: compatible }
+
+- id: hackl0us
+  name: Hackl0us
+  repo: Hackl0us/GeoIP2-CN
+  tier: C
+  type: geo
+  enabled: true
+  homepage: https://github.com/Hackl0us/GeoIP2-CN
+  author: Hackl0us
+  license: MIT
+  validation:
+    mode: standard
+  scan:
+    mode: release_assets
+    branch: master
+    release_repo: Hackl0us/GeoIP2-CN
+    release_assets:
+      - CN.mmdb
+  clients:
+    mihomo: { support: native }
+    sing-box: { support: native }
+
+- id: iab0x00
+  name: iab0x00
+  repo: iab0x00/ProxyRules
+  tier: C
+  type: special
+  enabled: true
+  homepage: https://github.com/iab0x00/ProxyRules
+  author: iab0x00
+  license: unknown
+  validation:
+    mode: standard
+  scan:
+    mode: manual
+    records:
+      - id: ipcheck
+        service_id: ipcheck
+        name: IPCheck
+        client: shadowrocket
+        url: https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/PluginHub2Rocket.srmodule
+        format: srmodule
+  clients:
+    shadowrocket: { support: compatible }
