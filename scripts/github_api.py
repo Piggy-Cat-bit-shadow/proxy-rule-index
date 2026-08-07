@@ -34,9 +34,13 @@ RAW_BASE = "https://raw.githubusercontent.com"
 
 
 class GitHub:
-    def __init__(self, token: str | None = None, use_gh_cli: bool = True):
+    def __init__(self, token: str | None = None, use_gh_cli: bool | None = None):
         self.token = token or os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
-        self.use_gh_cli = use_gh_cli
+        # Prefer the HTTP path when a token is available (deterministic in CI;
+        # the gh CLI is only used as a convenience fallback on dev machines).
+        if use_gh_cli is None:
+            use_gh_cli = bool(self.token) is False
+        self.use_gh_cli = use_gh_cli and not self.token
         self.session = requests.Session()
         if self.token:
             self.session.headers["Authorization"] = f"Bearer {self.token}"

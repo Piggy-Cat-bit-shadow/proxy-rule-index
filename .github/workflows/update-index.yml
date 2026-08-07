@@ -48,6 +48,7 @@ jobs:
       - name: Run index build
         env:
           RI_WORKERS: "16"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 -u scripts/index.py
 
       - name: Validate outputs
