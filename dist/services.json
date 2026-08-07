@@ -11,7 +11,7 @@
       "OpenAI.com"
     ],
     "search_text": "openai ai chatgpt open ai sora openai api openai.com",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "anthropic",
@@ -22,7 +22,7 @@
       "claude.ai"
     ],
     "search_text": "anthropic ai claude claude.ai",
-    "rule_count": 16
+    "rule_count": 2
   },
   {
     "id": "gemini",
@@ -45,7 +45,7 @@
       "x.ai"
     ],
     "search_text": "xai ai grok x.ai",
-    "rule_count": 7
+    "rule_count": 0
   },
   {
     "id": "copilot",
@@ -107,7 +107,7 @@
       "Bard"
     ],
     "search_text": "google-gemini google gemini ai gemini bard",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "telegram",
@@ -119,7 +119,7 @@
       "t.me"
     ],
     "search_text": "telegram social tg telegram messenger t.me",
-    "rule_count": 20
+    "rule_count": 6
   },
   {
     "id": "x",
@@ -131,7 +131,7 @@
       "X.com"
     ],
     "search_text": "x social twitter tweet x.com",
-    "rule_count": 16
+    "rule_count": 2
   },
   {
     "id": "discord",
@@ -139,7 +139,7 @@
     "category": "Social",
     "aliases": [],
     "search_text": "discord social",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "whatsapp",
@@ -149,7 +149,7 @@
       "WhatsApp Business"
     ],
     "search_text": "whatsapp social whatsapp business",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "instagram",
@@ -159,7 +159,7 @@
       "IG"
     ],
     "search_text": "instagram social ig",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "facebook",
@@ -169,7 +169,7 @@
       "FB"
     ],
     "search_text": "facebook social fb",
-    "rule_count": 16
+    "rule_count": 2
   },
   {
     "id": "tiktok",
@@ -180,7 +180,7 @@
       "Tik Tok"
     ],
     "search_text": "tiktok social douyin tik tok",
-    "rule_count": 20
+    "rule_count": 2
   },
   {
     "id": "reddit",
@@ -188,7 +188,7 @@
     "category": "Social",
     "aliases": [],
     "search_text": "reddit social",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "threads",
@@ -196,7 +196,7 @@
     "category": "Social",
     "aliases": [],
     "search_text": "threads social",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "sina",
@@ -207,7 +207,7 @@
       "微博"
     ],
     "search_text": "sina sina weibo social weibo 微博",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "kuaishou",
@@ -217,7 +217,7 @@
       "快手"
     ],
     "search_text": "kuaishou social 快手",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "wechat",
@@ -228,7 +228,7 @@
       "微信"
     ],
     "search_text": "wechat social weixin 微信",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "qq",
@@ -251,7 +251,7 @@
       "BiliBili"
     ],
     "search_text": "bilibili social 哔哩哔哩 b站",
-    "rule_count": 22
+    "rule_count": 2
   },
   {
     "id": "slack",
@@ -259,7 +259,7 @@
     "category": "Social",
     "aliases": [],
     "search_text": "slack social",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "linkedin",
@@ -267,7 +267,7 @@
     "category": "Social",
     "aliases": [],
     "search_text": "linkedin social",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "signal",
@@ -285,7 +285,7 @@
       "NF"
     ],
     "search_text": "netflix streaming nf",
-    "rule_count": 22
+    "rule_count": 2
   },
   {
     "id": "youtube",
@@ -295,7 +295,7 @@
       "YT"
     ],
     "search_text": "youtube streaming yt",
-    "rule_count": 22
+    "rule_count": 2
   },
   {
     "id": "youtubemusic",
@@ -305,7 +305,7 @@
       "YTMusic"
     ],
     "search_text": "youtubemusic youtube music streaming ytmusic",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "disney",
@@ -317,7 +317,7 @@
       "Star+"
     ],
     "search_text": "disney disney+ streaming disneyplus disney plus star+",
-    "rule_count": 6
+    "rule_count": 0
   },
   {
     "id": "hbo",
@@ -329,7 +329,7 @@
       "HBOMax"
     ],
     "search_text": "hbo hbo max streaming max hbomax",
-    "rule_count": 20
+    "rule_count": 2
   },
   {
     "id": "spotify",
@@ -337,7 +337,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "spotify streaming",
-    "rule_count": 20
+    "rule_count": 2
   },
   {
     "id": "appletv",
@@ -359,7 +359,7 @@
       "PrimeVideo"
     ],
     "search_text": "prime-video prime video streaming amazon prime video primevideo",
-    "rule_count": 20
+    "rule_count": 2
   },
   {
     "id": "hulu",
@@ -367,7 +367,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "hulu streaming",
-    "rule_count": 13
+    "rule_count": 2
   },
   {
     "id": "crunchyroll",
@@ -383,7 +383,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "peacock streaming",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "paramount",
@@ -393,7 +393,7 @@
       "ParamountPlus"
     ],
     "search_text": "paramount paramount+ streaming paramountplus",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "dazn",
@@ -401,7 +401,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "dazn streaming",
-    "rule_count": 13
+    "rule_count": 2
   },
   {
     "id": "dmm",
@@ -411,7 +411,7 @@
       "DMM TV"
     ],
     "search_text": "dmm streaming dmm tv",
-    "rule_count": 13
+    "rule_count": 2
   },
   {
     "id": "bahamut",
@@ -422,7 +422,7 @@
       "動畫瘋"
     ],
     "search_text": "bahamut streaming 巴哈姆特 動畫瘋",
-    "rule_count": 22
+    "rule_count": 2
   },
   {
     "id": "abema",
@@ -432,7 +432,7 @@
       "Abema"
     ],
     "search_text": "abema abematv streaming",
-    "rule_count": 15
+    "rule_count": 2
   },
   {
     "id": "iqiyi",
@@ -443,7 +443,7 @@
       "愛奇藝"
     ],
     "search_text": "iqiyi streaming 爱奇艺 愛奇藝",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "youku",
@@ -453,7 +453,7 @@
       "优酷"
     ],
     "search_text": "youku streaming 优酷",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "tencentvideo",
@@ -463,7 +463,7 @@
       "腾讯视频"
     ],
     "search_text": "tencentvideo tencent video streaming 腾讯视频",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "mangotv",
@@ -483,7 +483,7 @@
       "niconico動画"
     ],
     "search_text": "niconico streaming niconico動画",
-    "rule_count": 13
+    "rule_count": 2
   },
   {
     "id": "soundcloud",
@@ -491,7 +491,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "soundcloud streaming",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "twitch",
@@ -499,7 +499,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "twitch streaming",
-    "rule_count": 13
+    "rule_count": 2
   },
   {
     "id": "pandora",
@@ -507,7 +507,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "pandora streaming",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "dailymotion",
@@ -515,7 +515,7 @@
     "category": "Streaming",
     "aliases": [],
     "search_text": "dailymotion streaming",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "google",
@@ -528,7 +528,7 @@
       "Google Account"
     ],
     "search_text": "google google search google.com gmail google account",
-    "rule_count": 22
+    "rule_count": 2
   },
   {
     "id": "google-drive",
@@ -539,7 +539,7 @@
       "Google 雲端硬碟"
     ],
     "search_text": "google-drive google drive google gdrive google 雲端硬碟",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "google-photos",
@@ -557,7 +557,7 @@
     "category": "Google",
     "aliases": [],
     "search_text": "google-search google search google",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "google-maps",
@@ -575,7 +575,7 @@
     "category": "Google",
     "aliases": [],
     "search_text": "google-earth google earth google",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "google-cloud",
@@ -596,7 +596,7 @@
       "GA"
     ],
     "search_text": "google-analytics google analytics google ga",
-    "rule_count": 2
+    "rule_count": 0
   },
   {
     "id": "google-translate",
@@ -627,7 +627,7 @@
       "GV"
     ],
     "search_text": "google-voice google voice google gvoice gv",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "apple",
@@ -639,7 +639,7 @@
       "Apple 账户"
     ],
     "search_text": "apple apple.com apple services apple 账户",
-    "rule_count": 22
+    "rule_count": 2
   },
   {
     "id": "icloud",
@@ -649,7 +649,7 @@
       "iCloud Drive"
     ],
     "search_text": "icloud apple icloud drive",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "apple-music",
@@ -659,7 +659,7 @@
       "AppleMusic"
     ],
     "search_text": "apple-music apple music apple applemusic",
-    "rule_count": 16
+    "rule_count": 2
   },
   {
     "id": "apple-tv",
@@ -669,7 +669,7 @@
       "Apple TV+"
     ],
     "search_text": "apple-tv apple tv apple apple tv+",
-    "rule_count": 11
+    "rule_count": 0
   },
   {
     "id": "apple-intelligence",
@@ -680,7 +680,7 @@
       "Apple Intelligence Siri"
     ],
     "search_text": "apple-intelligence apple intelligence apple appleai apple intelligence siri",
-    "rule_count": 6
+    "rule_count": 4
   },
   {
     "id": "appstore",
@@ -690,7 +690,7 @@
       "AppStore"
     ],
     "search_text": "appstore app store apple",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "apple-cn",
@@ -701,7 +701,7 @@
       "Apple CN"
     ],
     "search_text": "apple-cn apple (cn) apple apple中国 apple cn",
-    "rule_count": 17
+    "rule_count": 4
   },
   {
     "id": "apple-proxy",
@@ -712,7 +712,7 @@
       "Apple Servers"
     ],
     "search_text": "apple-proxy apple proxy apple apple服务器 apple servers",
-    "rule_count": 20
+    "rule_count": 2
   },
   {
     "id": "apple-media",
@@ -722,7 +722,7 @@
       "AppleMedia"
     ],
     "search_text": "apple-media apple media apple applemedia",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "apple-services",
@@ -744,7 +744,7 @@
       "Private Relay"
     ],
     "search_text": "icloud-privat-relay icloud private relay apple private relay",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "microsoft",
@@ -756,7 +756,7 @@
       "Microsoft 账户"
     ],
     "search_text": "microsoft ms msft microsoft 账户",
-    "rule_count": 26
+    "rule_count": 6
   },
   {
     "id": "onedrive",
@@ -767,7 +767,7 @@
       "OneDrive 网盘"
     ],
     "search_text": "onedrive microsoft 1drive onedrive 网盘",
-    "rule_count": 20
+    "rule_count": 2
   },
   {
     "id": "github",
@@ -778,7 +778,7 @@
       "GH"
     ],
     "search_text": "github microsoft gh",
-    "rule_count": 16
+    "rule_count": 2
   },
   {
     "id": "outlook",
@@ -820,7 +820,7 @@
       "Xbox Live"
     ],
     "search_text": "xbox microsoft xbox live",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "microsoft-ai",
@@ -831,7 +831,7 @@
       "Bing AI"
     ],
     "search_text": "microsoft-ai microsoft ai microsoft copilot bing ai",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "msteams",
@@ -841,7 +841,7 @@
       "Teams"
     ],
     "search_text": "msteams microsoft teams microsoft teams",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "cloudflare",
@@ -851,7 +851,7 @@
       "CF"
     ],
     "search_text": "cloudflare cloud cf",
-    "rule_count": 16
+    "rule_count": 2
   },
   {
     "id": "aws",
@@ -862,7 +862,7 @@
       "Amazon Cloud"
     ],
     "search_text": "aws amazon web services cloud amazon cloud",
-    "rule_count": 2
+    "rule_count": 0
   },
   {
     "id": "azure",
@@ -872,7 +872,7 @@
       "Azure"
     ],
     "search_text": "azure microsoft azure cloud",
-    "rule_count": 2
+    "rule_count": 0
   },
   {
     "id": "oracle",
@@ -883,7 +883,7 @@
       "OCI"
     ],
     "search_text": "oracle oracle cloud cloud oci",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "digitalocean",
@@ -893,7 +893,7 @@
       "DO"
     ],
     "search_text": "digitalocean cloud do",
-    "rule_count": 9
+    "rule_count": 2
   },
   {
     "id": "vultr",
@@ -929,7 +929,7 @@
       "ZEIT"
     ],
     "search_text": "vercel cloud zeit",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "scholar",
@@ -941,7 +941,7 @@
       "谷歌学术"
     ],
     "search_text": "scholar google scholar academic google 学术 gs 谷歌学术",
-    "rule_count": 7
+    "rule_count": 0
   },
   {
     "id": "schoolar",
@@ -990,7 +990,7 @@
       "StackExchange"
     ],
     "search_text": "stackoverflow stack overflow academic so stackexchange",
-    "rule_count": 9
+    "rule_count": 2
   },
   {
     "id": "jetbrains",
@@ -1001,7 +1001,7 @@
       "PyCharm"
     ],
     "search_text": "jetbrains academic intellij pycharm",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "grammarly",
@@ -1017,7 +1017,7 @@
     "category": "Finance",
     "aliases": [],
     "search_text": "paypal finance",
-    "rule_count": 20
+    "rule_count": 2
   },
   {
     "id": "wise",
@@ -1035,7 +1035,7 @@
     "category": "Finance",
     "aliases": [],
     "search_text": "stripe finance",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "revolut",
@@ -1053,7 +1053,7 @@
       "支付宝"
     ],
     "search_text": "alipay finance 支付宝",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "wechatpay",
@@ -1071,7 +1071,7 @@
     "category": "Finance",
     "aliases": [],
     "search_text": "bloomberg finance",
-    "rule_count": 9
+    "rule_count": 2
   },
   {
     "id": "binance",
@@ -1081,7 +1081,7 @@
       "币安"
     ],
     "search_text": "binance finance 币安",
-    "rule_count": 9
+    "rule_count": 2
   },
   {
     "id": "okx",
@@ -1091,7 +1091,7 @@
       "OKEx"
     ],
     "search_text": "okx finance okex",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "coinbase",
@@ -1107,7 +1107,7 @@
     "category": "Games",
     "aliases": [],
     "search_text": "steam games",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "epic",
@@ -1118,7 +1118,7 @@
       "EpicGames"
     ],
     "search_text": "epic epic games games epicgames",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "riot",
@@ -1142,7 +1142,7 @@
       "Activision Blizzard"
     ],
     "search_text": "blizzard games 暴雪 battle.net activision blizzard",
-    "rule_count": 16
+    "rule_count": 2
   },
   {
     "id": "ea",
@@ -1154,7 +1154,7 @@
       "EA Play"
     ],
     "search_text": "ea electronic arts games origin ea play",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "ubisoft",
@@ -1164,7 +1164,7 @@
       "Uplay"
     ],
     "search_text": "ubisoft games uplay",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "nintendo",
@@ -1175,7 +1175,7 @@
       "Switch"
     ],
     "search_text": "nintendo games 任天堂 switch",
-    "rule_count": 14
+    "rule_count": 2
   },
   {
     "id": "playstation",
@@ -1186,7 +1186,7 @@
       "PlayStation Network"
     ],
     "search_text": "playstation games psn playstation network",
-    "rule_count": 7
+    "rule_count": 2
   },
   {
     "id": "rockstar",
@@ -1240,7 +1240,7 @@
     "category": "Telecom",
     "aliases": [],
     "search_text": "talkatone telecom",
-    "rule_count": 13
+    "rule_count": 0
   },
   {
     "id": "geoip-cn",

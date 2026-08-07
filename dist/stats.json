@@ -1,51 +1,43 @@
 {
-  "generated_at": "2026-08-07T16:42:51.652162+00:00",
+  "generated_at": "2026-08-07T16:54:06.251091+00:00",
   "total_services": 126,
-  "services_with_rules": 725,
-  "total_rule_files": 4259,
-  "available_files": 4200,
+  "services_with_rules": 84,
+  "total_rule_files": 187,
+  "available_files": 167,
   "by_provider": {
-    "repcz": 467,
-    "blackmatrix7": 3265,
     "sukka": 32,
-    "quixoticheart": 288,
     "kelee": 154,
-    "metacubex": 52,
     "iab0x00": 1
   },
   "by_client": {
-    "surge": 775,
-    "loon": 844,
-    "shadowrocket": 767,
-    "stash": 115,
-    "mihomo": 884,
-    "sing-box": 99,
-    "quantumultx": 767,
-    "surfboard": 8
+    "sing-box": 8,
+    "surge": 8,
+    "mihomo": 85,
+    "loon": 77,
+    "surfboard": 8,
+    "shadowrocket": 1
   },
   "by_tier": {
-    "A": 3816,
-    "B": 288,
+    "A": 32,
     "C": 155
   },
   "by_status": {
-    "available": 4046,
+    "available": 13,
     "special": 154,
-    "unavailable": 59
+    "unavailable": 20
   },
   "by_category": {
-    "Other": 3238,
-    "Social": 185,
-    "Finance": 59,
-    "Academic": 23,
-    "Games": 86,
-    "Apple": 141,
-    "Cloud": 50,
-    "Streaming": 277,
-    "Microsoft": 90,
-    "AI": 44,
-    "Google": 52,
-    "Telecom": 13,
+    "Other": 16,
+    "Streaming": 44,
+    "Finance": 12,
+    "AI": 6,
+    "Apple": 22,
+    "Social": 34,
+    "Games": 14,
+    "Cloud": 8,
+    "Microsoft": 16,
+    "Google": 10,
+    "Academic": 4,
     "Special": 1
   }
 }
