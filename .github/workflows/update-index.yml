@@ -21,6 +21,11 @@ on:
         required: false
         default: ""
         type: string
+      force_deploy:
+        description: "强制重新构建站点并部署 (即使数据无变化)"
+        required: false
+        default: "false"
+        type: boolean
 
 permissions:
   contents: read
@@ -114,12 +119,12 @@ jobs:
           git show HEAD:dist/data/build-info.json 2>/dev/null | python3 -c "import sys,json;print(json.load(sys.stdin)['dataVersion'])" > /tmp/prev_hash.txt 2>/dev/null || echo "none" > /tmp/prev_hash.txt
           PREV=$(cat /tmp/prev_hash.txt)
           echo "current=$CURRENT prev=$PREV"
-          if [ "$CURRENT" = "$PREV" ]; then
+          if [ "$CURRENT" = "$PREV" ] && [ "${{ inputs.force_deploy }}" != "true" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "data unchanged — skipping site build/deploy"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "data changed — proceeding to site build/deploy"
+            echo "data changed or force_deploy — proceeding to site build/deploy"
           fi
 
   site:
