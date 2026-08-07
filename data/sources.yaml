@@ -240,6 +240,11 @@
   license: unknown
   validation:
     mode: special
+  url:
+    mode: base
+    base: https://rule.kelee.one
+  scan:
+    mode: kelee_catalog
   catalog_url: https://raw.githubusercontent.com/luestr/ShuntRules/master/README.md
   clients:
     loon:

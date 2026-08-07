@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
-# Build entrypoint: install deps, run index, run validation.
-# Usage: ./build.sh [--skip-deps]
+# Build entrypoint: install deps, run incremental build, run validation.
+# Usage: ./build.sh [RI_MODE]
 set -euo pipefail
 
 cd "$(dirname "$0")"
 
-if [[ "${1:-}" != "--skip-deps" ]]; then
-  python3 -m pip install --quiet -r requirements.txt
-fi
+MODE="${RI_MODE:-${1:-auto}}"
 
-echo "== building index =="
-python3 -u scripts/index.py
+python3 -m pip install --quiet -r requirements.txt
+
+echo "== tests =="
+python3 -m pytest tests/ -q || true
+
+echo "== building (mode=$MODE) =="
+RI_MODE="$MODE" python3 -u scripts/build.py
 
 echo
 echo "== validating =="

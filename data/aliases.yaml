@@ -27,7 +27,7 @@ services:
   - id: gemini
     name: Google Gemini
     category: AI
-    aliases: [Bard, Google AI, gemini.google.com]
+    aliases: [Bard, Google AI, gemini.google.com, Gemini]
   - id: xai
     name: xAI
     category: AI
@@ -52,10 +52,6 @@ services:
     name: Midjourney
     category: AI
     aliases: []
-  - id: google-gemini
-    name: Google Gemini
-    category: AI
-    aliases: [Gemini, Bard]
 
   # ---- Social ----
   - id: telegram
@@ -152,10 +148,6 @@ services:
     name: Spotify
     category: Streaming
     aliases: []
-  - id: appletv
-    name: Apple TV
-    category: Streaming
-    aliases: [Apple TV+, tvOS]
   - id: prime-video
     name: Prime Video
     category: Streaming
@@ -290,7 +282,7 @@ services:
   - id: apple-tv
     name: Apple TV
     category: Apple
-    aliases: [Apple TV+]
+    aliases: [Apple TV+, AppleTV]
   - id: apple-intelligence
     name: Apple Intelligence
     category: Apple
@@ -352,7 +344,7 @@ services:
   - id: microsoft-ai
     name: Microsoft AI
     category: Microsoft
-    aliases: [Copilot, Bing AI]
+    aliases: []
   - id: msteams
     name: Microsoft Teams
     category: Microsoft
@@ -401,10 +393,6 @@ services:
     name: Google Scholar
     category: Academic
     aliases: [Google 学术, GS, 谷歌学术]
-  - id: schoolar
-    name: Google Scholar
-    category: Academic
-    aliases: [Google 学术]
   - id: overleaf
     name: Overleaf
     category: Academic
@@ -602,6 +590,7 @@ provider_file_mapping:
     Scholar: scholar
     Telegram: telegram
     PayPal: paypal
+    Gemini: gemini
   sukka:
     apple_cn: apple-cn
     apple_intelligence: apple-intelligence

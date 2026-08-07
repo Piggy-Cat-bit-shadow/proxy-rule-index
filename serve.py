@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Simple static server for the rule-index deploy-site (dev preview only)."""
+"""Simple static server for the rule-index dist (dev preview only)."""
 import http.server
 import os
 import sys

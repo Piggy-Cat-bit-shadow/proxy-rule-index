@@ -1,0 +1,33 @@
+{
+ "config_hash": "af1507d9c1a3767a",
+ "failed": 0,
+ "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+ "records": {
+  "iab0x00|shadowrocket|ipcheck": {
+   "blob_sha": "",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 3,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "ipcheck",
+   "status": "warning",
+   "summary": null,
+   "validation_mode": "standard"
+  }
+ },
+ "refreshed": 0,
+ "removed": 0,
+ "reused": 1,
+ "source_id": "iab0x00",
+ "source_sha": "e9ca9d796f4893aa84f222b57871c7afed31010c",
+ "tier": "C",
+ "validation_mode": "standard"
+}

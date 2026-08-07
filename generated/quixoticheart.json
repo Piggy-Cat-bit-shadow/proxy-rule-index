@@ -1,0 +1,5740 @@
+{
+ "config_hash": "f4c80ebe76f5b454",
+ "failed": 0,
+ "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+ "records": {
+  "quixoticheart|loon|abema": {
+   "blob_sha": "18f0adce8216cba6977038366cef2d4336514458",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/abema.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 5,
+    "domain_suffix": 16
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|ai": {
+   "blob_sha": "c60e075cede7eb49920d8e386ec4fb0695ce4fdb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/ai.list",
+   "rule_count": 210,
+   "rule_types": {
+    "domain": 42,
+    "domain_keyword": 8,
+    "domain_suffix": 160
+   },
+   "slug": "ai",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|apns": {
+   "blob_sha": "576a5714c979895e7cb6456ac7fe5199981236da",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/apns.list",
+   "rule_count": 13,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 2,
+    "ip_cidr": 5,
+    "ip_cidr6": 4
+   },
+   "slug": "apns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|apple": {
+   "blob_sha": "c9d6377e2a949c08d9825e78a17d0f8b96f0d0be",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/apple.list",
+   "rule_count": 1586,
+   "rule_types": {
+    "domain": 12,
+    "domain_keyword": 7,
+    "domain_suffix": 1553,
+    "ip_cidr": 10,
+    "ip_cidr6": 4
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|apple-cn": {
+   "blob_sha": "b71fd2fac944231e883d3e545f1ff861892d5433",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/apple-cn.list",
+   "rule_count": 169,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 166
+   },
+   "slug": "apple-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|apple-proxy": {
+   "blob_sha": "5d17446eafadaca9ae3a2dc50ae18b90c70a4821",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/apple-proxy.list",
+   "rule_count": 44,
+   "rule_types": {
+    "domain": 31,
+    "domain_suffix": 13
+   },
+   "slug": "apple-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|apple-tv": {
+   "blob_sha": "f69b995bae8ab8cc2475a11e7008f1879540b490",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/apple-tv.list",
+   "rule_count": 8,
+   "rule_types": {
+    "domain": 7,
+    "domain_suffix": 1
+   },
+   "slug": "apple-tv",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|bahamut": {
+   "blob_sha": "1999efd03e36f8be02533d4e37ced75e0278fbdd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/bahamut.list",
+   "rule_count": 7,
+   "rule_types": {
+    "domain_suffix": 7
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|bilibili": {
+   "blob_sha": "3062cfa65e5b81c81fd71862713b019b7c887c2c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/bilibili.list",
+   "rule_count": 128,
+   "rule_types": {
+    "domain": 53,
+    "domain_suffix": 67,
+    "ip_cidr": 8
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|cdn": {
+   "blob_sha": "3b4847f271744b7f043b6afeec277acf3e56d46b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/cdn.list",
+   "rule_count": 6639,
+   "rule_types": {
+    "domain": 4707,
+    "domain_keyword": 21,
+    "domain_suffix": 1911
+   },
+   "slug": "cdn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|cncidr": {
+   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "geo",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/cncidr.list",
+   "rule_count": 18136,
+   "rule_types": {
+    "ip_cidr": 7125,
+    "ip_cidr6": 11011
+   },
+   "slug": "cncidr",
+   "status": "available",
+   "summary": "IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|crypto": {
+   "blob_sha": "69b10942ea10d33f512ed270a8a1eb743419a2b0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/crypto.list",
+   "rule_count": 411,
+   "rule_types": {
+    "domain": 9,
+    "domain_keyword": 4,
+    "domain_suffix": 398
+   },
+   "slug": "crypto",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|dazn": {
+   "blob_sha": "5cfae4e5b4db53b133d74d3ddf3dc10743b12a7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/dazn.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 20
+   },
+   "slug": "dazn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|disney": {
+   "blob_sha": "826670070c47ea0336af053fedb422d305612d49",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/disney.list",
+   "rule_count": 234,
+   "rule_types": {
+    "domain_suffix": 234
+   },
+   "slug": "disney",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|dmca": {
+   "blob_sha": "b44ec844fa55d52d14f37ea8d0448aac04b74e17",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/dmca.list",
+   "rule_count": 1399,
+   "rule_types": {
+    "domain": 178,
+    "domain_keyword": 9,
+    "domain_suffix": 979,
+    "ip_cidr": 218,
+    "ip_cidr6": 15
+   },
+   "slug": "dmca",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|dmm": {
+   "blob_sha": "6d1ebe268764837a7609be4f8587c4cf5e72f76b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/dmm.list",
+   "rule_count": 30,
+   "rule_types": {
+    "domain_suffix": 28,
+    "ip_cidr": 2
+   },
+   "slug": "dmm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|douyin": {
+   "blob_sha": "e3121ed596cd7a46b0883ba27f376ca2e4a7ee1a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/douyin.list",
+   "rule_count": 51,
+   "rule_types": {
+    "domain_suffix": 51
+   },
+   "slug": "douyin",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|ecommerce": {
+   "blob_sha": "e456e2cbd8d239c5a998ec68c7499a5d835b7b01",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/ecommerce.list",
+   "rule_count": 1529,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 1512,
+    "ip_cidr": 15
+   },
+   "slug": "ecommerce",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|forum": {
+   "blob_sha": "aae35d6f4325c033f1b8df98cdc862f03e007abd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/forum.list",
+   "rule_count": 108,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 106
+   },
+   "slug": "forum",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|games": {
+   "blob_sha": "eba15b72de82c7b43ba1df4a6a2d532dc73671a4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/games.list",
+   "rule_count": 987,
+   "rule_types": {
+    "domain": 78,
+    "domain_keyword": 4,
+    "domain_suffix": 859,
+    "ip_cidr": 46
+   },
+   "slug": "games",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|games-cn": {
+   "blob_sha": "a4c75c63dff744b20e50d7d2f4a2054c31681e01",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/games-cn.list",
+   "rule_count": 100,
+   "rule_types": {
+    "domain": 19,
+    "domain_suffix": 81
+   },
+   "slug": "games-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|gits": {
+   "blob_sha": "c52d2054cfa1a5ab72df607483bc3ac89a035914",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/gits.list",
+   "rule_count": 76,
+   "rule_types": {
+    "domain": 27,
+    "domain_keyword": 1,
+    "domain_suffix": 48
+   },
+   "slug": "gits",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|google": {
+   "blob_sha": "526447a77726c052e862b6ba2a2fcbb48162ad4f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/google.list",
+   "rule_count": 8692,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 5,
+    "domain_suffix": 877,
+    "ip_cidr": 2923,
+    "ip_cidr6": 4886
+   },
+   "slug": "google",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|googlefcm": {
+   "blob_sha": "1d1127c05a451ee945aedc6704f20310c5ad901d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/googlefcm.list",
+   "rule_count": 41,
+   "rule_types": {
+    "domain": 15,
+    "ip_cidr": 26
+   },
+   "slug": "googlefcm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|hbo": {
+   "blob_sha": "073ea714388d78325c7a261a9a8a964408ad342a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/hbo.list",
+   "rule_count": 88,
+   "rule_types": {
+    "domain_suffix": 88
+   },
+   "slug": "hbo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|httpdns": {
+   "blob_sha": "ea692e7486cc13e42e31a2d73e3a4d54752c1327",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/httpdns.list",
+   "rule_count": 101,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 49,
+    "ip_cidr": 39,
+    "ip_cidr6": 4
+   },
+   "slug": "httpdns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|hulu": {
+   "blob_sha": "999b54f4783d52a8befb652538032492cf9ada28",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/hulu.list",
+   "rule_count": 58,
+   "rule_types": {
+    "domain": 1,
+    "domain_suffix": 57
+   },
+   "slug": "hulu",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|iplocation-direct": {
+   "blob_sha": "0b03b8d71f31784ff67efd25e50c07bf3857ded5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/iplocation-direct.list",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 20
+   },
+   "slug": "iplocation-direct",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|iplocation-proxy": {
+   "blob_sha": "3bc6503071235b57049fde6217977a3842d9b795",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/iplocation-proxy.list",
+   "rule_count": 162,
+   "rule_types": {
+    "domain": 44,
+    "domain_keyword": 14,
+    "domain_suffix": 31,
+    "ip_cidr": 73
+   },
+   "slug": "iplocation-proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|microsoft": {
+   "blob_sha": "6662a2712dc7438d6370d9f0f268651ec5f01ea0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/microsoft.list",
+   "rule_count": 767,
+   "rule_types": {
+    "domain": 8,
+    "domain_keyword": 4,
+    "domain_suffix": 755
+   },
+   "slug": "microsoft",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|microsoft-cn": {
+   "blob_sha": "8f6f917ff0092362d2b0dc6e09b768535626d7c9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/microsoft-cn.list",
+   "rule_count": 190,
+   "rule_types": {
+    "domain": 51,
+    "domain_suffix": 139
+   },
+   "slug": "microsoft-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|mytvsuper": {
+   "blob_sha": "acbd1eb3224bb0e360bf0ac498de7d05334105eb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/mytvsuper.list",
+   "rule_count": 6,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 2,
+    "domain_suffix": 2
+   },
+   "slug": "mytvsuper",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|netflix": {
+   "blob_sha": "f47bcb7ef1e177516b47d173ff6ebc1a2915ba7a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/netflix.list",
+   "rule_count": 1155,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 4,
+    "domain_suffix": 30,
+    "ip_cidr": 1115,
+    "ip_cidr6": 4
+   },
+   "slug": "netflix",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|niconico": {
+   "blob_sha": "69cbdf97773d850663b9c267e94496439e976426",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/niconico.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain_suffix": 9
+   },
+   "slug": "niconico",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|onedrive": {
+   "blob_sha": "74e130c9d2de9c683bc14e9d71f4aa4818f8ba25",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/onedrive.list",
+   "rule_count": 19,
+   "rule_types": {
+    "domain_keyword": 3,
+    "domain_suffix": 16
+   },
+   "slug": "onedrive",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|paypal": {
+   "blob_sha": "7534d0a41ea416d13e8af58cf58ae146f26b0b5d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/paypal.list",
+   "rule_count": 247,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 246
+   },
+   "slug": "paypal",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|primevideo": {
+   "blob_sha": "f5c128302dccaa3078ce6cdd5a03f5469a829d7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/primevideo.list",
+   "rule_count": 31,
+   "rule_types": {
+    "domain": 14,
+    "domain_keyword": 1,
+    "domain_suffix": 16
+   },
+   "slug": "primevideo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|private": {
+   "blob_sha": "f628842dcb8e457d15901de83ceec59a6c187826",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/private.list",
+   "rule_count": 150,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 123,
+    "ip_cidr": 14,
+    "ip_cidr6": 4
+   },
+   "slug": "private",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|proxy": {
+   "blob_sha": "d4624ea4bbc9741cb3171f3039aef7eec51684bd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "global",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/proxy.list",
+   "rule_count": 29696,
+   "rule_types": {
+    "domain": 118,
+    "domain_keyword": 42,
+    "domain_suffix": 29420,
+    "ip_cidr": 112,
+    "ip_cidr6": 4
+   },
+   "slug": "proxy",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|socialmedia": {
+   "blob_sha": "e101575bbf093024b3a2cc4baeb8eb9112130e1b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/socialmedia.list",
+   "rule_count": 849,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 5,
+    "domain_suffix": 771,
+    "ip_cidr": 63,
+    "ip_cidr6": 4
+   },
+   "slug": "socialmedia",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|socialmedia-cn": {
+   "blob_sha": "c984ae4626a35d636a6025532d3e5cf48880206e",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/socialmedia-cn.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 53,
+    "ip_cidr": 4,
+    "ip_cidr6": 1
+   },
+   "slug": "socialmedia-cn",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|speedtest": {
+   "blob_sha": "e99f1ba2581e8e49dcd83b5db476ff8a383b82d7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/speedtest.list",
+   "rule_count": 9207,
+   "rule_types": {
+    "domain": 9000,
+    "domain_keyword": 6,
+    "domain_suffix": 201
+   },
+   "slug": "speedtest",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|spotify": {
+   "blob_sha": "a0935016e2751b42a655848f3988006d75f812b0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/spotify.list",
+   "rule_count": 32,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 1,
+    "domain_suffix": 23,
+    "ip_cidr": 2
+   },
+   "slug": "spotify",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|talkatone": {
+   "blob_sha": "b1ad7947874b3337f25b00ef94c805791a80bca7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/talkatone.list",
+   "rule_count": 17,
+   "rule_types": {
+    "domain_suffix": 12,
+    "ip_cidr": 5
+   },
+   "slug": "talkatone",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|tiktok": {
+   "blob_sha": "f13ca1ec50ee0020ad5653e1ee12dd15af2d4bb2",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/tiktok.list",
+   "rule_count": 121,
+   "rule_types": {
+    "domain": 7,
+    "domain_keyword": 2,
+    "domain_suffix": 112
+   },
+   "slug": "tiktok",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|tld-proxy": {
+   "blob_sha": "839f2d0bc2ec925a1fbcd29fca020683a3c478ef",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "loon/tld-proxy.list",
+   "rule_count": 829,
+   "rule_types": {
+    "domain_suffix": 829
+   },
+   "slug": "tld-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|twitch": {
+   "blob_sha": "6fc804827ccb32587d2938218b6d6eb6e11d129a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/twitch.list",
+   "rule_count": 48,
+   "rule_types": {
+    "domain": 26,
+    "domain_keyword": 1,
+    "domain_suffix": 9,
+    "ip_cidr": 11,
+    "ip_cidr6": 1
+   },
+   "slug": "twitch",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|loon|youtube": {
+   "blob_sha": "b4144dc3e6be43405a6caf06b00d90137f2bf27c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "loon/youtube.list",
+   "rule_count": 184,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 179,
+    "ip_cidr": 2,
+    "ip_cidr6": 1
+   },
+   "slug": "youtube",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|abema": {
+   "blob_sha": "18f0adce8216cba6977038366cef2d4336514458",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/abema.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 5,
+    "domain_suffix": 16
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|ai": {
+   "blob_sha": "3a9be7971b563db1fd76698cccb7df19c0b377fd",
+   "count_available": true,
+   "errors": [
+    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /QuixoticHeart/rule-set/ruleset/meta/ai.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+   ],
+   "failure_count": 1,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "meta/ai.list",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "ai",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|apns": {
+   "blob_sha": "576a5714c979895e7cb6456ac7fe5199981236da",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/apns.list",
+   "rule_count": 13,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 2,
+    "ip_cidr": 5,
+    "ip_cidr6": 4
+   },
+   "slug": "apns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|apple": {
+   "blob_sha": "e32218d7ba577eb4637508a31b68ad59cc71d580",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/apple.list",
+   "rule_count": 1599,
+   "rule_types": {
+    "domain": 12,
+    "domain_keyword": 7,
+    "domain_suffix": 1553,
+    "ip_cidr": 10,
+    "ip_cidr6": 4,
+    "process_name": 13
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|apple-cn": {
+   "blob_sha": "b71fd2fac944231e883d3e545f1ff861892d5433",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/apple-cn.list",
+   "rule_count": 169,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 166
+   },
+   "slug": "apple-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|apple-proxy": {
+   "blob_sha": "fb062c533addbcb7e42e56c56ce1495524eab3e4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/apple-proxy.list",
+   "rule_count": 45,
+   "rule_types": {
+    "domain": 31,
+    "domain_suffix": 13,
+    "process_name": 1
+   },
+   "slug": "apple-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|apple-tv": {
+   "blob_sha": "dc642a69675eef606cafcaedca75b4eed5184279",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/apple-tv.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain": 7,
+    "domain_suffix": 1,
+    "process_name": 1
+   },
+   "slug": "apple-tv",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|bahamut": {
+   "blob_sha": "1999efd03e36f8be02533d4e37ced75e0278fbdd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/bahamut.list",
+   "rule_count": 7,
+   "rule_types": {
+    "domain_suffix": 7
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|bilibili": {
+   "blob_sha": "cdcbd1d383107ae0320acf23e9c2335f80e06d60",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/bilibili.list",
+   "rule_count": 134,
+   "rule_types": {
+    "domain": 53,
+    "domain_suffix": 67,
+    "ip_cidr": 8,
+    "process_name": 6
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|cdn": {
+   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/cdn.list",
+   "rule_count": 6707,
+   "rule_types": {
+    "domain": 4707,
+    "domain_keyword": 21,
+    "domain_suffix": 1911,
+    "domain_wildcard": 68
+   },
+   "slug": "cdn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|cncidr": {
+   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "geo",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/cncidr.list",
+   "rule_count": 18136,
+   "rule_types": {
+    "ip_cidr": 7125,
+    "ip_cidr6": 11011
+   },
+   "slug": "cncidr",
+   "status": "available",
+   "summary": "IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|crypto": {
+   "blob_sha": "0b3ee02a06f27c9ee0bec69d0d6164b21086ccc3",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/crypto.list",
+   "rule_count": 414,
+   "rule_types": {
+    "domain": 9,
+    "domain_keyword": 4,
+    "domain_suffix": 398,
+    "process_name": 3
+   },
+   "slug": "crypto",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|dazn": {
+   "blob_sha": "5cfae4e5b4db53b133d74d3ddf3dc10743b12a7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/dazn.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 20
+   },
+   "slug": "dazn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|disney": {
+   "blob_sha": "286b8240864e6ff1cfe8652b5ba56b6695411e71",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/disney.list",
+   "rule_count": 237,
+   "rule_types": {
+    "domain_regex": 1,
+    "domain_suffix": 234,
+    "process_name": 2
+   },
+   "slug": "disney",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|dmca": {
+   "blob_sha": "3dd5076ced0ab4cb312d44da752c790313cd0ed4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/dmca.list",
+   "rule_count": 1503,
+   "rule_types": {
+    "domain": 178,
+    "domain_keyword": 9,
+    "domain_suffix": 979,
+    "ip_cidr": 218,
+    "ip_cidr6": 15,
+    "process_name": 104
+   },
+   "slug": "dmca",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|dmm": {
+   "blob_sha": "6d1ebe268764837a7609be4f8587c4cf5e72f76b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/dmm.list",
+   "rule_count": 30,
+   "rule_types": {
+    "domain_suffix": 28,
+    "ip_cidr": 2
+   },
+   "slug": "dmm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|douyin": {
+   "blob_sha": "e3121ed596cd7a46b0883ba27f376ca2e4a7ee1a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/douyin.list",
+   "rule_count": 51,
+   "rule_types": {
+    "domain_suffix": 51
+   },
+   "slug": "douyin",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|ecommerce": {
+   "blob_sha": "02ebaf8304662dad6c36fe3d8f42be09bddc8b39",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/ecommerce.list",
+   "rule_count": 1533,
+   "rule_types": {
+    "domain": 2,
+    "domain_regex": 3,
+    "domain_suffix": 1512,
+    "ip_cidr": 15,
+    "process_name": 1
+   },
+   "slug": "ecommerce",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|forum": {
+   "blob_sha": "aae35d6f4325c033f1b8df98cdc862f03e007abd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/forum.list",
+   "rule_count": 108,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 106
+   },
+   "slug": "forum",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|games": {
+   "blob_sha": "f377606efc8ac9122ef4f8bd37af7597f15684a2",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/games.list",
+   "rule_count": 991,
+   "rule_types": {
+    "domain": 78,
+    "domain_keyword": 4,
+    "domain_regex": 4,
+    "domain_suffix": 859,
+    "ip_cidr": 46
+   },
+   "slug": "games",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|games-cn": {
+   "blob_sha": "91b0dfcb704b670515c91f2473d8dc7707e37289",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/games-cn.list",
+   "rule_count": 103,
+   "rule_types": {
+    "domain": 19,
+    "domain_regex": 3,
+    "domain_suffix": 81
+   },
+   "slug": "games-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|gits": {
+   "blob_sha": "c52d2054cfa1a5ab72df607483bc3ac89a035914",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/gits.list",
+   "rule_count": 76,
+   "rule_types": {
+    "domain": 27,
+    "domain_keyword": 1,
+    "domain_suffix": 48
+   },
+   "slug": "gits",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|google": {
+   "blob_sha": "4c06491786fde389386cd38699758000959464d5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/google.list",
+   "rule_count": 8697,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 5,
+    "domain_suffix": 877,
+    "ip_cidr": 2923,
+    "ip_cidr6": 4886,
+    "process_name": 5
+   },
+   "slug": "google",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|googlefcm": {
+   "blob_sha": "1d1127c05a451ee945aedc6704f20310c5ad901d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/googlefcm.list",
+   "rule_count": 41,
+   "rule_types": {
+    "domain": 15,
+    "ip_cidr": 26
+   },
+   "slug": "googlefcm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|hbo": {
+   "blob_sha": "d3d84268c057885a9ed1e89b5ed728734d95d316",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/hbo.list",
+   "rule_count": 89,
+   "rule_types": {
+    "domain_suffix": 88,
+    "process_name": 1
+   },
+   "slug": "hbo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|httpdns": {
+   "blob_sha": "ea692e7486cc13e42e31a2d73e3a4d54752c1327",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/httpdns.list",
+   "rule_count": 101,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 49,
+    "ip_cidr": 39,
+    "ip_cidr6": 4
+   },
+   "slug": "httpdns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|hulu": {
+   "blob_sha": "69c4831c7321b19d9b29eafc9034bb9a612428da",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/hulu.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain": 1,
+    "domain_suffix": 57,
+    "process_name": 1
+   },
+   "slug": "hulu",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|iplocation-direct": {
+   "blob_sha": "0b03b8d71f31784ff67efd25e50c07bf3857ded5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/iplocation-direct.list",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 20
+   },
+   "slug": "iplocation-direct",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|iplocation-proxy": {
+   "blob_sha": "3bc6503071235b57049fde6217977a3842d9b795",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/iplocation-proxy.list",
+   "rule_count": 162,
+   "rule_types": {
+    "domain": 44,
+    "domain_keyword": 14,
+    "domain_suffix": 31,
+    "ip_cidr": 73
+   },
+   "slug": "iplocation-proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|microsoft": {
+   "blob_sha": "f5346d3297a73de400483ff8c8374ad25dc69c2f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/microsoft.list",
+   "rule_count": 769,
+   "rule_types": {
+    "domain": 8,
+    "domain_keyword": 4,
+    "domain_suffix": 755,
+    "process_name": 2
+   },
+   "slug": "microsoft",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|microsoft-cn": {
+   "blob_sha": "8f6f917ff0092362d2b0dc6e09b768535626d7c9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/microsoft-cn.list",
+   "rule_count": 190,
+   "rule_types": {
+    "domain": 51,
+    "domain_suffix": 139
+   },
+   "slug": "microsoft-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|mytvsuper": {
+   "blob_sha": "acbd1eb3224bb0e360bf0ac498de7d05334105eb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/mytvsuper.list",
+   "rule_count": 6,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 2,
+    "domain_suffix": 2
+   },
+   "slug": "mytvsuper",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|netflix": {
+   "blob_sha": "179fc016bf71cf76a646f8a5c2d44f04c1b44a97",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/netflix.list",
+   "rule_count": 1160,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 4,
+    "domain_regex": 4,
+    "domain_suffix": 30,
+    "ip_cidr": 1115,
+    "ip_cidr6": 4,
+    "process_name": 1
+   },
+   "slug": "netflix",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|niconico": {
+   "blob_sha": "69cbdf97773d850663b9c267e94496439e976426",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/niconico.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain_suffix": 9
+   },
+   "slug": "niconico",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|onedrive": {
+   "blob_sha": "3913c62a5aee8f57651498a16744c7cd494b2423",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/onedrive.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 3,
+    "domain_suffix": 16,
+    "process_name": 2
+   },
+   "slug": "onedrive",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|paypal": {
+   "blob_sha": "7534d0a41ea416d13e8af58cf58ae146f26b0b5d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/paypal.list",
+   "rule_count": 247,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 246
+   },
+   "slug": "paypal",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|primevideo": {
+   "blob_sha": "f5c128302dccaa3078ce6cdd5a03f5469a829d7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/primevideo.list",
+   "rule_count": 31,
+   "rule_types": {
+    "domain": 14,
+    "domain_keyword": 1,
+    "domain_suffix": 16
+   },
+   "slug": "primevideo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|private": {
+   "blob_sha": "69a127ed5f817ac85103c3426441890d25daa0b7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/private.list",
+   "rule_count": 151,
+   "rule_types": {
+    "domain": 9,
+    "domain_regex": 1,
+    "domain_suffix": 123,
+    "ip_cidr": 14,
+    "ip_cidr6": 4
+   },
+   "slug": "private",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|proxy": {
+   "blob_sha": "c2629b9450ee76578c33dd488c385b2349152d3d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "global",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/proxy.list",
+   "rule_count": 29836,
+   "rule_types": {
+    "domain": 118,
+    "domain_keyword": 42,
+    "domain_regex": 135,
+    "domain_suffix": 29420,
+    "ip_cidr": 112,
+    "ip_cidr6": 4,
+    "process_name": 5
+   },
+   "slug": "proxy",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|socialmedia": {
+   "blob_sha": "e101575bbf093024b3a2cc4baeb8eb9112130e1b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/socialmedia.list",
+   "rule_count": 849,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 5,
+    "domain_suffix": 771,
+    "ip_cidr": 63,
+    "ip_cidr6": 4
+   },
+   "slug": "socialmedia",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|socialmedia-cn": {
+   "blob_sha": "c984ae4626a35d636a6025532d3e5cf48880206e",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/socialmedia-cn.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 53,
+    "ip_cidr": 4,
+    "ip_cidr6": 1
+   },
+   "slug": "socialmedia-cn",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|speedtest": {
+   "blob_sha": "92a7a5d508dddaf396471ac5aebd0d7f1c5ad08f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/speedtest.list",
+   "rule_count": 9209,
+   "rule_types": {
+    "domain": 9000,
+    "domain_keyword": 6,
+    "domain_suffix": 201,
+    "process_name": 2
+   },
+   "slug": "speedtest",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|spotify": {
+   "blob_sha": "d25d2d5a6191b7217f569d2d905b5cfd2e79e9bd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/spotify.list",
+   "rule_count": 33,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 1,
+    "domain_suffix": 23,
+    "ip_cidr": 2,
+    "process_name": 1
+   },
+   "slug": "spotify",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|talkatone": {
+   "blob_sha": "b1ad7947874b3337f25b00ef94c805791a80bca7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/talkatone.list",
+   "rule_count": 17,
+   "rule_types": {
+    "domain_suffix": 12,
+    "ip_cidr": 5
+   },
+   "slug": "talkatone",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|tiktok": {
+   "blob_sha": "dbf4d9f8cbd4512d1fbfe10013957be61e7e5213",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/tiktok.list",
+   "rule_count": 122,
+   "rule_types": {
+    "domain": 7,
+    "domain_keyword": 2,
+    "domain_suffix": 112,
+    "process_name": 1
+   },
+   "slug": "tiktok",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|tld-proxy": {
+   "blob_sha": "839f2d0bc2ec925a1fbcd29fca020683a3c478ef",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "meta/tld-proxy.list",
+   "rule_count": 829,
+   "rule_types": {
+    "domain_suffix": 829
+   },
+   "slug": "tld-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|twitch": {
+   "blob_sha": "2c1f413030c5d013d6c9c1a8d7813b80625999c8",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/twitch.list",
+   "rule_count": 49,
+   "rule_types": {
+    "domain": 26,
+    "domain_keyword": 1,
+    "domain_suffix": 9,
+    "ip_cidr": 11,
+    "ip_cidr6": 1,
+    "process_name": 1
+   },
+   "slug": "twitch",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|mihomo|youtube": {
+   "blob_sha": "b4144dc3e6be43405a6caf06b00d90137f2bf27c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "meta/youtube.list",
+   "rule_count": 184,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 179,
+    "ip_cidr": 2,
+    "ip_cidr6": 1
+   },
+   "slug": "youtube",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|abema": {
+   "blob_sha": "771ef4bc433f7ff3314cf0b8f3e74da87d252c96",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/abema.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 21
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|ai": {
+   "blob_sha": "57e51bc8c54a7452e52c0479fff0aadc18bd59bc",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/ai.list",
+   "rule_count": 205,
+   "rule_types": {
+    "domain": 205
+   },
+   "slug": "ai",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|apns": {
+   "blob_sha": "caa3c4970a043c078cefad3c6ae28a27a7091f31",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/apns.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain": 4,
+    "ip_cidr": 5
+   },
+   "slug": "apns",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|apple": {
+   "blob_sha": "a1c072dd65bb70c0eff6458de7e691870593730a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/apple.list",
+   "rule_count": 1579,
+   "rule_types": {
+    "domain": 1569,
+    "ip_cidr": 10
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|apple-cn": {
+   "blob_sha": "6c9ac523b1a0a7e716e2d5d639af063e96a28b46",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/apple-cn.list",
+   "rule_count": 167,
+   "rule_types": {
+    "domain": 167
+   },
+   "slug": "apple-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|apple-proxy": {
+   "blob_sha": "e725138a0ac577b30961bc3e0b594e2e7bbdbecb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/apple-proxy.list",
+   "rule_count": 44,
+   "rule_types": {
+    "domain": 44
+   },
+   "slug": "apple-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|apple-tv": {
+   "blob_sha": "e74ba183b2336e6d3285997d52958ee6ba796344",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/apple-tv.list",
+   "rule_count": 8,
+   "rule_types": {
+    "domain": 8
+   },
+   "slug": "apple-tv",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|bahamut": {
+   "blob_sha": "b657f73f5f9e20ae045f5cacae24733a10b0ecc4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/bahamut.list",
+   "rule_count": 7,
+   "rule_types": {
+    "domain": 7
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|bilibili": {
+   "blob_sha": "af970bfca2b1c612d2da400afc32e6012cda5d0b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/bilibili.list",
+   "rule_count": 128,
+   "rule_types": {
+    "domain": 120,
+    "ip_cidr": 8
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|cdn": {
+   "blob_sha": "0e8866000d46a5f72de1265d6c8de1e10e2f3630",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/cdn.list",
+   "rule_count": 6701,
+   "rule_types": {
+    "domain": 6701
+   },
+   "slug": "cdn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|cncidr": {
+   "blob_sha": "dd63e62a76b80aa6d8bece731b427ed31d5ee75b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "geo",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/cncidr.list",
+   "rule_count": 7125,
+   "rule_types": {
+    "ip_cidr": 7125
+   },
+   "slug": "cncidr",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|crypto": {
+   "blob_sha": "63bd2d3b23fdb73c6e26dd008e77af7e924495f5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/crypto.list",
+   "rule_count": 407,
+   "rule_types": {
+    "domain": 407
+   },
+   "slug": "crypto",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|dazn": {
+   "blob_sha": "691a2ffeb7b863ea73033d778057f7d28d3f497a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/dazn.list",
+   "rule_count": 20,
+   "rule_types": {
+    "domain": 20
+   },
+   "slug": "dazn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|disney": {
+   "blob_sha": "d0059836917196d9443c15f88d017fff3879d337",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/disney.list",
+   "rule_count": 234,
+   "rule_types": {
+    "domain": 234
+   },
+   "slug": "disney",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|dmca": {
+   "blob_sha": "bc77f4c40fda7212b511347ed0b434855677cdea",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/dmca.list",
+   "rule_count": 1375,
+   "rule_types": {
+    "domain": 1157,
+    "ip_cidr": 218
+   },
+   "slug": "dmca",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|dmm": {
+   "blob_sha": "4fa2a93e32f509939463705978efccabc5e48798",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/dmm.list",
+   "rule_count": 30,
+   "rule_types": {
+    "domain": 28,
+    "ip_cidr": 2
+   },
+   "slug": "dmm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|douyin": {
+   "blob_sha": "9b5a607e2dc9b3fbddda289e95edf385341034a9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/douyin.list",
+   "rule_count": 51,
+   "rule_types": {
+    "domain": 51
+   },
+   "slug": "douyin",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|ecommerce": {
+   "blob_sha": "f83200831a8e45af98af9daeaa8ce31b19246fd9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/ecommerce.list",
+   "rule_count": 1517,
+   "rule_types": {
+    "domain": 1502,
+    "ip_cidr": 15
+   },
+   "slug": "ecommerce",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|forum": {
+   "blob_sha": "d3c8bb6dc82bd407eb98b3d48297ae016e007058",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/forum.list",
+   "rule_count": 108,
+   "rule_types": {
+    "domain": 108
+   },
+   "slug": "forum",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|games": {
+   "blob_sha": "765c6f36c06f2f95818de91d7cc11d363f0f38d2",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/games.list",
+   "rule_count": 981,
+   "rule_types": {
+    "domain": 935,
+    "ip_cidr": 46
+   },
+   "slug": "games",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|games-cn": {
+   "blob_sha": "e57dad424299a5adcfa1d870bcf9a357763685e3",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/games-cn.list",
+   "rule_count": 100,
+   "rule_types": {
+    "domain": 100
+   },
+   "slug": "games-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|gits": {
+   "blob_sha": "a4ae517869c88399898e84a64d46a6a4ce14f0e4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/gits.list",
+   "rule_count": 75,
+   "rule_types": {
+    "domain": 75
+   },
+   "slug": "gits",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|google": {
+   "blob_sha": "55e71c29e8e3526ad66bf970daf31c54bc178a3a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/google.list",
+   "rule_count": 3786,
+   "rule_types": {
+    "domain": 863,
+    "ip_cidr": 2923
+   },
+   "slug": "google",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|googlefcm": {
+   "blob_sha": "67f17ba9cddb0fce7d9433a2e08147ebb1d8e6d0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/googlefcm.list",
+   "rule_count": 41,
+   "rule_types": {
+    "domain": 15,
+    "ip_cidr": 26
+   },
+   "slug": "googlefcm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|hbo": {
+   "blob_sha": "59b3e9a7a1895566f77e3055054e5e2f5788b5de",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/hbo.list",
+   "rule_count": 87,
+   "rule_types": {
+    "domain": 87
+   },
+   "slug": "hbo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|httpdns": {
+   "blob_sha": "622d3a11012f2103ae162dcb36e22a2331f8ee5c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/httpdns.list",
+   "rule_count": 39,
+   "rule_types": {
+    "ip_cidr": 39
+   },
+   "slug": "httpdns",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|hulu": {
+   "blob_sha": "3c4f33828d0d156236ea451bd805b97a754b50a1",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/hulu.list",
+   "rule_count": 58,
+   "rule_types": {
+    "domain": 58
+   },
+   "slug": "hulu",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|iplocation-direct": {
+   "blob_sha": "551ce44e5717c99c112a538f0011956d8c3559ee",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/iplocation-direct.list",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 23
+   },
+   "slug": "iplocation-direct",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|iplocation-proxy": {
+   "blob_sha": "9109531639db86b792c073eafb7e10ed2c0aca4f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/iplocation-proxy.list",
+   "rule_count": 148,
+   "rule_types": {
+    "domain": 75,
+    "ip_cidr": 73
+   },
+   "slug": "iplocation-proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|microsoft": {
+   "blob_sha": "27c3cb25a6ada208bfe9bfa48e17a9f90d5b7e1b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/microsoft.list",
+   "rule_count": 753,
+   "rule_types": {
+    "domain": 753
+   },
+   "slug": "microsoft",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|microsoft-cn": {
+   "blob_sha": "66856cfd6632702fab9928bbccaa9f5a667cbe17",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/microsoft-cn.list",
+   "rule_count": 190,
+   "rule_types": {
+    "domain": 190
+   },
+   "slug": "microsoft-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|mytvsuper": {
+   "blob_sha": "93c2b26abb7a02f200db402e64a67868f88f84d6",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/mytvsuper.list",
+   "rule_count": 4,
+   "rule_types": {
+    "domain": 4
+   },
+   "slug": "mytvsuper",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|netflix": {
+   "blob_sha": "3613315e7d639fab1272cffc8fcdc1840e34739b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/netflix.list",
+   "rule_count": 1149,
+   "rule_types": {
+    "domain": 34,
+    "ip_cidr": 1115
+   },
+   "slug": "netflix",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|niconico": {
+   "blob_sha": "c34a8d8ee3295fa278b30660c5dad23b064323d9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/niconico.list",
+   "rule_count": 8,
+   "rule_types": {
+    "domain": 8
+   },
+   "slug": "niconico",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|onedrive": {
+   "blob_sha": "8f4c108cf6d0f5d84d9236c1050462c758a23694",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/onedrive.list",
+   "rule_count": 14,
+   "rule_types": {
+    "domain": 14
+   },
+   "slug": "onedrive",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|paypal": {
+   "blob_sha": "876265c64e23f307e50cda2ac976019e10db7aad",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/paypal.list",
+   "rule_count": 246,
+   "rule_types": {
+    "domain": 246
+   },
+   "slug": "paypal",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|primevideo": {
+   "blob_sha": "659ffa49056de00143b0548fa625731f921b0cf4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/primevideo.list",
+   "rule_count": 30,
+   "rule_types": {
+    "domain": 30
+   },
+   "slug": "primevideo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|private": {
+   "blob_sha": "a485b9ab7b88da246a624b3b32ba1daaec994d6c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/private.list",
+   "rule_count": 138,
+   "rule_types": {
+    "domain": 124,
+    "ip_cidr": 14
+   },
+   "slug": "private",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|proxy": {
+   "blob_sha": "42395ad926a49ea2d101e285dd2a58135372d9ee",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "global",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/proxy.list",
+   "rule_count": 29631,
+   "rule_types": {
+    "domain": 29519,
+    "ip_cidr": 112
+   },
+   "slug": "proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|socialmedia": {
+   "blob_sha": "9816e0134dade28aa631dfba47026d9f0b6e2488",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/socialmedia.list",
+   "rule_count": 837,
+   "rule_types": {
+    "domain": 774,
+    "ip_cidr": 63
+   },
+   "slug": "socialmedia",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|socialmedia-cn": {
+   "blob_sha": "1b118b2053289d9b16b968ba5211ecd170f64530",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/socialmedia-cn.list",
+   "rule_count": 54,
+   "rule_types": {
+    "domain": 50,
+    "ip_cidr": 4
+   },
+   "slug": "socialmedia-cn",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|speedtest": {
+   "blob_sha": "947ff54f6d8c4eabd1fe5e405ac61365b02823a5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "quantumultx/speedtest.list",
+   "rule_count": 9199,
+   "rule_types": {
+    "domain": 9199
+   },
+   "slug": "speedtest",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|spotify": {
+   "blob_sha": "59d61c6b734032ce003b22a5723b026051d9a2a3",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/spotify.list",
+   "rule_count": 31,
+   "rule_types": {
+    "domain": 29,
+    "ip_cidr": 2
+   },
+   "slug": "spotify",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|talkatone": {
+   "blob_sha": "8e5f315b50bb7b69497939e60d8582bb105bc40d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/talkatone.list",
+   "rule_count": 17,
+   "rule_types": {
+    "domain": 12,
+    "ip_cidr": 5
+   },
+   "slug": "talkatone",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|tiktok": {
+   "blob_sha": "72eea0a995ba612f90db6c12401d85f9a7ccfdcb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/tiktok.list",
+   "rule_count": 120,
+   "rule_types": {
+    "domain": 120
+   },
+   "slug": "tiktok",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|tld-proxy": {
+   "blob_sha": "bb150819d5a566de9715c1dcc1f431a2ef951fbd",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "quantumultx/tld-proxy.list",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "tld-proxy",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|twitch": {
+   "blob_sha": "0fb95fd77f847c50f8218192faeca61d780de236",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/twitch.list",
+   "rule_count": 46,
+   "rule_types": {
+    "domain": 35,
+    "ip_cidr": 11
+   },
+   "slug": "twitch",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|quantumultx|youtube": {
+   "blob_sha": "c2b671deb4e80780daad1f84893b0411f590238a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "quantumultx/youtube.list",
+   "rule_count": 181,
+   "rule_types": {
+    "domain": 179,
+    "ip_cidr": 2
+   },
+   "slug": "youtube",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|abema": {
+   "blob_sha": "18f0adce8216cba6977038366cef2d4336514458",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/abema.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 5,
+    "domain_suffix": 16
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|ai": {
+   "blob_sha": "c60e075cede7eb49920d8e386ec4fb0695ce4fdb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/ai.list",
+   "rule_count": 210,
+   "rule_types": {
+    "domain": 42,
+    "domain_keyword": 8,
+    "domain_suffix": 160
+   },
+   "slug": "ai",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|apns": {
+   "blob_sha": "5503af0428d86d56d33e5274cffa39040e594b2e",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/apns.list",
+   "rule_count": 13,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 2,
+    "ip_cidr": 9
+   },
+   "slug": "apns",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|apple": {
+   "blob_sha": "d39e971364bcaa905d77d2dfb8dac37e24f1b516",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/apple.list",
+   "rule_count": 1586,
+   "rule_types": {
+    "domain": 12,
+    "domain_keyword": 7,
+    "domain_suffix": 1553,
+    "ip_cidr": 14
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|apple-cn": {
+   "blob_sha": "b71fd2fac944231e883d3e545f1ff861892d5433",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/apple-cn.list",
+   "rule_count": 169,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 166
+   },
+   "slug": "apple-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|apple-proxy": {
+   "blob_sha": "5d17446eafadaca9ae3a2dc50ae18b90c70a4821",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/apple-proxy.list",
+   "rule_count": 44,
+   "rule_types": {
+    "domain": 31,
+    "domain_suffix": 13
+   },
+   "slug": "apple-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|apple-tv": {
+   "blob_sha": "f69b995bae8ab8cc2475a11e7008f1879540b490",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/apple-tv.list",
+   "rule_count": 8,
+   "rule_types": {
+    "domain": 7,
+    "domain_suffix": 1
+   },
+   "slug": "apple-tv",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|bahamut": {
+   "blob_sha": "1999efd03e36f8be02533d4e37ced75e0278fbdd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/bahamut.list",
+   "rule_count": 7,
+   "rule_types": {
+    "domain_suffix": 7
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|bilibili": {
+   "blob_sha": "3062cfa65e5b81c81fd71862713b019b7c887c2c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/bilibili.list",
+   "rule_count": 128,
+   "rule_types": {
+    "domain": 53,
+    "domain_suffix": 67,
+    "ip_cidr": 8
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|cdn": {
+   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/cdn.list",
+   "rule_count": 6707,
+   "rule_types": {
+    "domain": 4707,
+    "domain_keyword": 21,
+    "domain_suffix": 1911,
+    "domain_wildcard": 68
+   },
+   "slug": "cdn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|cncidr": {
+   "blob_sha": "9c595ea0fabb3201a578e000a3371404c4cdd6ca",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "geo",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/cncidr.list",
+   "rule_count": 18136,
+   "rule_types": {
+    "ip_cidr": 18136
+   },
+   "slug": "cncidr",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|crypto": {
+   "blob_sha": "69b10942ea10d33f512ed270a8a1eb743419a2b0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/crypto.list",
+   "rule_count": 411,
+   "rule_types": {
+    "domain": 9,
+    "domain_keyword": 4,
+    "domain_suffix": 398
+   },
+   "slug": "crypto",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|dazn": {
+   "blob_sha": "5cfae4e5b4db53b133d74d3ddf3dc10743b12a7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/dazn.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 20
+   },
+   "slug": "dazn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|disney": {
+   "blob_sha": "826670070c47ea0336af053fedb422d305612d49",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/disney.list",
+   "rule_count": 234,
+   "rule_types": {
+    "domain_suffix": 234
+   },
+   "slug": "disney",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|dmca": {
+   "blob_sha": "7d2c18b4525fe52b1fc7fc7fc0947d5fc6c8db75",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/dmca.list",
+   "rule_count": 1399,
+   "rule_types": {
+    "domain": 178,
+    "domain_keyword": 9,
+    "domain_suffix": 979,
+    "ip_cidr": 233
+   },
+   "slug": "dmca",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|dmm": {
+   "blob_sha": "6d1ebe268764837a7609be4f8587c4cf5e72f76b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/dmm.list",
+   "rule_count": 30,
+   "rule_types": {
+    "domain_suffix": 28,
+    "ip_cidr": 2
+   },
+   "slug": "dmm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|douyin": {
+   "blob_sha": "e3121ed596cd7a46b0883ba27f376ca2e4a7ee1a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/douyin.list",
+   "rule_count": 51,
+   "rule_types": {
+    "domain_suffix": 51
+   },
+   "slug": "douyin",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|ecommerce": {
+   "blob_sha": "e456e2cbd8d239c5a998ec68c7499a5d835b7b01",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/ecommerce.list",
+   "rule_count": 1529,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 1512,
+    "ip_cidr": 15
+   },
+   "slug": "ecommerce",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|forum": {
+   "blob_sha": "aae35d6f4325c033f1b8df98cdc862f03e007abd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/forum.list",
+   "rule_count": 108,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 106
+   },
+   "slug": "forum",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|games": {
+   "blob_sha": "eba15b72de82c7b43ba1df4a6a2d532dc73671a4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/games.list",
+   "rule_count": 987,
+   "rule_types": {
+    "domain": 78,
+    "domain_keyword": 4,
+    "domain_suffix": 859,
+    "ip_cidr": 46
+   },
+   "slug": "games",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|games-cn": {
+   "blob_sha": "a4c75c63dff744b20e50d7d2f4a2054c31681e01",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/games-cn.list",
+   "rule_count": 100,
+   "rule_types": {
+    "domain": 19,
+    "domain_suffix": 81
+   },
+   "slug": "games-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|gits": {
+   "blob_sha": "c52d2054cfa1a5ab72df607483bc3ac89a035914",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/gits.list",
+   "rule_count": 76,
+   "rule_types": {
+    "domain": 27,
+    "domain_keyword": 1,
+    "domain_suffix": 48
+   },
+   "slug": "gits",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|google": {
+   "blob_sha": "25888c3fbf073b51f71c05215fdcda7a1071d41f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/google.list",
+   "rule_count": 8692,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 5,
+    "domain_suffix": 877,
+    "ip_cidr": 7809
+   },
+   "slug": "google",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|googlefcm": {
+   "blob_sha": "1d1127c05a451ee945aedc6704f20310c5ad901d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/googlefcm.list",
+   "rule_count": 41,
+   "rule_types": {
+    "domain": 15,
+    "ip_cidr": 26
+   },
+   "slug": "googlefcm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|hbo": {
+   "blob_sha": "073ea714388d78325c7a261a9a8a964408ad342a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/hbo.list",
+   "rule_count": 88,
+   "rule_types": {
+    "domain_suffix": 88
+   },
+   "slug": "hbo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|httpdns": {
+   "blob_sha": "3c5d11f2c552c76e4e69feb8dd0d0ae327056773",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/httpdns.list",
+   "rule_count": 101,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 49,
+    "ip_cidr": 43
+   },
+   "slug": "httpdns",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|hulu": {
+   "blob_sha": "999b54f4783d52a8befb652538032492cf9ada28",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/hulu.list",
+   "rule_count": 58,
+   "rule_types": {
+    "domain": 1,
+    "domain_suffix": 57
+   },
+   "slug": "hulu",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|iplocation-direct": {
+   "blob_sha": "0b03b8d71f31784ff67efd25e50c07bf3857ded5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/iplocation-direct.list",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 20
+   },
+   "slug": "iplocation-direct",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|iplocation-proxy": {
+   "blob_sha": "3bc6503071235b57049fde6217977a3842d9b795",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/iplocation-proxy.list",
+   "rule_count": 162,
+   "rule_types": {
+    "domain": 44,
+    "domain_keyword": 14,
+    "domain_suffix": 31,
+    "ip_cidr": 73
+   },
+   "slug": "iplocation-proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|microsoft": {
+   "blob_sha": "6662a2712dc7438d6370d9f0f268651ec5f01ea0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/microsoft.list",
+   "rule_count": 767,
+   "rule_types": {
+    "domain": 8,
+    "domain_keyword": 4,
+    "domain_suffix": 755
+   },
+   "slug": "microsoft",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|microsoft-cn": {
+   "blob_sha": "8f6f917ff0092362d2b0dc6e09b768535626d7c9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/microsoft-cn.list",
+   "rule_count": 190,
+   "rule_types": {
+    "domain": 51,
+    "domain_suffix": 139
+   },
+   "slug": "microsoft-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|mytvsuper": {
+   "blob_sha": "acbd1eb3224bb0e360bf0ac498de7d05334105eb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/mytvsuper.list",
+   "rule_count": 6,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 2,
+    "domain_suffix": 2
+   },
+   "slug": "mytvsuper",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|netflix": {
+   "blob_sha": "8e6cd9fe23d7c923efb9ccdcd6785485b686578f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/netflix.list",
+   "rule_count": 1155,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 4,
+    "domain_suffix": 30,
+    "ip_cidr": 1119
+   },
+   "slug": "netflix",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|niconico": {
+   "blob_sha": "69cbdf97773d850663b9c267e94496439e976426",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/niconico.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain_suffix": 9
+   },
+   "slug": "niconico",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|onedrive": {
+   "blob_sha": "74e130c9d2de9c683bc14e9d71f4aa4818f8ba25",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/onedrive.list",
+   "rule_count": 19,
+   "rule_types": {
+    "domain_keyword": 3,
+    "domain_suffix": 16
+   },
+   "slug": "onedrive",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|paypal": {
+   "blob_sha": "7534d0a41ea416d13e8af58cf58ae146f26b0b5d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/paypal.list",
+   "rule_count": 247,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 246
+   },
+   "slug": "paypal",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|primevideo": {
+   "blob_sha": "f5c128302dccaa3078ce6cdd5a03f5469a829d7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/primevideo.list",
+   "rule_count": 31,
+   "rule_types": {
+    "domain": 14,
+    "domain_keyword": 1,
+    "domain_suffix": 16
+   },
+   "slug": "primevideo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|private": {
+   "blob_sha": "ea12a717976345c1c1b43c4477d2a23b70fc5f21",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/private.list",
+   "rule_count": 150,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 123,
+    "ip_cidr": 18
+   },
+   "slug": "private",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|proxy": {
+   "blob_sha": "56d6a96e56cf14ba005bf440006299609abe9cb6",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "global",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/proxy.list",
+   "rule_count": 29696,
+   "rule_types": {
+    "domain": 118,
+    "domain_keyword": 42,
+    "domain_suffix": 29420,
+    "ip_cidr": 116
+   },
+   "slug": "proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|socialmedia": {
+   "blob_sha": "97d4f4e1b1f0c93f1cd02c54589cf7d8aaa81fac",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/socialmedia.list",
+   "rule_count": 849,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 5,
+    "domain_suffix": 771,
+    "ip_cidr": 67
+   },
+   "slug": "socialmedia",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|socialmedia-cn": {
+   "blob_sha": "8d88a0a9b0dea9f41bd33cdd40adc0b39355556a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/socialmedia-cn.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 53,
+    "ip_cidr": 5
+   },
+   "slug": "socialmedia-cn",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|speedtest": {
+   "blob_sha": "e99f1ba2581e8e49dcd83b5db476ff8a383b82d7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/speedtest.list",
+   "rule_count": 9207,
+   "rule_types": {
+    "domain": 9000,
+    "domain_keyword": 6,
+    "domain_suffix": 201
+   },
+   "slug": "speedtest",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|spotify": {
+   "blob_sha": "a0935016e2751b42a655848f3988006d75f812b0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/spotify.list",
+   "rule_count": 32,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 1,
+    "domain_suffix": 23,
+    "ip_cidr": 2
+   },
+   "slug": "spotify",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|talkatone": {
+   "blob_sha": "b1ad7947874b3337f25b00ef94c805791a80bca7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/talkatone.list",
+   "rule_count": 17,
+   "rule_types": {
+    "domain_suffix": 12,
+    "ip_cidr": 5
+   },
+   "slug": "talkatone",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|tiktok": {
+   "blob_sha": "f13ca1ec50ee0020ad5653e1ee12dd15af2d4bb2",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/tiktok.list",
+   "rule_count": 121,
+   "rule_types": {
+    "domain": 7,
+    "domain_keyword": 2,
+    "domain_suffix": 112
+   },
+   "slug": "tiktok",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|tld-proxy": {
+   "blob_sha": "839f2d0bc2ec925a1fbcd29fca020683a3c478ef",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "shadowrocket/tld-proxy.list",
+   "rule_count": 829,
+   "rule_types": {
+    "domain_suffix": 829
+   },
+   "slug": "tld-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|twitch": {
+   "blob_sha": "6b962fce86047cd4b0afc2a1046fe80afab31e72",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/twitch.list",
+   "rule_count": 48,
+   "rule_types": {
+    "domain": 26,
+    "domain_keyword": 1,
+    "domain_suffix": 9,
+    "ip_cidr": 12
+   },
+   "slug": "twitch",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|shadowrocket|youtube": {
+   "blob_sha": "55ba84830b9fc8c445fe7c492a274ac851f14d49",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "shadowrocket/youtube.list",
+   "rule_count": 184,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 179,
+    "ip_cidr": 3
+   },
+   "slug": "youtube",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|abema": {
+   "blob_sha": "18f0adce8216cba6977038366cef2d4336514458",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/abema.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 5,
+    "domain_suffix": 16
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|ai": {
+   "blob_sha": "3a9be7971b563db1fd76698cccb7df19c0b377fd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/ai.list",
+   "rule_count": 211,
+   "rule_types": {
+    "domain": 42,
+    "domain_keyword": 8,
+    "domain_regex": 1,
+    "domain_suffix": 160
+   },
+   "slug": "ai",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|apns": {
+   "blob_sha": "576a5714c979895e7cb6456ac7fe5199981236da",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/apns.list",
+   "rule_count": 13,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 2,
+    "ip_cidr": 5,
+    "ip_cidr6": 4
+   },
+   "slug": "apns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|apple": {
+   "blob_sha": "e32218d7ba577eb4637508a31b68ad59cc71d580",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/apple.list",
+   "rule_count": 1599,
+   "rule_types": {
+    "domain": 12,
+    "domain_keyword": 7,
+    "domain_suffix": 1553,
+    "ip_cidr": 10,
+    "ip_cidr6": 4,
+    "process_name": 13
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|apple-cn": {
+   "blob_sha": "b71fd2fac944231e883d3e545f1ff861892d5433",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/apple-cn.list",
+   "rule_count": 169,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 166
+   },
+   "slug": "apple-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|apple-proxy": {
+   "blob_sha": "fb062c533addbcb7e42e56c56ce1495524eab3e4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/apple-proxy.list",
+   "rule_count": 45,
+   "rule_types": {
+    "domain": 31,
+    "domain_suffix": 13,
+    "process_name": 1
+   },
+   "slug": "apple-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|apple-tv": {
+   "blob_sha": "dc642a69675eef606cafcaedca75b4eed5184279",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/apple-tv.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain": 7,
+    "domain_suffix": 1,
+    "process_name": 1
+   },
+   "slug": "apple-tv",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|bahamut": {
+   "blob_sha": "1999efd03e36f8be02533d4e37ced75e0278fbdd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/bahamut.list",
+   "rule_count": 7,
+   "rule_types": {
+    "domain_suffix": 7
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|bilibili": {
+   "blob_sha": "cdcbd1d383107ae0320acf23e9c2335f80e06d60",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/bilibili.list",
+   "rule_count": 134,
+   "rule_types": {
+    "domain": 53,
+    "domain_suffix": 67,
+    "ip_cidr": 8,
+    "process_name": 6
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|cdn": {
+   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/cdn.list",
+   "rule_count": 6707,
+   "rule_types": {
+    "domain": 4707,
+    "domain_keyword": 21,
+    "domain_suffix": 1911,
+    "domain_wildcard": 68
+   },
+   "slug": "cdn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|cncidr": {
+   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "geo",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/cncidr.list",
+   "rule_count": 18136,
+   "rule_types": {
+    "ip_cidr": 7125,
+    "ip_cidr6": 11011
+   },
+   "slug": "cncidr",
+   "status": "available",
+   "summary": "IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|crypto": {
+   "blob_sha": "0b3ee02a06f27c9ee0bec69d0d6164b21086ccc3",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/crypto.list",
+   "rule_count": 414,
+   "rule_types": {
+    "domain": 9,
+    "domain_keyword": 4,
+    "domain_suffix": 398,
+    "process_name": 3
+   },
+   "slug": "crypto",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|dazn": {
+   "blob_sha": "5cfae4e5b4db53b133d74d3ddf3dc10743b12a7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/dazn.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 20
+   },
+   "slug": "dazn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|disney": {
+   "blob_sha": "286b8240864e6ff1cfe8652b5ba56b6695411e71",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/disney.list",
+   "rule_count": 237,
+   "rule_types": {
+    "domain_regex": 1,
+    "domain_suffix": 234,
+    "process_name": 2
+   },
+   "slug": "disney",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|dmca": {
+   "blob_sha": "3dd5076ced0ab4cb312d44da752c790313cd0ed4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/dmca.list",
+   "rule_count": 1503,
+   "rule_types": {
+    "domain": 178,
+    "domain_keyword": 9,
+    "domain_suffix": 979,
+    "ip_cidr": 218,
+    "ip_cidr6": 15,
+    "process_name": 104
+   },
+   "slug": "dmca",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|dmm": {
+   "blob_sha": "6d1ebe268764837a7609be4f8587c4cf5e72f76b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/dmm.list",
+   "rule_count": 30,
+   "rule_types": {
+    "domain_suffix": 28,
+    "ip_cidr": 2
+   },
+   "slug": "dmm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|douyin": {
+   "blob_sha": "e3121ed596cd7a46b0883ba27f376ca2e4a7ee1a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/douyin.list",
+   "rule_count": 51,
+   "rule_types": {
+    "domain_suffix": 51
+   },
+   "slug": "douyin",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|ecommerce": {
+   "blob_sha": "02ebaf8304662dad6c36fe3d8f42be09bddc8b39",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/ecommerce.list",
+   "rule_count": 1533,
+   "rule_types": {
+    "domain": 2,
+    "domain_regex": 3,
+    "domain_suffix": 1512,
+    "ip_cidr": 15,
+    "process_name": 1
+   },
+   "slug": "ecommerce",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|forum": {
+   "blob_sha": "aae35d6f4325c033f1b8df98cdc862f03e007abd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/forum.list",
+   "rule_count": 108,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 106
+   },
+   "slug": "forum",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|games": {
+   "blob_sha": "f377606efc8ac9122ef4f8bd37af7597f15684a2",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/games.list",
+   "rule_count": 991,
+   "rule_types": {
+    "domain": 78,
+    "domain_keyword": 4,
+    "domain_regex": 4,
+    "domain_suffix": 859,
+    "ip_cidr": 46
+   },
+   "slug": "games",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|games-cn": {
+   "blob_sha": "91b0dfcb704b670515c91f2473d8dc7707e37289",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/games-cn.list",
+   "rule_count": 103,
+   "rule_types": {
+    "domain": 19,
+    "domain_regex": 3,
+    "domain_suffix": 81
+   },
+   "slug": "games-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|gits": {
+   "blob_sha": "c52d2054cfa1a5ab72df607483bc3ac89a035914",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/gits.list",
+   "rule_count": 76,
+   "rule_types": {
+    "domain": 27,
+    "domain_keyword": 1,
+    "domain_suffix": 48
+   },
+   "slug": "gits",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|google": {
+   "blob_sha": "4c06491786fde389386cd38699758000959464d5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/google.list",
+   "rule_count": 8697,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 5,
+    "domain_suffix": 877,
+    "ip_cidr": 2923,
+    "ip_cidr6": 4886,
+    "process_name": 5
+   },
+   "slug": "google",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|googlefcm": {
+   "blob_sha": "1d1127c05a451ee945aedc6704f20310c5ad901d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/googlefcm.list",
+   "rule_count": 41,
+   "rule_types": {
+    "domain": 15,
+    "ip_cidr": 26
+   },
+   "slug": "googlefcm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|hbo": {
+   "blob_sha": "d3d84268c057885a9ed1e89b5ed728734d95d316",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/hbo.list",
+   "rule_count": 89,
+   "rule_types": {
+    "domain_suffix": 88,
+    "process_name": 1
+   },
+   "slug": "hbo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|httpdns": {
+   "blob_sha": "ea692e7486cc13e42e31a2d73e3a4d54752c1327",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/httpdns.list",
+   "rule_count": 101,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 49,
+    "ip_cidr": 39,
+    "ip_cidr6": 4
+   },
+   "slug": "httpdns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|hulu": {
+   "blob_sha": "69c4831c7321b19d9b29eafc9034bb9a612428da",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/hulu.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain": 1,
+    "domain_suffix": 57,
+    "process_name": 1
+   },
+   "slug": "hulu",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|iplocation-direct": {
+   "blob_sha": "0b03b8d71f31784ff67efd25e50c07bf3857ded5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/iplocation-direct.list",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 20
+   },
+   "slug": "iplocation-direct",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|iplocation-proxy": {
+   "blob_sha": "3bc6503071235b57049fde6217977a3842d9b795",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/iplocation-proxy.list",
+   "rule_count": 162,
+   "rule_types": {
+    "domain": 44,
+    "domain_keyword": 14,
+    "domain_suffix": 31,
+    "ip_cidr": 73
+   },
+   "slug": "iplocation-proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|microsoft": {
+   "blob_sha": "f5346d3297a73de400483ff8c8374ad25dc69c2f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/microsoft.list",
+   "rule_count": 769,
+   "rule_types": {
+    "domain": 8,
+    "domain_keyword": 4,
+    "domain_suffix": 755,
+    "process_name": 2
+   },
+   "slug": "microsoft",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|microsoft-cn": {
+   "blob_sha": "8f6f917ff0092362d2b0dc6e09b768535626d7c9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/microsoft-cn.list",
+   "rule_count": 190,
+   "rule_types": {
+    "domain": 51,
+    "domain_suffix": 139
+   },
+   "slug": "microsoft-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|mytvsuper": {
+   "blob_sha": "acbd1eb3224bb0e360bf0ac498de7d05334105eb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/mytvsuper.list",
+   "rule_count": 6,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 2,
+    "domain_suffix": 2
+   },
+   "slug": "mytvsuper",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|netflix": {
+   "blob_sha": "179fc016bf71cf76a646f8a5c2d44f04c1b44a97",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/netflix.list",
+   "rule_count": 1160,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 4,
+    "domain_regex": 4,
+    "domain_suffix": 30,
+    "ip_cidr": 1115,
+    "ip_cidr6": 4,
+    "process_name": 1
+   },
+   "slug": "netflix",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|niconico": {
+   "blob_sha": "69cbdf97773d850663b9c267e94496439e976426",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/niconico.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain_suffix": 9
+   },
+   "slug": "niconico",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|onedrive": {
+   "blob_sha": "3913c62a5aee8f57651498a16744c7cd494b2423",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/onedrive.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 3,
+    "domain_suffix": 16,
+    "process_name": 2
+   },
+   "slug": "onedrive",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|paypal": {
+   "blob_sha": "7534d0a41ea416d13e8af58cf58ae146f26b0b5d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/paypal.list",
+   "rule_count": 247,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 246
+   },
+   "slug": "paypal",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|primevideo": {
+   "blob_sha": "f5c128302dccaa3078ce6cdd5a03f5469a829d7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/primevideo.list",
+   "rule_count": 31,
+   "rule_types": {
+    "domain": 14,
+    "domain_keyword": 1,
+    "domain_suffix": 16
+   },
+   "slug": "primevideo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|private": {
+   "blob_sha": "69a127ed5f817ac85103c3426441890d25daa0b7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/private.list",
+   "rule_count": 151,
+   "rule_types": {
+    "domain": 9,
+    "domain_regex": 1,
+    "domain_suffix": 123,
+    "ip_cidr": 14,
+    "ip_cidr6": 4
+   },
+   "slug": "private",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|proxy": {
+   "blob_sha": "c2629b9450ee76578c33dd488c385b2349152d3d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "global",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/proxy.list",
+   "rule_count": 29836,
+   "rule_types": {
+    "domain": 118,
+    "domain_keyword": 42,
+    "domain_regex": 135,
+    "domain_suffix": 29420,
+    "ip_cidr": 112,
+    "ip_cidr6": 4,
+    "process_name": 5
+   },
+   "slug": "proxy",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|socialmedia": {
+   "blob_sha": "e101575bbf093024b3a2cc4baeb8eb9112130e1b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/socialmedia.list",
+   "rule_count": 849,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 5,
+    "domain_suffix": 771,
+    "ip_cidr": 63,
+    "ip_cidr6": 4
+   },
+   "slug": "socialmedia",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|socialmedia-cn": {
+   "blob_sha": "c984ae4626a35d636a6025532d3e5cf48880206e",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/socialmedia-cn.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 53,
+    "ip_cidr": 4,
+    "ip_cidr6": 1
+   },
+   "slug": "socialmedia-cn",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|speedtest": {
+   "blob_sha": "92a7a5d508dddaf396471ac5aebd0d7f1c5ad08f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/speedtest.list",
+   "rule_count": 9209,
+   "rule_types": {
+    "domain": 9000,
+    "domain_keyword": 6,
+    "domain_suffix": 201,
+    "process_name": 2
+   },
+   "slug": "speedtest",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|spotify": {
+   "blob_sha": "d25d2d5a6191b7217f569d2d905b5cfd2e79e9bd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/spotify.list",
+   "rule_count": 33,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 1,
+    "domain_suffix": 23,
+    "ip_cidr": 2,
+    "process_name": 1
+   },
+   "slug": "spotify",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|talkatone": {
+   "blob_sha": "b1ad7947874b3337f25b00ef94c805791a80bca7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/talkatone.list",
+   "rule_count": 17,
+   "rule_types": {
+    "domain_suffix": 12,
+    "ip_cidr": 5
+   },
+   "slug": "talkatone",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|tiktok": {
+   "blob_sha": "dbf4d9f8cbd4512d1fbfe10013957be61e7e5213",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/tiktok.list",
+   "rule_count": 122,
+   "rule_types": {
+    "domain": 7,
+    "domain_keyword": 2,
+    "domain_suffix": 112,
+    "process_name": 1
+   },
+   "slug": "tiktok",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|tld-proxy": {
+   "blob_sha": "839f2d0bc2ec925a1fbcd29fca020683a3c478ef",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "stash/tld-proxy.list",
+   "rule_count": 829,
+   "rule_types": {
+    "domain_suffix": 829
+   },
+   "slug": "tld-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|twitch": {
+   "blob_sha": "2c1f413030c5d013d6c9c1a8d7813b80625999c8",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/twitch.list",
+   "rule_count": 49,
+   "rule_types": {
+    "domain": 26,
+    "domain_keyword": 1,
+    "domain_suffix": 9,
+    "ip_cidr": 11,
+    "ip_cidr6": 1,
+    "process_name": 1
+   },
+   "slug": "twitch",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|stash|youtube": {
+   "blob_sha": "b4144dc3e6be43405a6caf06b00d90137f2bf27c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "stash/youtube.list",
+   "rule_count": 184,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 179,
+    "ip_cidr": 2,
+    "ip_cidr6": 1
+   },
+   "slug": "youtube",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|abema": {
+   "blob_sha": "18f0adce8216cba6977038366cef2d4336514458",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/abema.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 5,
+    "domain_suffix": 16
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|ai": {
+   "blob_sha": "c60e075cede7eb49920d8e386ec4fb0695ce4fdb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/ai.list",
+   "rule_count": 210,
+   "rule_types": {
+    "domain": 42,
+    "domain_keyword": 8,
+    "domain_suffix": 160
+   },
+   "slug": "ai",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|apns": {
+   "blob_sha": "576a5714c979895e7cb6456ac7fe5199981236da",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/apns.list",
+   "rule_count": 13,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 2,
+    "ip_cidr": 5,
+    "ip_cidr6": 4
+   },
+   "slug": "apns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|apple": {
+   "blob_sha": "e32218d7ba577eb4637508a31b68ad59cc71d580",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/apple.list",
+   "rule_count": 1599,
+   "rule_types": {
+    "domain": 12,
+    "domain_keyword": 7,
+    "domain_suffix": 1553,
+    "ip_cidr": 10,
+    "ip_cidr6": 4,
+    "process_name": 13
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|apple-cn": {
+   "blob_sha": "b71fd2fac944231e883d3e545f1ff861892d5433",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/apple-cn.list",
+   "rule_count": 169,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 166
+   },
+   "slug": "apple-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|apple-proxy": {
+   "blob_sha": "fb062c533addbcb7e42e56c56ce1495524eab3e4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/apple-proxy.list",
+   "rule_count": 45,
+   "rule_types": {
+    "domain": 31,
+    "domain_suffix": 13,
+    "process_name": 1
+   },
+   "slug": "apple-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|apple-tv": {
+   "blob_sha": "dc642a69675eef606cafcaedca75b4eed5184279",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/apple-tv.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain": 7,
+    "domain_suffix": 1,
+    "process_name": 1
+   },
+   "slug": "apple-tv",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|bahamut": {
+   "blob_sha": "1999efd03e36f8be02533d4e37ced75e0278fbdd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/bahamut.list",
+   "rule_count": 7,
+   "rule_types": {
+    "domain_suffix": 7
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|bilibili": {
+   "blob_sha": "cdcbd1d383107ae0320acf23e9c2335f80e06d60",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/bilibili.list",
+   "rule_count": 134,
+   "rule_types": {
+    "domain": 53,
+    "domain_suffix": 67,
+    "ip_cidr": 8,
+    "process_name": 6
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|cdn": {
+   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/cdn.list",
+   "rule_count": 6707,
+   "rule_types": {
+    "domain": 4707,
+    "domain_keyword": 21,
+    "domain_suffix": 1911,
+    "domain_wildcard": 68
+   },
+   "slug": "cdn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|cncidr": {
+   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "geo",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/cncidr.list",
+   "rule_count": 18136,
+   "rule_types": {
+    "ip_cidr": 7125,
+    "ip_cidr6": 11011
+   },
+   "slug": "cncidr",
+   "status": "available",
+   "summary": "IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|crypto": {
+   "blob_sha": "0b3ee02a06f27c9ee0bec69d0d6164b21086ccc3",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/crypto.list",
+   "rule_count": 414,
+   "rule_types": {
+    "domain": 9,
+    "domain_keyword": 4,
+    "domain_suffix": 398,
+    "process_name": 3
+   },
+   "slug": "crypto",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|dazn": {
+   "blob_sha": "5cfae4e5b4db53b133d74d3ddf3dc10743b12a7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/dazn.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 20
+   },
+   "slug": "dazn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|disney": {
+   "blob_sha": "843e6c674bda6ceaeae15b501274862957766657",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/disney.list",
+   "rule_count": 236,
+   "rule_types": {
+    "domain_suffix": 234,
+    "process_name": 2
+   },
+   "slug": "disney",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|dmca": {
+   "blob_sha": "3dd5076ced0ab4cb312d44da752c790313cd0ed4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/dmca.list",
+   "rule_count": 1503,
+   "rule_types": {
+    "domain": 178,
+    "domain_keyword": 9,
+    "domain_suffix": 979,
+    "ip_cidr": 218,
+    "ip_cidr6": 15,
+    "process_name": 104
+   },
+   "slug": "dmca",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|dmm": {
+   "blob_sha": "6d1ebe268764837a7609be4f8587c4cf5e72f76b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/dmm.list",
+   "rule_count": 30,
+   "rule_types": {
+    "domain_suffix": 28,
+    "ip_cidr": 2
+   },
+   "slug": "dmm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|douyin": {
+   "blob_sha": "e3121ed596cd7a46b0883ba27f376ca2e4a7ee1a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/douyin.list",
+   "rule_count": 51,
+   "rule_types": {
+    "domain_suffix": 51
+   },
+   "slug": "douyin",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|ecommerce": {
+   "blob_sha": "21ba013d52bf86d4debff42faa36f4303fdc0741",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/ecommerce.list",
+   "rule_count": 1530,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 1512,
+    "ip_cidr": 15,
+    "process_name": 1
+   },
+   "slug": "ecommerce",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|forum": {
+   "blob_sha": "aae35d6f4325c033f1b8df98cdc862f03e007abd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/forum.list",
+   "rule_count": 108,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 106
+   },
+   "slug": "forum",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|games": {
+   "blob_sha": "eba15b72de82c7b43ba1df4a6a2d532dc73671a4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/games.list",
+   "rule_count": 987,
+   "rule_types": {
+    "domain": 78,
+    "domain_keyword": 4,
+    "domain_suffix": 859,
+    "ip_cidr": 46
+   },
+   "slug": "games",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|games-cn": {
+   "blob_sha": "a4c75c63dff744b20e50d7d2f4a2054c31681e01",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/games-cn.list",
+   "rule_count": 100,
+   "rule_types": {
+    "domain": 19,
+    "domain_suffix": 81
+   },
+   "slug": "games-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|gits": {
+   "blob_sha": "c52d2054cfa1a5ab72df607483bc3ac89a035914",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/gits.list",
+   "rule_count": 76,
+   "rule_types": {
+    "domain": 27,
+    "domain_keyword": 1,
+    "domain_suffix": 48
+   },
+   "slug": "gits",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|google": {
+   "blob_sha": "4c06491786fde389386cd38699758000959464d5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/google.list",
+   "rule_count": 8697,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 5,
+    "domain_suffix": 877,
+    "ip_cidr": 2923,
+    "ip_cidr6": 4886,
+    "process_name": 5
+   },
+   "slug": "google",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|googlefcm": {
+   "blob_sha": "1d1127c05a451ee945aedc6704f20310c5ad901d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/googlefcm.list",
+   "rule_count": 41,
+   "rule_types": {
+    "domain": 15,
+    "ip_cidr": 26
+   },
+   "slug": "googlefcm",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|hbo": {
+   "blob_sha": "d3d84268c057885a9ed1e89b5ed728734d95d316",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/hbo.list",
+   "rule_count": 89,
+   "rule_types": {
+    "domain_suffix": 88,
+    "process_name": 1
+   },
+   "slug": "hbo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|httpdns": {
+   "blob_sha": "ea692e7486cc13e42e31a2d73e3a4d54752c1327",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/httpdns.list",
+   "rule_count": 101,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 49,
+    "ip_cidr": 39,
+    "ip_cidr6": 4
+   },
+   "slug": "httpdns",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|hulu": {
+   "blob_sha": "69c4831c7321b19d9b29eafc9034bb9a612428da",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/hulu.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain": 1,
+    "domain_suffix": 57,
+    "process_name": 1
+   },
+   "slug": "hulu",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|iplocation-direct": {
+   "blob_sha": "0b03b8d71f31784ff67efd25e50c07bf3857ded5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/iplocation-direct.list",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 20
+   },
+   "slug": "iplocation-direct",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|iplocation-proxy": {
+   "blob_sha": "3bc6503071235b57049fde6217977a3842d9b795",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/iplocation-proxy.list",
+   "rule_count": 162,
+   "rule_types": {
+    "domain": 44,
+    "domain_keyword": 14,
+    "domain_suffix": 31,
+    "ip_cidr": 73
+   },
+   "slug": "iplocation-proxy",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|microsoft": {
+   "blob_sha": "f5346d3297a73de400483ff8c8374ad25dc69c2f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/microsoft.list",
+   "rule_count": 769,
+   "rule_types": {
+    "domain": 8,
+    "domain_keyword": 4,
+    "domain_suffix": 755,
+    "process_name": 2
+   },
+   "slug": "microsoft",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|microsoft-cn": {
+   "blob_sha": "8f6f917ff0092362d2b0dc6e09b768535626d7c9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/microsoft-cn.list",
+   "rule_count": 190,
+   "rule_types": {
+    "domain": 51,
+    "domain_suffix": 139
+   },
+   "slug": "microsoft-cn",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|mytvsuper": {
+   "blob_sha": "acbd1eb3224bb0e360bf0ac498de7d05334105eb",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/mytvsuper.list",
+   "rule_count": 6,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 2,
+    "domain_suffix": 2
+   },
+   "slug": "mytvsuper",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|netflix": {
+   "blob_sha": "425ac10f290ecfd66d7114d6e2d3d18be70bef83",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/netflix.list",
+   "rule_count": 1156,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 4,
+    "domain_suffix": 30,
+    "ip_cidr": 1115,
+    "ip_cidr6": 4,
+    "process_name": 1
+   },
+   "slug": "netflix",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|niconico": {
+   "blob_sha": "69cbdf97773d850663b9c267e94496439e976426",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/niconico.list",
+   "rule_count": 9,
+   "rule_types": {
+    "domain_suffix": 9
+   },
+   "slug": "niconico",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|onedrive": {
+   "blob_sha": "3913c62a5aee8f57651498a16744c7cd494b2423",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/onedrive.list",
+   "rule_count": 21,
+   "rule_types": {
+    "domain_keyword": 3,
+    "domain_suffix": 16,
+    "process_name": 2
+   },
+   "slug": "onedrive",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|paypal": {
+   "blob_sha": "7534d0a41ea416d13e8af58cf58ae146f26b0b5d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/paypal.list",
+   "rule_count": 247,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 246
+   },
+   "slug": "paypal",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|primevideo": {
+   "blob_sha": "f5c128302dccaa3078ce6cdd5a03f5469a829d7f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/primevideo.list",
+   "rule_count": 31,
+   "rule_types": {
+    "domain": 14,
+    "domain_keyword": 1,
+    "domain_suffix": 16
+   },
+   "slug": "primevideo",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|private": {
+   "blob_sha": "f628842dcb8e457d15901de83ceec59a6c187826",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/private.list",
+   "rule_count": 150,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 123,
+    "ip_cidr": 14,
+    "ip_cidr6": 4
+   },
+   "slug": "private",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|proxy": {
+   "blob_sha": "5a0242b1439bfe59166533136672b29cfd1fdd49",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "global",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/proxy.list",
+   "rule_count": 29701,
+   "rule_types": {
+    "domain": 118,
+    "domain_keyword": 42,
+    "domain_suffix": 29420,
+    "ip_cidr": 112,
+    "ip_cidr6": 4,
+    "process_name": 5
+   },
+   "slug": "proxy",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|socialmedia": {
+   "blob_sha": "e101575bbf093024b3a2cc4baeb8eb9112130e1b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/socialmedia.list",
+   "rule_count": 849,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 5,
+    "domain_suffix": 771,
+    "ip_cidr": 63,
+    "ip_cidr6": 4
+   },
+   "slug": "socialmedia",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|socialmedia-cn": {
+   "blob_sha": "c984ae4626a35d636a6025532d3e5cf48880206e",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/socialmedia-cn.list",
+   "rule_count": 59,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 53,
+    "ip_cidr": 4,
+    "ip_cidr6": 1
+   },
+   "slug": "socialmedia-cn",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|speedtest": {
+   "blob_sha": "92a7a5d508dddaf396471ac5aebd0d7f1c5ad08f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/speedtest.list",
+   "rule_count": 9209,
+   "rule_types": {
+    "domain": 9000,
+    "domain_keyword": 6,
+    "domain_suffix": 201,
+    "process_name": 2
+   },
+   "slug": "speedtest",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|spotify": {
+   "blob_sha": "d25d2d5a6191b7217f569d2d905b5cfd2e79e9bd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/spotify.list",
+   "rule_count": 33,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 1,
+    "domain_suffix": 23,
+    "ip_cidr": 2,
+    "process_name": 1
+   },
+   "slug": "spotify",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|talkatone": {
+   "blob_sha": "b1ad7947874b3337f25b00ef94c805791a80bca7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/talkatone.list",
+   "rule_count": 17,
+   "rule_types": {
+    "domain_suffix": 12,
+    "ip_cidr": 5
+   },
+   "slug": "talkatone",
+   "status": "available",
+   "summary": "Domain + IPv4",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|tiktok": {
+   "blob_sha": "dbf4d9f8cbd4512d1fbfe10013957be61e7e5213",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/tiktok.list",
+   "rule_count": 122,
+   "rule_types": {
+    "domain": 7,
+    "domain_keyword": 2,
+    "domain_suffix": 112,
+    "process_name": 1
+   },
+   "slug": "tiktok",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|tld-proxy": {
+   "blob_sha": "839f2d0bc2ec925a1fbcd29fca020683a3c478ef",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "surge/tld-proxy.list",
+   "rule_count": 829,
+   "rule_types": {
+    "domain_suffix": 829
+   },
+   "slug": "tld-proxy",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|twitch": {
+   "blob_sha": "2c1f413030c5d013d6c9c1a8d7813b80625999c8",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/twitch.list",
+   "rule_count": 49,
+   "rule_types": {
+    "domain": 26,
+    "domain_keyword": 1,
+    "domain_suffix": 9,
+    "ip_cidr": 11,
+    "ip_cidr6": 1,
+    "process_name": 1
+   },
+   "slug": "twitch",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  },
+  "quixoticheart|surge|youtube": {
+   "blob_sha": "b4144dc3e6be43405a6caf06b00d90137f2bf27c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "plain_ruleset",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "surge/youtube.list",
+   "rule_count": 184,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 179,
+    "ip_cidr": 2,
+    "ip_cidr6": 1
+   },
+   "slug": "youtube",
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
+   "validation_mode": "standard"
+  }
+ },
+ "refreshed": 0,
+ "removed": 0,
+ "reused": 288,
+ "source_id": "quixoticheart",
+ "source_sha": "3994d577ba7232ae3c15fd37a17b2a80258048e2",
+ "tier": "B",
+ "validation_mode": "standard"
+}

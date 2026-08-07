@@ -1,0 +1,13 @@
+{
+ "config_hash": "821475876850d90e",
+ "failed": 0,
+ "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+ "records": {},
+ "refreshed": 0,
+ "removed": 0,
+ "reused": 0,
+ "source_id": "hackl0us",
+ "source_sha": null,
+ "tier": "C",
+ "validation_mode": "standard"
+}

@@ -1,0 +1,973 @@
+{
+ "config_hash": "549cec02bfc0b0f4",
+ "failed": 0,
+ "last_success_at": "2026-08-07T17:16:16.005176+00:00",
+ "records": {
+  "metacubex|mihomo|abema": {
+   "blob_sha": "10e0481dc471eb658a252c569eda76a91d6bd3ce",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/abema.yaml",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 21
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|anthropic": {
+   "blob_sha": "e20c75bfaefbd15029b9ed8864aef87e570de17a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/anthropic.yaml",
+   "rule_count": 8,
+   "rule_types": {
+    "domain": 8
+   },
+   "slug": "anthropic",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|apple": {
+   "blob_sha": "5294c528d36ce65c4b754cc8c73d6e5f05e630e4",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/apple.yaml",
+   "rule_count": 1790,
+   "rule_types": {
+    "domain": 1790
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|apple-intelligence": {
+   "blob_sha": "54b33952a61b7902b42177589011786a201bc9a7",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/apple-intelligence.yaml",
+   "rule_count": 5,
+   "rule_types": {
+    "domain": 5
+   },
+   "slug": "apple-intelligence",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|apple-music": {
+   "blob_sha": "c528f7cdb9159ff9df950c6704e5296cc9305788",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/apple-music.yaml",
+   "rule_count": 18,
+   "rule_types": {
+    "domain": 18
+   },
+   "slug": "apple-music",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|aws": {
+   "blob_sha": "2bc8f7f74333fb7c534e61185d0d41b8cfb8459a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/aws.yaml",
+   "rule_count": 74,
+   "rule_types": {
+    "domain": 74
+   },
+   "slug": "aws",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|azure": {
+   "blob_sha": "9319d227d792e7e09d5334a17bd796646ae8c58a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/azure.yaml",
+   "rule_count": 151,
+   "rule_types": {
+    "domain": 151
+   },
+   "slug": "azure",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|bahamut": {
+   "blob_sha": "0f582c53f7139be3c975396144ba2846cb275308",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/bahamut.yaml",
+   "rule_count": 5,
+   "rule_types": {
+    "domain": 5
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|bilibili": {
+   "blob_sha": "dbbe226b5eb91c5af18da5913a06641958cd4036",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/bilibili.yaml",
+   "rule_count": 53,
+   "rule_types": {
+    "domain": 53
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|binance": {
+   "blob_sha": "47d82f60ddeee01adeaca0be244dbde4e06753dc",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/binance.yaml",
+   "rule_count": 45,
+   "rule_types": {
+    "domain": 45
+   },
+   "slug": "binance",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|blizzard": {
+   "blob_sha": "9dd8389f1317b69bb7072da4d402ca8d5f329fb0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/blizzard.yaml",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 23
+   },
+   "slug": "blizzard",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|bloomberg": {
+   "blob_sha": "a584513bfae13d7337e94556407702ffa4c98100",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/bloomberg.yaml",
+   "rule_count": 61,
+   "rule_types": {
+    "domain": 61
+   },
+   "slug": "bloomberg",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|category-ads-all": {
+   "blob_sha": "fa9cb9e770b0c536652827dd5534007b652eb0a1",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geosite/category-ads-all.yaml",
+   "rule_count": 888,
+   "rule_types": {
+    "domain": 888
+   },
+   "slug": "category-ads-all",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|cf": {
+   "blob_sha": "fd95327e060b7a5b06bed9e56f7f40e8c812408e",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/cf.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "cf",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|do": {
+   "blob_sha": "0898d25cb5a3fba374d215ec93cd4b0f7d30b1d4",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/do.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "do",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|facebook": {
+   "blob_sha": "bd51ee37a2635111e9354a56290c2f251ac3af57",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 4,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "facebook",
+   "status": "warning",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|ga": {
+   "blob_sha": "a2f69d6688ee1f47941b838fe104e65b729e226d",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/ga.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "ga",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|gh": {
+   "blob_sha": "ec5e14712cc95dad28ae054670d0b7f212240c77",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/gh.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "gh",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|google": {
+   "blob_sha": "c10c1a55f01927215c8ecb63a04fbe72b8b461f3",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 4,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "google",
+   "status": "warning",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|gs": {
+   "blob_sha": "7137a3b92cfab70755178953cc1be6ce4ea47ecb",
+   "count_available": true,
+   "errors": [
+    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/gs.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "gs",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|ms": {
+   "blob_sha": "870da5b3b7b98afbe7da019079a18d8cd551c549",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/ms.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "ms",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|nf": {
+   "blob_sha": "6fd030f04f860b24d49da2676cb55ad8bde0fe15",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/nf.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "nf",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|so": {
+   "blob_sha": "7bc3fdccd2d2bd0a23424fedfdc94c5dbbae5674",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/so.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "so",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|tg": {
+   "blob_sha": "42fe17f9a1b52520e784995a52665357d325b67e",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/tg.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "tg",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|twitter": {
+   "blob_sha": "9a94f667a25f26e252bafb54fdeef04483bc2e1f",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/twitter.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "twitter",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|mihomo|yt": {
+   "blob_sha": "45ce5665219c4e056cb5f3ace17ad31531ce69da",
+   "count_available": true,
+   "errors": [
+    "no parseable rules"
+   ],
+   "failure_count": 1,
+   "format": "clash_yaml",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": null,
+   "path": "geo/geoip/yt.yaml",
+   "rule_count": null,
+   "rule_types": null,
+   "slug": "yt",
+   "status": "unavailable",
+   "summary": null,
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|abema": {
+   "blob_sha": "f7e48a1de175390779e5bbc9fbafa84d366b5525",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/abema.json",
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 5,
+    "domain_suffix": 16
+   },
+   "slug": "abema",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|anthropic": {
+   "blob_sha": "8acd67f92bc4ec264a42052bfaf27eb8f7c1ddcd",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/anthropic.json",
+   "rule_count": 8,
+   "rule_types": {
+    "domain": 1,
+    "domain_suffix": 7
+   },
+   "slug": "anthropic",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|apple": {
+   "blob_sha": "ce3c27cf1f9d9d9e137392fc1da76a08d10bcf6d",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/apple.json",
+   "rule_count": 1792,
+   "rule_types": {
+    "domain": 251,
+    "domain_suffix": 1541
+   },
+   "slug": "apple",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|apple-intelligence": {
+   "blob_sha": "1eccacca6a839a075ae997b076570ae15cdfbb84",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/apple-intelligence.json",
+   "rule_count": 5,
+   "rule_types": {
+    "domain": 5
+   },
+   "slug": "apple-intelligence",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|apple-music": {
+   "blob_sha": "b4a3a1c8abc488e616936535078b14d08b25a4c5",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/apple-music.json",
+   "rule_count": 18,
+   "rule_types": {
+    "domain": 7,
+    "domain_suffix": 11
+   },
+   "slug": "apple-music",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|aws": {
+   "blob_sha": "9be9256de108a2851ee309c8199c6b22b439d510",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/aws.json",
+   "rule_count": 77,
+   "rule_types": {
+    "domain_regex": 3,
+    "domain_suffix": 74
+   },
+   "slug": "aws",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|azure": {
+   "blob_sha": "7b70ff22a03cd35fbd27aab3b68b16debc69a8e0",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/azure.json",
+   "rule_count": 151,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 149
+   },
+   "slug": "azure",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|bahamut": {
+   "blob_sha": "9371f63450c2ee0f81e36e0f0aa39adf370ed727",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/bahamut.json",
+   "rule_count": 5,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 3
+   },
+   "slug": "bahamut",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|bilibili": {
+   "blob_sha": "5d01c6a860db1385c430e660755eaa647e701742",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/bilibili.json",
+   "rule_count": 53,
+   "rule_types": {
+    "domain": 1,
+    "domain_suffix": 52
+   },
+   "slug": "bilibili",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|binance": {
+   "blob_sha": "fda06f799b721415a7181a91bec2e8e4dd51b01f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/binance.json",
+   "rule_count": 45,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 43
+   },
+   "slug": "binance",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|blizzard": {
+   "blob_sha": "862ee77f7415303396f4544da90e320df145ad7e",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/blizzard.json",
+   "rule_count": 23,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 14
+   },
+   "slug": "blizzard",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|bloomberg": {
+   "blob_sha": "bc4929993a5a0ea058c4bd31ed4a897a143c7de9",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geosite/bloomberg.json",
+   "rule_count": 61,
+   "rule_types": {
+    "domain_suffix": 61
+   },
+   "slug": "bloomberg",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|category-ads-all": {
+   "blob_sha": "4f631ad3fb911f1395fe81f9097e5e7202457c8f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geosite/category-ads-all.json",
+   "rule_count": 891,
+   "rule_types": {
+    "domain": 162,
+    "domain_regex": 1,
+    "domain_suffix": 728
+   },
+   "slug": "category-ads-all",
+   "status": "available",
+   "summary": "Domain",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|cf": {
+   "blob_sha": "b897c9c9a1815b752aa100ca4b8b3ec33c066d94",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/cf.json",
+   "rule_count": 113,
+   "rule_types": {
+    "ip_cidr": 113
+   },
+   "slug": "cf",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|do": {
+   "blob_sha": "5bcdaffd5ae25a6cd2ad5e9c5a1db8a882f03dac",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/do.json",
+   "rule_count": 1009,
+   "rule_types": {
+    "ip_cidr": 1009
+   },
+   "slug": "do",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|facebook": {
+   "blob_sha": "f989f23e1f287647aca0ddc3eb63525e969ac8a1",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geoip/facebook.json",
+   "rule_count": 120,
+   "rule_types": {
+    "ip_cidr": 120
+   },
+   "slug": "facebook",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|ga": {
+   "blob_sha": "5f20f95dbf2d349db28c26244064084083195819",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/ga.json",
+   "rule_count": 150,
+   "rule_types": {
+    "ip_cidr": 150
+   },
+   "slug": "ga",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|gh": {
+   "blob_sha": "363e34e6bdc381a66eea6818caee70fa511b3449",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/gh.json",
+   "rule_count": 551,
+   "rule_types": {
+    "ip_cidr": 551
+   },
+   "slug": "gh",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|google": {
+   "blob_sha": "2b56466d0cec7f8a794b4daa166ba15c08ef8e6c",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:28:29.550052+00:00",
+   "last_success_at": "2026-08-07T17:28:29.550052+00:00",
+   "path": "geo/geoip/google.json",
+   "rule_count": 7809,
+   "rule_types": {
+    "ip_cidr": 7809
+   },
+   "slug": "google",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|gs": {
+   "blob_sha": "047dc6a9b066392213813daec3f725f8c83fc77f",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/gs.json",
+   "rule_count": 29,
+   "rule_types": {
+    "ip_cidr": 29
+   },
+   "slug": "gs",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|ms": {
+   "blob_sha": "7aa9c1ad1cf19c35c0ab050f4e051a836d99676a",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/ms.json",
+   "rule_count": 92,
+   "rule_types": {
+    "ip_cidr": 92
+   },
+   "slug": "ms",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|nf": {
+   "blob_sha": "4478cfccf563c8bd9d8a30a420a47f950aa98f6b",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/nf.json",
+   "rule_count": 102,
+   "rule_types": {
+    "ip_cidr": 102
+   },
+   "slug": "nf",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|so": {
+   "blob_sha": "521e3a5bf3d068fd272eced02f208a646f630c47",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "app",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/so.json",
+   "rule_count": 183,
+   "rule_types": {
+    "ip_cidr": 183
+   },
+   "slug": "so",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|tg": {
+   "blob_sha": "bf78e81ece8391eefe651bcc66f00b35be68b798",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/tg.json",
+   "rule_count": 141,
+   "rule_types": {
+    "ip_cidr": 141
+   },
+   "slug": "tg",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|twitter": {
+   "blob_sha": "a87cfb875cfd70828e2929d0dab0a3e9e82534aa",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/twitter.json",
+   "rule_count": 20,
+   "rule_types": {
+    "ip_cidr": 20
+   },
+   "slug": "twitter",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  },
+  "metacubex|sing-box|yt": {
+   "blob_sha": "4e5638ee277f7530e1678bbaffe4cf7194aae4ba",
+   "count_available": true,
+   "failure_count": 0,
+   "format": "ruleset_json",
+   "granularity": "category",
+   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "path": "geo/geoip/yt.json",
+   "rule_count": 122,
+   "rule_types": {
+    "ip_cidr": 122
+   },
+   "slug": "yt",
+   "status": "available",
+   "summary": "IPv4",
+   "validation_mode": "standard"
+  }
+ },
+ "refreshed": 0,
+ "removed": 0,
+ "reused": 52,
+ "source_id": "metacubex",
+ "source_sha": "4178770badecb1b349fbcd62c737e0d7a2079729",
+ "tier": "A",
+ "validation_mode": "standard"
+}

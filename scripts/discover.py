@@ -150,21 +150,83 @@ def discover(client: GitHub, cfg) -> list[dict]:
     candidates: list[dict] = []
     enabled = [s for s in cfg.sources if s.get("enabled", True)]
     for source in enabled:
-        provider = source["id"]
-        tier = source.get("tier", "C")
-        repo = source["repo"]
-        scan = source.get("scan", {})
-        mode = scan.get("mode", "repo_dirs")
-        branch = scan.get("branch", "master")
-
-        try:
-            got = _discover_one(client, source, provider, tier, repo, scan, mode, branch)
-        except Exception as exc:  # noqa: BLE001
-            print(f"  [discover] ERROR {provider}: {exc}")
-            got = []
-        candidates.extend(got)
-
+        candidates.extend(discover_source(client, source))
     return candidates
+
+
+def discover_source(client: GitHub, source: dict) -> list[dict]:
+    """Discover candidates for a single source (used by incremental scans)."""
+    provider = source["id"]
+    tier = source.get("tier", "C")
+    repo = source["repo"]
+    scan = source.get("scan", {})
+    mode = scan.get("mode", "repo_dirs")
+    branch = scan.get("branch", "master")
+    try:
+        if mode == "kelee_catalog":
+            return _discover_kelee_catalog(source, tier)
+        return _discover_one(client, source, provider, tier, repo, scan, mode, branch)
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [discover] ERROR {provider}: {exc}")
+        return []
+
+
+def _discover_kelee_catalog(source: dict, tier: str) -> list[dict]:
+    """Fetch KeLee's rule name catalog from the catalog README.
+
+    Produces candidates that are NOT content-probed (validation_mode: special).
+    """
+    import re
+
+    import requests
+
+    cat_url = source.get("catalog_url")
+    if not cat_url:
+        return []
+    try:
+        r = requests.get(cat_url, timeout=60,
+                         headers={"User-Agent": "Mozilla/5.0 rule-index-checker"})
+        if r.status_code != 200:
+            return []
+        text = r.text
+    except requests.RequestException:
+        return []
+
+    names = set()
+    for m in re.finditer(r"rule\.kelee\.one/(?:Loon|Clash)/([^/)\s\"']+?)(?:\.lsr|\.yaml)", text):
+        names.add(m.group(1))
+    for m in re.finditer(r"\[\[Loon\]\s+([^\]]+)\]\([^)]*?Loon/([^)]+?)\.lsr\)", text):
+        names.add(m.group(2))
+
+    out = []
+    for name in sorted(names):
+        for ckey, ccfg in source.get("clients", {}).items():
+            pattern = ccfg.get("url_pattern", "")
+            url = pattern.format(name=name)
+            fmt = ccfg.get("format", "loon_ruleset")
+            ext = url.rsplit(".", 1)[-1]
+            path = f"Loon/{name}.lsr" if ckey == "loon" else f"Clash/{name}.yaml"
+            out.append(
+                {
+                    "provider": source["id"],
+                    "tier": tier,
+                    "repo": source["repo"],
+                    "branch": "main",
+                    "path": path,
+                    "file_name": f"{name}.{ext}",
+                    "file_stem": name,
+                    "slug": name,
+                    "ext": ext,
+                    "client": normalize_client(ckey),
+                    "size": 0,
+                    "url": url,
+                    "resolve_variant": False,
+                    "source_type": "kelee_catalog",
+                    "validation_mode": "special",
+                }
+            )
+    print(f"  [discover] kelee catalog names: {len(names)} -> candidates: {len(out)}")
+    return out
 
 
 def is_dir(e: dict) -> bool:
@@ -220,6 +282,7 @@ def _discover_one(client, source, provider, tier, repo, scan, mode, branch) -> l
                                 "ext": ext,
                                 "client": cclient,
                                 "size": f.get("size", 0),
+                                "blob_sha": f.get("sha"),
                                 "url": raw_url(repo, branch, f["path"]),
                                 "resolve_variant": rv,
                                 "source_type": "repo_dir",
@@ -251,6 +314,7 @@ def _discover_one(client, source, provider, tier, repo, scan, mode, branch) -> l
                             "ext": ext,
                             "client": cclient,
                             "size": f.get("size", 0),
+                            "blob_sha": f.get("sha"),
                             "url": raw_url(repo, branch, f["path"]),
                             "resolve_variant": rv,
                             "source_type": "repo_dir",
@@ -315,6 +379,7 @@ def _discover_one(client, source, provider, tier, repo, scan, mode, branch) -> l
                             "ext": ext,
                             "client": bclient,
                             "size": f.get("size", 0),
+                            "blob_sha": f.get("sha"),
                             "url": raw_url(repo, bname, f["path"]),
                             "resolve_variant": False,
                             "source_type": "repo_dir",

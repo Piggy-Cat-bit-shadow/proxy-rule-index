@@ -173,6 +173,16 @@ class GitHub:
             pass
         return {"full_name": repo}
 
+    def branch_sha(self, repo: str, branch: str) -> str | None:
+        """Get the latest commit sha for a branch (source-level fingerprint)."""
+        try:
+            data = self.api(f"repos/{repo}/branches/{quote(branch)}")
+            if isinstance(data, dict):
+                return data.get("commit", {}).get("sha")
+        except Exception:
+            pass
+        return None
+
     def latest_release(self, repo: str) -> dict | None:
         try:
             rel = self.api(f"repos/{repo}/releases/latest")

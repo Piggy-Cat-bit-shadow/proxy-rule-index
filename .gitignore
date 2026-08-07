@@ -16,4 +16,7 @@ reports/
 # deploy-site/ 是开发预览目录, 部署时由 dist/ 承担
 deploy-site/
 
-# dist/ 需要入库: 工作流生成后提交, 用于 GitHub Pages 部署与无变化检测
+# .snapshot/ 是工作副本, 可从 generated/ shards 恢复, 不入库
+.snapshot/
+
+# generated/ 和 dist/ 需要入库: CI 增量复用 + Pages 部署都依赖它们

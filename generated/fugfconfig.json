@@ -1,0 +1,13 @@
+{
+ "config_hash": "530e05166bf2f904",
+ "failed": 0,
+ "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+ "records": {},
+ "refreshed": 0,
+ "removed": 0,
+ "reused": 0,
+ "source_id": "fugfconfig",
+ "source_sha": "12d0fccdc25c18a8dd43a606884104a54e0ecae2",
+ "tier": "C",
+ "validation_mode": "standard"
+}

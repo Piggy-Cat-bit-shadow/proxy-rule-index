@@ -6,55 +6,43 @@
 <title>Rule Index — 代理规则搜索</title>
 <style>
 :root {
-  --bg: #0f1117;
-  --card: #171a23;
-  --card2: #1d2130;
-  --border: #2a2f3e;
-  --text: #e6e8ee;
-  --muted: #8b91a3;
-  --accent: #4f8cff;
-  --green: #3ecf8e;
-  --amber: #f5a623;
-  --red: #ff5d5d;
-  --purple: #b07cff;
+  --bg: #0f1117; --card: #171a23; --card2: #1d2130; --border: #2a2f3e;
+  --text: #e6e8ee; --muted: #8b91a3; --accent: #4f8cff;
+  --green: #3ecf8e; --amber: #f5a623; --red: #ff5d5d; --purple: #b07cff;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { min-height: 100%; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-  background: var(--bg); color: var(--text); min-height: 100vh;
+  background: var(--bg); color: var(--text);
 }
-header {
-  padding: 32px 24px 20px; max-width: 880px; margin: 0 auto;
-}
-header h1 { font-size: 22px; letter-spacing: 0.5px; }
-header p { color: var(--muted); font-size: 13px; margin-top: 6px; }
-.clients {
-  display: flex; gap: 10px; flex-wrap: wrap;
-  padding: 16px 24px; max-width: 880px; margin: 0 auto;
-}
+header { padding: 28px 20px 14px; max-width: 920px; margin: 0 auto; }
+header h1 { font-size: 20px; }
+header p { color: var(--muted); font-size: 13px; margin-top: 5px; }
+.clients { display: flex; gap: 8px; flex-wrap: wrap; padding: 14px 20px; max-width: 920px; margin: 0 auto; }
 .client-btn {
   background: var(--card); border: 1px solid var(--border); color: var(--text);
-  padding: 10px 18px; border-radius: 10px; font-size: 14px; cursor: pointer;
-  transition: all 0.15s;
+  padding: 9px 16px; border-radius: 10px; font-size: 13.5px; cursor: pointer;
+  min-height: 40px; transition: all 0.15s;
 }
 .client-btn:hover { border-color: var(--accent); }
 .client-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
-.search-wrap { max-width: 880px; margin: 8px auto 0; padding: 0 24px; }
+.search-wrap { max-width: 920px; margin: 4px auto 0; padding: 0 20px; }
 .search-wrap input {
-  width: 100%; padding: 14px 18px; border-radius: 12px;
+  width: 100%; padding: 13px 16px; border-radius: 12px;
   background: var(--card); border: 1px solid var(--border); color: var(--text);
-  font-size: 16px; outline: none;
+  font-size: 15.5px; outline: none;
 }
 .search-wrap input:focus { border-color: var(--accent); }
-main { max-width: 880px; margin: 24px auto 60px; padding: 0 24px; }
-.svc-title { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
-.svc-sub { color: var(--muted); font-size: 13px; margin-bottom: 18px; }
+main { max-width: 920px; margin: 20px auto 60px; padding: 0 20px; }
+.svc-title { font-size: 19px; font-weight: 700; margin-bottom: 4px; }
+.svc-sub { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
 .rec {
   background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-  padding: 16px 18px; margin-bottom: 12px;
+  padding: 15px 17px; margin-bottom: 11px;
 }
 .rec-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
-.rec-provider { font-size: 15px; font-weight: 600; }
+.rec-provider { font-size: 14.5px; font-weight: 600; }
 .rec-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
 .tag {
   font-size: 11px; padding: 3px 8px; border-radius: 20px;
@@ -70,13 +58,43 @@ main { max-width: 880px; margin: 24px auto 60px; padding: 0 24px; }
 .status-warn { color: var(--amber); font-weight: 600; }
 .status-unavail { color: var(--red); font-weight: 600; }
 .rec-url {
-  margin-top: 10px; font-size: 12px; color: var(--muted);
-  word-break: break-all; padding: 8px 10px; background: var(--card2);
-  border-radius: 8px; border: 1px solid var(--border);
+  margin-top: 10px; font-size: 11.5px; color: var(--muted); word-break: break-all;
+  padding: 7px 10px; background: var(--card2); border-radius: 8px; border: 1px solid var(--border);
+  display: flex; align-items: center; gap: 8px; justify-content: space-between;
 }
-.rec-url code { color: var(--muted); }
+.rec-url code { color: var(--muted); word-break: break-all; }
+.copy-btn {
+  flex-shrink: 0; background: var(--card2); border: 1px solid var(--border); color: var(--muted);
+  font-size: 11px; padding: 4px 9px; border-radius: 7px; cursor: pointer;
+}
+.copy-btn:hover { color: var(--text); border-color: var(--accent); }
 .empty { color: var(--muted); text-align: center; padding: 40px 0; font-size: 14px; }
-footer { color: var(--muted); font-size: 11px; text-align: center; padding: 24px; border-top: 1px solid var(--border); }
+.error-box {
+  background: rgba(255,93,93,0.08); border: 1px solid var(--red); color: var(--red);
+  padding: 16px; border-radius: 12px; text-align: center; font-size: 14px;
+}
+.error-box button {
+  margin-top: 10px; background: var(--card); border: 1px solid var(--border); color: var(--text);
+  padding: 8px 18px; border-radius: 9px; cursor: pointer; font-size: 13px;
+}
+.more-btn {
+  display: block; margin: 10px auto 0; background: var(--card); border: 1px solid var(--border);
+  color: var(--muted); padding: 9px 22px; border-radius: 10px; cursor: pointer; font-size: 13px;
+}
+.more-btn:hover { color: var(--text); border-color: var(--accent); }
+footer { color: var(--muted); font-size: 11px; text-align: center; padding: 22px; border-top: 1px solid var(--border); }
+.spinner {
+  display: inline-block; width: 22px; height: 22px; border: 3px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.centered { display: flex; justify-content: center; padding: 40px 0; }
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f7f8fa; --card: #ffffff; --card2: #f0f2f5; --border: #dfe3ea;
+    --text: #1a1d24; --muted: #6b7280;
+  }
+}
 </style>
 </head>
 <body>
@@ -87,7 +105,7 @@ footer { color: var(--muted); font-size: 11px; text-align: center; padding: 24px
 
 <div class="clients" id="clientRow"></div>
 <div class="search-wrap">
-  <input id="searchInput" type="text" placeholder="搜索 APP… 例如 Telegram / OpenAI / ChatGPT / YouTube / GitHub" autocomplete="off">
+  <input id="searchInput" type="text" placeholder="搜索 APP…" autocomplete="off" aria-label="搜索 APP">
 </div>
 <main>
   <div id="result"></div>
@@ -95,6 +113,7 @@ footer { color: var(--muted); font-size: 11px; text-align: center; padding: 24px
 <footer id="footer"></footer>
 
 <script>
+"use strict";
 const CLIENTS = [
   { id: "surge", label: "Surge" },
   { id: "loon", label: "Loon" },
@@ -104,142 +123,246 @@ const CLIENTS = [
   { id: "sing-box", label: "sing-box / Box" },
 ];
 
-let catalog = [];
-let services = [];
-let stats = {};
-let activeClient = "surge";
-let query = "";
+const DEFAULT_LIMIT = 30;
+const GRAN_LABEL = { app: "APP 专用", "service-family": "服务族", category: "分类规则", geo: "Geo", ads: "广告", global: "Global 兜底", special: "专项" };
+const SUPPORT_LABEL = { native: "Native", compatible: "Compatible", converted: "Converted" };
+const SPEC_RANK = { app: 0, "service-family": 1, category: 2, geo: 3, ads: 3, special: 3, global: 4 };
+const STATUS_RANK = { available: 0, special: 0, warning: 1, unavailable: 2 };
+const SUPPORT_RANK = { native: 0, compatible: 1, converted: 2 };
+const TIER_RANK = { A: 0, B: 1, C: 2 };
 
-const clientRow = document.getElementById("clientRow");
-CLIENTS.forEach(c => {
-  const btn = document.createElement("button");
-  btn.className = "client-btn" + (c.id === activeClient ? " active" : "");
-  btn.textContent = c.label;
-  btn.onclick = () => { activeClient = c.id; renderClients(); doSearch(); };
-  clientRow.appendChild(btn);
-});
+let manifest = null, services = null, stats = null;
+let healthMap = {};        // key -> {status, last_checked_at, last_success_at, failure_count}
+let catalog = null;        // active client shard
+let activeClient = null;
+let query = "";
+let limit = DEFAULT_LIMIT;
+
+const els = {
+  clientRow: document.getElementById("clientRow"),
+  search: document.getElementById("searchInput"),
+  result: document.getElementById("result"),
+  footer: document.getElementById("footer"),
+};
+
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
+
+function params() {
+  const p = new URLSearchParams(location.search);
+  return { client: p.get("client"), q: p.get("q") };
+}
+
+function applyStateToUrl() {
+  const p = new URLSearchParams();
+  if (activeClient) p.set("client", activeClient);
+  if (query.trim()) p.set("q", query.trim());
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+}
+
 function renderClients() {
-  document.querySelectorAll(".client-btn").forEach((b, i) => {
-    b.classList.toggle("active", CLIENTS[i].id === activeClient);
+  els.clientRow.innerHTML = "";
+  CLIENTS.forEach(c => {
+    const btn = document.createElement("button");
+    btn.className = "client-btn" + (c.id === activeClient ? " active" : "");
+    btn.textContent = c.label;
+    btn.setAttribute("aria-pressed", c.id === activeClient ? "true" : "false");
+    btn.onclick = () => setClient(c.id);
+    els.clientRow.appendChild(btn);
   });
 }
 
-const GRAN_LABEL = { app: "APP 专用", "service-family": "服务族", category: "分类规则", geo: "Geo", ads: "广告", global: "Global 兜底", special: "专项" };
-const SUPPORT_LABEL = { native: "Native", compatible: "Compatible", converted: "Converted" };
+async function setClient(id) {
+  if (id === activeClient) return;
+  activeClient = id;
+  renderClients();
+  localStorage.setItem("ri_client", id);
+  applyStateToUrl();
+  try { await loadCatalog(id); } catch (e) { showError("数据加载失败: " + e.message); return; }
+  limit = DEFAULT_LIMIT;
+  doSearch();
+}
 
-function esc(s) { return s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
+async function loadCatalog(id) {
+  if (!manifest || !manifest.clients || !manifest.clients[id]) throw new Error("客户端不存在");
+  const url = manifest.clients[id];
+  els.result.innerHTML = '<div class="centered"><span class="spinner"></span></div>';
+  const resp = await fetch(url, { cache: "no-store" });
+  if (!resp.ok) throw new Error("HTTP " + resp.status);
+  catalog = await resp.json();
+}
+
+function withHealth(r) {
+  const h = healthMap[r.k] || {};
+  return Object.assign({}, r, {
+    status: h.status || "unavailable",
+    last_success_at: h.last_success_at || null,
+    failure_count: h.failure_count || 0,
+  });
+}
+
+function rankTuple(r) {
+  return [
+    SPEC_RANK[r.granularity] ?? 5,
+    STATUS_RANK[r.status] ?? 3,
+    SUPPORT_RANK[r.support] ?? 1,
+    TIER_RANK[r.tier] ?? 3,
+    r.last_success_at || "",
+    -(r.rule_count || 0)
+  ];
+}
+
+function cmp(a, b) {
+  for (let i = 0; i < a.length; i++) { const d = a[i] - b[i]; if (d) return d; }
+  return 0;
+}
 
 function statusHtml(status) {
-  const map = {
-    available: ['status-avail', '✅ 可用'],
-    special: ['status-special', '🟣 特殊访问'],
-    warning: ['status-warn', '⚠️ 警告'],
-    unavailable: ['status-unavail', '❌ 不可用'],
-  };
-  const [cls, txt] = map[status] || ['', status];
-  return `<span class="${cls}">${txt}</span>`;
+  const map = { available: ["status-avail", "✅ 可用"], special: ["status-special", "🟣 特殊访问"], warning: ["status-warn", "⚠️ 警告"], unavailable: ["status-unavail", "❌ 不可用"] };
+  const [cls, txt] = map[status] || ["", status];
+  return `<span class="${cls}">${esc(txt)}</span>`;
+}
+
+function resolveUrl(rec) {
+  // rec: { provider, slug, path }; reconstruct from manifest.source_urls[provider]
+  const u = manifest.source_urls && manifest.source_urls[rec.provider];
+  if (!u) return rec.url || "";
+  if (u.mode === "repo" && rec.path) {
+    return `${u.base}/${u.branch}/${rec.path}`;
+  }
+  if (u.mode === "repo" && u.template) {
+    return `${u.base}/${u.branch}/${u.template.replace("{slug}", encodeURIComponent(rec.slug))}`;
+  }
+  if (u.mode === "base" && rec.path) {
+    return `${u.base}/${rec.path}`;
+  }
+  if (u.mode === "base" && u.template) {
+    return u.template.replace("{slug}", encodeURIComponent(rec.slug));
+  }
+  return rec.url || "";
 }
 
 function doSearch() {
+  applyStateToUrl();
   const q = query.trim().toLowerCase();
-  const out = document.getElementById("result");
+  const out = els.result;
   if (!q) {
     out.innerHTML = '<div class="empty">输入 APP 名称开始搜索</div>';
     return;
   }
-  // find matching services (name/aliases/id)
-  const svcMatches = services.filter(s => {
-    return s.name.toLowerCase().includes(q)
-      || (s.aliases || []).some(a => a.toLowerCase().includes(q))
-      || s.id.includes(q)
-      || s.search_text.includes(q);
-  });
-  // exact match first, then alias, then substring
+  if (!catalog) return;
+
+  // match services (name/aliases/id/search_text)
+  const svcMatches = (services || []).filter(s =>
+    s.name.toLowerCase().includes(q) ||
+    (s.aliases || []).some(a => a.toLowerCase().includes(q)) ||
+    s.id.includes(q) ||
+    s.search_text.includes(q)
+  );
   svcMatches.sort((a, b) => {
     const ae = a.name.toLowerCase() === q ? 0 : (a.aliases || []).some(x => x.toLowerCase() === q) ? 1 : 2;
     const be = b.name.toLowerCase() === q ? 0 : (b.aliases || []).some(x => x.toLowerCase() === q) ? 1 : 2;
     return ae - be;
   });
 
-  if (svcMatches.length === 0) {
+  if (!svcMatches.length) {
     out.innerHTML = `<div class="empty">未找到与 “${esc(q)}” 相关的服务</div>`;
     return;
   }
 
-  let html = "";
-  for (const svc of svcMatches.slice(0, 8)) {
-    // filter by client
-    let recs = catalog.filter(r => r.service_id === svc.id && r.client === activeClient);
-    if (recs.length === 0) continue;
-    // sort: status > granularity > native > tier > freshness > count
-    const granRank = { app: 0, "service-family": 1, category: 2, geo: 3, ads: 3, special: 3, global: 4 };
-    const stRank = { available: 0, special: 0, warning: 1, unavailable: 2 };
-    const nativeRank = { native: 0, compatible: 1, converted: 2 };
-    const tierRank = { A: 0, B: 1, C: 2 };
-    recs.sort((x, y) => {
-      const g = (granRank[x.granularity] ?? 5) - (granRank[y.granularity] ?? 5);
-      if (g) return g;
-      const s = (stRank[x.status] ?? 3) - (stRank[y.status] ?? 3);
-      if (s) return s;
-      const n = (nativeRank[x.support] ?? 1) - (nativeRank[y.support] ?? 1);
-      if (n) return n;
-      const t = (tierRank[x.tier] ?? 3) - (tierRank[y.tier] ?? 3);
-      if (t) return t;
-      return (y.rule_count || 0) - (x.rule_count || 0);
-    });
-
-    html += `<div class="svc-title">${esc(svc.name)}</div>`;
-    html += `<div class="svc-sub">${esc(svc.category)} · ${recs.length} 条规则 · ${esc(svc.id)}</div>`;
-    for (const r of recs.slice(0, 10)) {
-      const granTxt = GRAN_LABEL[r.granularity] || r.granularity;
-      const suppTxt = SUPPORT_LABEL[r.support] || r.support;
-      html += `
-        <div class="rec">
-          <div class="rec-top">
-            <span class="rec-provider">${esc(r.provider)}</span>
-            <span>${statusHtml(r.status)}</span>
-          </div>
-          <div class="rec-tags">
-            <span class="tag client">${esc(r.client)}</span>
-            <span class="tag gran">${esc(granTxt)}</span>
-            <span class="tag ${r.support === 'native' ? 'native' : 'compat'}">${esc(suppTxt)}</span>
-            <span class="tag">${r.rule_count != null ? r.rule_count + ' 条' : '— 条'}</span>
-            ${r.rule_type_summary ? `<span class="tag">${esc(r.rule_type_summary)}</span>` : ''}
-            <span class="tag">Tier ${esc(r.tier || '')}</span>
-          </div>
-          <div class="rec-meta">
-            <span>来源: ${esc(r.repo)}</span>
-            <span>验证: ${esc((r.last_checked_at || '').slice(0, 10))}</span>
-          </div>
-          <div class="rec-url"><code>${esc(r.url)}</code></div>
-        </div>`;
-    }
-    html += "<br>";
-  }
-  if (!html) {
-    out.innerHTML = `<div class="empty">“${esc(q)}” 暂无 ${esc(activeClient)} 客户端规则</div>`;
+  const svc = svcMatches[0];
+  const activeRecs = catalog
+    .filter(r => r.service_id === svc.id)
+    .map(withHealth);
+  if (!activeRecs.length) {
+    out.innerHTML = `<div class="empty">“${esc(svc.name)}” 暂无 ${esc(activeClient)} 客户端规则</div>`;
     return;
   }
+
+  // sort by precomputed rank tuple
+  activeRecs.sort((x, y) => cmp(rankTuple(x), rankTuple(y)));
+
+  const shown = activeRecs.slice(0, limit);
+  let html = `<div class="svc-title">${esc(svc.name)}</div>`;
+  html += `<div class="svc-sub">${esc(svc.category)} · ${activeRecs.length} 条规则 · ${svcMatches.length} 个匹配服务</div>`;
+  for (const r of shown) {
+    const granTxt = GRAN_LABEL[r.granularity] || r.granularity;
+    const suppTxt = SUPPORT_LABEL[r.support] || r.support;
+    const countTxt = r.count_available === false
+      ? "规则数量不可获取"
+      : (r.rule_count != null ? r.rule_count + " 条" : "— 条");
+    const typeTxt = r.type_summary || "";
+    const url = resolveUrl(r);
+    html += `
+      <div class="rec">
+        <div class="rec-top">
+          <span class="rec-provider">${esc(r.provider)}</span>
+          <span>${statusHtml(r.status)}</span>
+        </div>
+        <div class="rec-tags">
+          <span class="tag gran">${esc(granTxt)}</span>
+          <span class="tag ${r.support === 'native' ? 'native' : 'compat'}">${esc(suppTxt)}</span>
+          <span class="tag">${esc(countTxt)}</span>
+          ${typeTxt ? `<span class="tag">${esc(typeTxt)}</span>` : ''}
+          <span class="tag">Tier ${esc(r.tier || '')}</span>
+        </div>
+        <div class="rec-meta">
+          <span>来源: ${esc(r.provider)}</span>
+        </div>
+        <div class="rec-url"><code>${esc(url)}</code><button class="copy-btn" data-url="${esc(url)}">复制</button></div>
+      </div>`;
+  }
+  if (activeRecs.length > shown.length) {
+    html += `<button class="more-btn" id="moreBtn">显示更多 (${activeRecs.length - shown.length} 条)</button>`;
+  }
   out.innerHTML = html;
+  const more = document.getElementById("moreBtn");
+  if (more) more.onclick = () => { limit += DEFAULT_LIMIT; doSearch(); };
+  out.querySelectorAll(".copy-btn").forEach(b => {
+    b.onclick = () => {
+      navigator.clipboard.writeText(b.dataset.url).then(() => { b.textContent = "✓ 已复制"; setTimeout(() => b.textContent = "复制", 1200); });
+    };
+  });
 }
 
-document.getElementById("searchInput").addEventListener("input", e => { query = e.target.value; doSearch(); });
+function showError(msg) {
+  els.result.innerHTML = `<div class="error-box">${esc(msg)}<br><button onclick="location.reload()">重试</button></div>`;
+}
+
+els.search.addEventListener("input", e => { query = e.target.value; limit = DEFAULT_LIMIT; doSearch(); });
 
 async function init() {
+  // deep-link client + query
+  const sp = params();
+  const saved = localStorage.getItem("ri_client");
+  const initialClient = sp.client || (CLIENTS.some(c => c.id === saved) ? saved : "surge");
+  if (sp.q) { query = sp.q; els.search.value = sp.q; }
+
   try {
-    const [c, s, st] = await Promise.all([
-      fetch("catalog.json").then(r => r.json()),
-      fetch("services.json").then(r => r.json()),
-      fetch("stats.json").then(r => r.json()),
+    const [m, s, st, h] = await Promise.all([
+      fetch("data/manifest.json", { cache: "no-store" }).then(r => r.json()),
+      fetch("data/services.json", { cache: "no-store" }).then(r => r.json()),
+      fetch("data/stats.json", { cache: "no-store" }).then(r => r.json()),
+      fetch("data/health.json", { cache: "no-store" }).then(r => r.json()).catch(() => ({ records: [] })),
     ]);
-    catalog = c; services = s; stats = st;
-    const foot = document.getElementById("footer");
-    foot.textContent = `${stats.total_rule_files || 0} 条规则 · ${stats.total_services || 0} 个服务 · 最后构建 ${(stats.generated_at || '').slice(0, 10)}`;
-    document.getElementById("searchInput").placeholder = "搜索 APP… 例如 Telegram / OpenAI / ChatGPT / YouTube / GitHub";
-  } catch (err) {
-    document.getElementById("result").innerHTML = `<div class="empty">无法加载数据: ${esc(err.message)}</div>`;
+    manifest = m; services = s; stats = st;
+    (h.records || []).forEach(rec => { healthMap[rec.k] = rec; });
+    els.footer.textContent = `${stats.total_rule_files || 0} 条规则 · ${stats.total_services || 0} 个服务`;
+  } catch (e) {
+    showError("无法加载基础数据: " + e.message);
+    return;
+  }
+
+  renderClients();
+  activeClient = initialClient;
+  try {
+    await loadCatalog(initialClient);
+    doSearch();
+  } catch (e) {
+    showError("数据加载失败: " + e.message);
   }
 }
+
 init();
 </script>
 </body>
