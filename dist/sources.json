@@ -17,9 +17,9 @@
       "quantumultx": "native",
       "adguard": "compatible"
     },
-    "rule_files": 0,
-    "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "rule_files": 3265,
+    "available_files": 3257,
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "repcz",
@@ -42,9 +42,9 @@
       "mihomo": "native",
       "sing-box": "native"
     },
-    "rule_files": 0,
-    "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "rule_files": 467,
+    "available_files": 467,
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "sukka",
@@ -64,7 +64,7 @@
     },
     "rule_files": 32,
     "available_files": 13,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "metacubex",
@@ -77,9 +77,9 @@
     "type": "geo",
     "validation_mode": "standard",
     "clients": {},
-    "rule_files": 0,
-    "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "rule_files": 52,
+    "available_files": 39,
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "quixoticheart",
@@ -101,9 +101,9 @@
       "egern": "native",
       "quantumultx": "compatible"
     },
-    "rule_files": 0,
-    "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "rule_files": 288,
+    "available_files": 287,
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "kelee",
@@ -121,7 +121,7 @@
     },
     "rule_files": 154,
     "available_files": 154,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "ddgksf2013",
@@ -140,7 +140,7 @@
     },
     "rule_files": 0,
     "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "fugfconfig",
@@ -160,7 +160,7 @@
     },
     "rule_files": 0,
     "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "cats-team",
@@ -179,7 +179,7 @@
     },
     "rule_files": 0,
     "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "hackl0us",
@@ -197,7 +197,7 @@
     },
     "rule_files": 0,
     "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   },
   {
     "id": "iab0x00",
@@ -214,6 +214,6 @@
     },
     "rule_files": 1,
     "available_files": 0,
-    "last_indexed": "2026-08-07T16:54:06.251091+00:00"
+    "last_indexed": "2026-08-07T16:57:27.927967+00:00"
   }
 ]
