@@ -53,12 +53,6 @@ jobs:
       - name: Validate outputs
         run: python3 scripts/validate.py
 
-      - name: Stage deploy site (dist + index.html)
-        run: |
-          mkdir -p dist
-          cp deploy-site/index.html dist/
-          ls -la dist/
-
       - name: Configure git
         run: |
           git config user.name "rule-index-bot"
