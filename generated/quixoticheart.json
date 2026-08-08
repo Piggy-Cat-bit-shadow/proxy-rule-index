@@ -1,6 +1,6 @@
 {
  "config_hash": "f4c80ebe76f5b454",
- "failed": 0,
+ "failed": 1,
  "last_success_at": "2026-08-07T17:47:26.561301+00:00",
  "records": {
   "quixoticheart|loon|abema": {
@@ -182,19 +182,19 @@
    "validation_mode": "standard"
   },
   "quixoticheart|loon|cdn": {
-   "blob_sha": "3b4847f271744b7f043b6afeec277acf3e56d46b",
+   "blob_sha": "676fd98a824211287fdaaaa6d044cdfb72f7b607",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "loon/cdn.list",
-   "rule_count": 6639,
+   "rule_count": 6643,
    "rule_types": {
-    "domain": 4707,
+    "domain": 4709,
     "domain_keyword": 21,
-    "domain_suffix": 1911
+    "domain_suffix": 1913
    },
    "slug": "cdn",
    "status": "available",
@@ -202,18 +202,18 @@
    "validation_mode": "standard"
   },
   "quixoticheart|loon|cncidr": {
-   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "blob_sha": "1cc941b6acd77373a4c2dc7d0743418049923bcd",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "loon/cncidr.list",
-   "rule_count": 18136,
+   "rule_count": 18150,
    "rule_types": {
-    "ip_cidr": 7125,
-    "ip_cidr6": 11011
+    "ip_cidr": 7137,
+    "ip_cidr6": 11013
    },
    "slug": "cncidr",
    "status": "available",
@@ -818,17 +818,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|loon|speedtest": {
-   "blob_sha": "e99f1ba2581e8e49dcd83b5db476ff8a383b82d7",
+   "blob_sha": "26876e2516b177cebfd1f74897bc3183bc446f2a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "loon/speedtest.list",
-   "rule_count": 9207,
+   "rule_count": 9211,
    "rule_types": {
-    "domain": 9000,
+    "domain": 9004,
     "domain_keyword": 6,
     "domain_suffix": 201
    },
@@ -981,20 +981,22 @@
   "quixoticheart|mihomo|ai": {
    "blob_sha": "3a9be7971b563db1fd76698cccb7df19c0b377fd",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /QuixoticHeart/rule-set/ruleset/meta/ai.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "meta/ai.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 211,
+   "rule_types": {
+    "domain": 42,
+    "domain_keyword": 8,
+    "domain_regex": 1,
+    "domain_suffix": 160
+   },
    "slug": "ai",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "quixoticheart|mihomo|apns": {
@@ -1141,19 +1143,19 @@
    "validation_mode": "standard"
   },
   "quixoticheart|mihomo|cdn": {
-   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "blob_sha": "28d9010e9e9c8ac34c33390348bdf190d510095a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "meta/cdn.list",
-   "rule_count": 6707,
+   "rule_count": 6711,
    "rule_types": {
-    "domain": 4707,
+    "domain": 4709,
     "domain_keyword": 21,
-    "domain_suffix": 1911,
+    "domain_suffix": 1913,
     "domain_wildcard": 68
    },
    "slug": "cdn",
@@ -1162,18 +1164,18 @@
    "validation_mode": "standard"
   },
   "quixoticheart|mihomo|cncidr": {
-   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "blob_sha": "1cc941b6acd77373a4c2dc7d0743418049923bcd",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "meta/cncidr.list",
-   "rule_count": 18136,
+   "rule_count": 18150,
    "rule_types": {
-    "ip_cidr": 7125,
-    "ip_cidr6": 11011
+    "ip_cidr": 7137,
+    "ip_cidr6": 11013
    },
    "slug": "cncidr",
    "status": "available",
@@ -1796,17 +1798,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|mihomo|speedtest": {
-   "blob_sha": "92a7a5d508dddaf396471ac5aebd0d7f1c5ad08f",
+   "blob_sha": "6efca069d109f293988af0004cf8ca132961357b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "meta/speedtest.list",
-   "rule_count": 9209,
+   "rule_count": 9213,
    "rule_types": {
-    "domain": 9000,
+    "domain": 9004,
     "domain_keyword": 6,
     "domain_suffix": 201,
     "process_name": 2
@@ -2107,17 +2109,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|quantumultx|cdn": {
-   "blob_sha": "0e8866000d46a5f72de1265d6c8de1e10e2f3630",
+   "blob_sha": "eca2e66caf81c08b92dc475b6e13614db52f4543",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "quantumultx/cdn.list",
-   "rule_count": 6701,
+   "rule_count": 6705,
    "rule_types": {
-    "domain": 6701
+    "domain": 6705
    },
    "slug": "cdn",
    "status": "available",
@@ -2125,17 +2127,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|quantumultx|cncidr": {
-   "blob_sha": "dd63e62a76b80aa6d8bece731b427ed31d5ee75b",
+   "blob_sha": "4b1557f636a6164fcd8785902bc9dd17a0807246",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "quantumultx/cncidr.list",
-   "rule_count": 7125,
+   "rule_count": 7137,
    "rule_types": {
-    "ip_cidr": 7125
+    "ip_cidr": 7137
    },
    "slug": "cncidr",
    "status": "available",
@@ -2695,17 +2697,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|quantumultx|speedtest": {
-   "blob_sha": "947ff54f6d8c4eabd1fe5e405ac61365b02823a5",
+   "blob_sha": "264424e3facd7839d430e27e5dd5972eec96fb3b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "quantumultx/speedtest.list",
-   "rule_count": 9199,
+   "rule_count": 9203,
    "rule_types": {
-    "domain": 9199
+    "domain": 9203
    },
    "slug": "speedtest",
    "status": "available",
@@ -2774,16 +2776,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "quantumultx/tld-proxy.list",
    "rule_count": null,
    "rule_types": null,
    "slug": "tld-proxy",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -3002,19 +3004,19 @@
    "validation_mode": "standard"
   },
   "quixoticheart|shadowrocket|cdn": {
-   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "blob_sha": "28d9010e9e9c8ac34c33390348bdf190d510095a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "shadowrocket/cdn.list",
-   "rule_count": 6707,
+   "rule_count": 6711,
    "rule_types": {
-    "domain": 4707,
+    "domain": 4709,
     "domain_keyword": 21,
-    "domain_suffix": 1911,
+    "domain_suffix": 1913,
     "domain_wildcard": 68
    },
    "slug": "cdn",
@@ -3023,17 +3025,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|shadowrocket|cncidr": {
-   "blob_sha": "9c595ea0fabb3201a578e000a3371404c4cdd6ca",
+   "blob_sha": "381c632ccac0460228ce6d841b736836370677ff",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "shadowrocket/cncidr.list",
-   "rule_count": 18136,
+   "rule_count": 18150,
    "rule_types": {
-    "ip_cidr": 18136
+    "ip_cidr": 18150
    },
    "slug": "cncidr",
    "status": "available",
@@ -3630,17 +3632,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|shadowrocket|speedtest": {
-   "blob_sha": "e99f1ba2581e8e49dcd83b5db476ff8a383b82d7",
+   "blob_sha": "26876e2516b177cebfd1f74897bc3183bc446f2a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "shadowrocket/speedtest.list",
-   "rule_count": 9207,
+   "rule_count": 9211,
    "rule_types": {
-    "domain": 9000,
+    "domain": 9004,
     "domain_keyword": 6,
     "domain_suffix": 201
    },
@@ -3953,19 +3955,19 @@
    "validation_mode": "standard"
   },
   "quixoticheart|stash|cdn": {
-   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "blob_sha": "28d9010e9e9c8ac34c33390348bdf190d510095a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "stash/cdn.list",
-   "rule_count": 6707,
+   "rule_count": 6711,
    "rule_types": {
-    "domain": 4707,
+    "domain": 4709,
     "domain_keyword": 21,
-    "domain_suffix": 1911,
+    "domain_suffix": 1913,
     "domain_wildcard": 68
    },
    "slug": "cdn",
@@ -3974,18 +3976,18 @@
    "validation_mode": "standard"
   },
   "quixoticheart|stash|cncidr": {
-   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "blob_sha": "1cc941b6acd77373a4c2dc7d0743418049923bcd",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "stash/cncidr.list",
-   "rule_count": 18136,
+   "rule_count": 18150,
    "rule_types": {
-    "ip_cidr": 7125,
-    "ip_cidr6": 11011
+    "ip_cidr": 7137,
+    "ip_cidr6": 11013
    },
    "slug": "cncidr",
    "status": "available",
@@ -4608,17 +4610,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|stash|speedtest": {
-   "blob_sha": "92a7a5d508dddaf396471ac5aebd0d7f1c5ad08f",
+   "blob_sha": "6efca069d109f293988af0004cf8ca132961357b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "stash/speedtest.list",
-   "rule_count": 9209,
+   "rule_count": 9213,
    "rule_types": {
-    "domain": 9000,
+    "domain": 9004,
     "domain_keyword": 6,
     "domain_suffix": 201,
     "process_name": 2
@@ -4936,19 +4938,19 @@
    "validation_mode": "standard"
   },
   "quixoticheart|surge|cdn": {
-   "blob_sha": "75659ed0a5fec3e02be6310cb91f803c6dda2886",
+   "blob_sha": "28d9010e9e9c8ac34c33390348bdf190d510095a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "surge/cdn.list",
-   "rule_count": 6707,
+   "rule_count": 6711,
    "rule_types": {
-    "domain": 4707,
+    "domain": 4709,
     "domain_keyword": 21,
-    "domain_suffix": 1911,
+    "domain_suffix": 1913,
     "domain_wildcard": 68
    },
    "slug": "cdn",
@@ -4957,18 +4959,18 @@
    "validation_mode": "standard"
   },
   "quixoticheart|surge|cncidr": {
-   "blob_sha": "11d9488e0225963ef1fd1863f2520294f17b2098",
+   "blob_sha": "1cc941b6acd77373a4c2dc7d0743418049923bcd",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "surge/cncidr.list",
-   "rule_count": 18136,
+   "rule_count": 18150,
    "rule_types": {
-    "ip_cidr": 7125,
-    "ip_cidr6": 11011
+    "ip_cidr": 7137,
+    "ip_cidr6": 11013
    },
    "slug": "cncidr",
    "status": "available",
@@ -5584,17 +5586,17 @@
    "validation_mode": "standard"
   },
   "quixoticheart|surge|speedtest": {
-   "blob_sha": "92a7a5d508dddaf396471ac5aebd0d7f1c5ad08f",
+   "blob_sha": "6efca069d109f293988af0004cf8ca132961357b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "surge/speedtest.list",
-   "rule_count": 9209,
+   "rule_count": 9213,
    "rule_types": {
-    "domain": 9000,
+    "domain": 9004,
     "domain_keyword": 6,
     "domain_suffix": 201,
     "process_name": 2
@@ -5730,11 +5732,11 @@
    "validation_mode": "standard"
   }
  },
- "refreshed": 0,
+ "refreshed": 20,
  "removed": 0,
- "reused": 288,
+ "reused": 268,
  "source_id": "quixoticheart",
- "source_sha": "3994d577ba7232ae3c15fd37a17b2a80258048e2",
+ "source_sha": null,
  "tier": "B",
  "validation_mode": "standard"
 }

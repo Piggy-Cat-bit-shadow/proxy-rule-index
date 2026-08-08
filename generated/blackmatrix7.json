@@ -1,6 +1,6 @@
 {
  "config_hash": "c3a48383a1184c2f",
- "failed": 0,
+ "failed": 8,
  "last_success_at": "2026-08-07T17:47:26.561301+00:00",
  "records": {
   "blackmatrix7|loon|115": {
@@ -1335,13 +1335,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|Apple": {
-   "blob_sha": "23d76725839b370a15d7bf9ab3870f22d23d61ba",
+   "blob_sha": "7b6f32d09d86cbc1bf6db68271bb6472457250aa",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/Apple/Apple.list",
    "rule_count": 43,
    "rule_types": {
@@ -2043,13 +2043,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|Blizzard": {
-   "blob_sha": "7d364b072dd867ab246a343ee8976843d44d687f",
+   "blob_sha": "edc0d4fcf0a3559fe6676c5ac832353aacea5fb4",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/Blizzard/Blizzard.list",
    "rule_count": 62,
    "rule_types": {
@@ -2684,18 +2684,18 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|ChinaIPs": {
-   "blob_sha": "1da5a3d62349c5bb49a75401fc431ec4d98e48ac",
+   "blob_sha": "dcd03ec0bd403414674180942ce7ba40a7bc4a2b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/ChinaIPs/ChinaIPs.list",
-   "rule_count": 22852,
+   "rule_count": 22845,
    "rule_types": {
-    "ip_cidr": 17334,
-    "ip_cidr6": 5518
+    "ip_cidr": 17328,
+    "ip_cidr6": 5517
    },
    "slug": "ChinaIPs",
    "status": "available",
@@ -2721,21 +2721,21 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|ChinaMax": {
-   "blob_sha": "f16e7276823987241ae1cacd36dc394e196137a3",
+   "blob_sha": "6edded595b78381a457462e708b42774ebb92c0a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/ChinaMax/ChinaMax.list",
-   "rule_count": 12582,
+   "rule_count": 12591,
    "rule_types": {
     "domain_keyword": 13,
     "domain_suffix": 51,
     "ip_asn": 1,
     "ip_cidr": 8253,
-    "ip_cidr6": 4199,
+    "ip_cidr6": 4208,
     "user_agent": 65
    },
    "slug": "ChinaMax",
@@ -2744,13 +2744,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|ChinaMaxNoIP": {
-   "blob_sha": "34e3b5e08aa7bcadd958f48d32b51e0d651d8f26",
+   "blob_sha": "08f5f90f3ac6690984f536958f3a52b97127ec09",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/ChinaMaxNoIP/ChinaMaxNoIP.list",
    "rule_count": 125,
    "rule_types": {
@@ -2764,21 +2764,21 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|ChinaMaxNoMedia": {
-   "blob_sha": "eaf3360c856eafce699be9f75eab2484b423b7ea",
+   "blob_sha": "6b11022217b9e02fbabbf7373d8f262a13bf7c4d",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
-   "rule_count": 12576,
+   "rule_count": 12585,
    "rule_types": {
     "domain_keyword": 11,
     "domain_suffix": 47,
     "ip_asn": 1,
     "ip_cidr": 8253,
-    "ip_cidr6": 4199,
+    "ip_cidr6": 4208,
     "user_agent": 65
    },
    "slug": "ChinaMaxNoMedia",
@@ -2887,13 +2887,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|ChinaTest": {
-   "blob_sha": "ea7e95f1795584bba1a99d6d7223f344ea6a2c47",
+   "blob_sha": "bea69b7e4c114ef20ffd2c5fb8908d9d26827188",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/ChinaTest/ChinaTest.list",
    "rule_count": 106,
    "rule_types": {
@@ -4639,13 +4639,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|loon|Game": {
-   "blob_sha": "ec20e4fca51a51ed4cb64d7c9104362a8c53f153",
+   "blob_sha": "d2a4a0b5df589ca7a8766e15e7b2a6fa66e53293",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Loon/Game/Game.list",
    "rule_count": 597,
    "rule_types": {
@@ -13114,16 +13114,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "clash_yaml",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/Clash/AmazonIP/AmazonIP_IP.yaml",
    "rule_count": null,
    "rule_types": null,
    "slug": "AmazonIP_IP",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -14127,13 +14127,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|mihomo|Blizzard": {
-   "blob_sha": "87801706524e447a734939badaa39b4ac971ea7c",
+   "blob_sha": "522986ae3ea16cd7dadcb015401033a998e4e666",
    "count_available": true,
    "failure_count": 0,
    "format": "clash_yaml",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Clash/Blizzard/Blizzard.yaml",
    "rule_count": 62,
    "rule_types": {
@@ -14756,16 +14756,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml",
    "rule_count": null,
    "rule_types": null,
    "slug": "ChinaIPsBGP_IP",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -14793,32 +14793,32 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/Clash/ChinaIPs/ChinaIPs_IP.yaml",
    "rule_count": null,
    "rule_types": null,
    "slug": "ChinaIPs_IP",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
   "blackmatrix7|mihomo|ChinaIPs|resolve": {
-   "blob_sha": "43406a1f35f54e51e49fe79382885eb93d8e050e",
+   "blob_sha": "5cf62a3f0ad9172efffb94018b1ddbd5bb79a14f",
    "count_available": true,
    "failure_count": 0,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Clash/ChinaIPs/ChinaIPs_Classical.yaml",
-   "rule_count": 22852,
+   "rule_count": 22845,
    "rule_types": {
-    "ip_cidr": 17334,
-    "ip_cidr6": 5518
+    "ip_cidr": 17328,
+    "ip_cidr6": 5517
    },
    "slug": "ChinaIPs",
    "status": "available",
@@ -14826,13 +14826,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|mihomo|ChinaMax": {
-   "blob_sha": "dfc4e72725cdde861c5acf57e4f5ac176cd96d64",
+   "blob_sha": "d38dcc58df1f3bac17e6c33c75d51cb621ba164e",
    "count_available": true,
    "failure_count": 0,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Clash/ChinaMax/ChinaMax.yaml",
    "rule_count": 27,
    "rule_types": {
@@ -14845,13 +14845,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|mihomo|ChinaMaxNoIP": {
-   "blob_sha": "804cb41bf183b2fd17c85ab51ee99de5e27c14e1",
+   "blob_sha": "bb0deea3df0fe795cfe1cd66e792fd8fc326dbc5",
    "count_available": true,
    "failure_count": 0,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.yaml",
    "rule_count": 27,
    "rule_types": {
@@ -14864,13 +14864,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|mihomo|ChinaMaxNoMedia": {
-   "blob_sha": "b39d94b139f8041d582a952ec51c15eab610613a",
+   "blob_sha": "c94bfdec1f3133a3b558b51fd2366c1e130960d3",
    "count_available": true,
    "failure_count": 0,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml",
    "rule_count": 25,
    "rule_types": {
@@ -14888,16 +14888,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml",
    "rule_count": null,
    "rule_types": null,
    "slug": "ChinaMaxNoMedia_IP",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -14907,16 +14907,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/Clash/ChinaMax/ChinaMax_IP.yaml",
    "rule_count": null,
    "rule_types": null,
    "slug": "ChinaMax_IP",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -15019,13 +15019,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|mihomo|ChinaTest": {
-   "blob_sha": "747d79baf5fc6691b90a474b0538a4bdd3de9ba0",
+   "blob_sha": "8977611d2f3436d08cd82f224a551ab125b437f2",
    "count_available": true,
    "failure_count": 0,
    "format": "clash_yaml",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Clash/ChinaTest/ChinaTest.yaml",
    "rule_count": 24,
    "rule_types": {
@@ -16765,13 +16765,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|mihomo|Game": {
-   "blob_sha": "4015b98804067059839ebbef7a8cdaf3e4b82fce",
+   "blob_sha": "63fe96de5ede3a8f109eeb079f60a470f4056d92",
    "count_available": true,
    "failure_count": 0,
    "format": "clash_yaml",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Clash/Game/Game.yaml",
    "rule_count": 597,
    "rule_types": {
@@ -17918,16 +17918,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "clash_yaml",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/Clash/IPTVMainland/IPTVMainland_IP.yaml",
    "rule_count": null,
    "rule_types": null,
    "slug": "IPTVMainland_IP",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -19638,16 +19638,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "clash_yaml",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/Clash/Netflix/Netflix_IP.yaml",
    "rule_count": null,
    "rule_types": null,
    "slug": "Netflix_IP",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -25528,13 +25528,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|Apple": {
-   "blob_sha": "4e820f4b48d070bd1d272de6f72616f6443a7992",
+   "blob_sha": "1583a9699bb09a9cea637cd2125112f667cb62df",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/Apple/Apple.list",
    "rule_count": 1874,
    "rule_types": {
@@ -26222,13 +26222,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|Blizzard": {
-   "blob_sha": "57f9ab8b2839f4b3a0c03ac03d5cd50ddde74c44",
+   "blob_sha": "6b88ea9986c82386159f8f045e1501f905d0115a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/Blizzard/Blizzard.list",
    "rule_count": 62,
    "rule_types": {
@@ -26857,17 +26857,17 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|ChinaIPs": {
-   "blob_sha": "c25bd2c80b250c106c1ec2f8bcd60699a29f1fde",
+   "blob_sha": "57d17b42e27c49d67f7f782004ddd146a760b9d9",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/ChinaIPs/ChinaIPs.list",
-   "rule_count": 17334,
+   "rule_count": 17328,
    "rule_types": {
-    "ip_cidr": 17334
+    "ip_cidr": 17328
    },
    "slug": "ChinaIPs",
    "status": "available",
@@ -26893,17 +26893,17 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|ChinaMax": {
-   "blob_sha": "72dca64a9c407307b700bd286beaa195424f01c8",
+   "blob_sha": "ae0eece62a4ab48ffdee3a2962b7b84935b802ad",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/ChinaMax/ChinaMax.list",
-   "rule_count": 119872,
+   "rule_count": 119875,
    "rule_types": {
-    "domain": 111553,
+    "domain": 111556,
     "ip_asn": 1,
     "ip_cidr": 8253,
     "user_agent": 65
@@ -26914,17 +26914,17 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|ChinaMaxNoIP": {
-   "blob_sha": "46fff92c9637559a69d1f349e7970960012ccc36",
+   "blob_sha": "4c3c49c660ba61a891034a7e1295a420e1260710",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/ChinaMaxNoIP/ChinaMaxNoIP.list",
-   "rule_count": 111297,
+   "rule_count": 111300,
    "rule_types": {
-    "domain": 111232,
+    "domain": 111235,
     "user_agent": 65
    },
    "slug": "ChinaMaxNoIP",
@@ -26933,17 +26933,17 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|ChinaMaxNoMedia": {
-   "blob_sha": "695821a20b3e00eeebe68a359418959f50867680",
+   "blob_sha": "6a57b38c0e6f4df91272b5d9a8648232373af018",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
-   "rule_count": 119442,
+   "rule_count": 119445,
    "rule_types": {
-    "domain": 111123,
+    "domain": 111126,
     "ip_asn": 1,
     "ip_cidr": 8253,
     "user_agent": 65
@@ -27049,17 +27049,17 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|ChinaTest": {
-   "blob_sha": "0d5061189196ea3eb09890c145a891581228c948",
+   "blob_sha": "4f1883a91ed256fe8243a4ee8feaab04324193a8",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/ChinaTest/ChinaTest.list",
-   "rule_count": 111266,
+   "rule_count": 111269,
    "rule_types": {
-    "domain": 111224,
+    "domain": 111227,
     "ip_cidr": 11,
     "user_agent": 31
    },
@@ -28416,20 +28416,19 @@
   "blackmatrix7|quantumultx|Espn": {
    "blob_sha": "811c5bd328dcddf3e3a0b98c45544c8f7804d13b",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/Espn/Espn.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 11,
+   "rule_types": {
+    "domain": 11
+   },
    "slug": "Espn",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|FOXNOW": {
@@ -28779,13 +28778,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|quantumultx|Game": {
-   "blob_sha": "99bda073da0187d2916600ccfc218165290956d5",
+   "blob_sha": "a6b0cd2ab0dc84a7ea0ffdb88f447e4a501315ea",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/QuantumultX/Game/Game.list",
    "rule_count": 593,
    "rule_types": {
@@ -33506,16 +33505,16 @@
    "errors": [
     "no parseable rules"
    ],
-   "failure_count": 1,
+   "failure_count": 2,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
    "last_success_at": null,
    "path": "rule/QuantumultX/Stripe/Stripe.list",
    "rule_count": null,
    "rule_types": null,
    "slug": "Stripe",
-   "status": "unavailable",
+   "status": "warning",
    "summary": null,
    "validation_mode": "standard"
   },
@@ -37425,13 +37424,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|Apple": {
-   "blob_sha": "88bc179176972b8ae8b1fadbf6c0ee7392357698",
+   "blob_sha": "594476dafded3afa989c4f4a7815da64cd0d7881",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/Apple/Apple.list",
    "rule_count": 43,
    "rule_types": {
@@ -38132,13 +38131,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|Blizzard": {
-   "blob_sha": "7d364b072dd867ab246a343ee8976843d44d687f",
+   "blob_sha": "edc0d4fcf0a3559fe6676c5ac832353aacea5fb4",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/Blizzard/Blizzard.list",
    "rule_count": 62,
    "rule_types": {
@@ -38754,17 +38753,17 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|ChinaIPs": {
-   "blob_sha": "f766f7448583d98802a4bfb6ee571587fec59dd4",
+   "blob_sha": "e49e2aaca948ba8397926b9a95519b7a907ddd69",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/ChinaIPs/ChinaIPs.list",
-   "rule_count": 22852,
+   "rule_count": 22845,
    "rule_types": {
-    "ip_cidr": 22852
+    "ip_cidr": 22845
    },
    "slug": "ChinaIPs",
    "status": "available",
@@ -38790,20 +38789,20 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|ChinaMax": {
-   "blob_sha": "e73f30a5b41aac8da00c355f83da1d0efa3998e5",
+   "blob_sha": "f0b4c50a6001220115dde5cef8222634a74c212b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/ChinaMax/ChinaMax.list",
-   "rule_count": 12582,
+   "rule_count": 12591,
    "rule_types": {
     "domain_keyword": 13,
     "domain_suffix": 51,
     "ip_asn": 1,
-    "ip_cidr": 12452,
+    "ip_cidr": 12461,
     "user_agent": 65
    },
    "slug": "ChinaMax",
@@ -38812,13 +38811,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|ChinaMaxNoIP": {
-   "blob_sha": "6de041dfff58d5f08e470b2edb225ddecf68926a",
+   "blob_sha": "5113588275038d7533940b39e709b3cd55504d5a",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list",
    "rule_count": 125,
    "rule_types": {
@@ -38832,20 +38831,20 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|ChinaMaxNoMedia": {
-   "blob_sha": "a028fec7e4ef5c882ab99cd3946e96a7c45af7d0",
+   "blob_sha": "83612f77803337b4b012d86e5f89f5f03be5e3bf",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
-   "rule_count": 12576,
+   "rule_count": 12585,
    "rule_types": {
     "domain_keyword": 11,
     "domain_suffix": 47,
     "ip_asn": 1,
-    "ip_cidr": 12452,
+    "ip_cidr": 12461,
     "user_agent": 65
    },
    "slug": "ChinaMaxNoMedia",
@@ -38952,13 +38951,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|ChinaTest": {
-   "blob_sha": "c79d956308dc2ed84c6a5fec666cadc81f8b00d2",
+   "blob_sha": "45ee2290cd35cd8c6caf9d9c9b9272eb04e4599d",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/ChinaTest/ChinaTest.list",
    "rule_count": 106,
    "rule_types": {
@@ -40702,13 +40701,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|Game": {
-   "blob_sha": "ec20e4fca51a51ed4cb64d7c9104362a8c53f153",
+   "blob_sha": "d2a4a0b5df589ca7a8766e15e7b2a6fa66e53293",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/Game/Game.list",
    "rule_count": 597,
    "rule_types": {
@@ -44743,20 +44742,19 @@
   "blackmatrix7|shadowrocket|Riot": {
    "blob_sha": "fd5fb2bf38271de8b85f707a3c7dede8d3d09e04",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Shadowrocket/Riot/Riot.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 55,
+   "rule_types": {
+    "domain_suffix": 55
+   },
    "slug": "Riot",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "blackmatrix7|shadowrocket|Rockstar": {
@@ -49450,13 +49448,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|Apple": {
-   "blob_sha": "a2685b6869edbe5247183581410f6a0e101acb96",
+   "blob_sha": "cab84e2ec4a7bf89f4a68aca47df8ee1dad75103",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/Apple/Apple.list",
    "rule_count": 56,
    "rule_types": {
@@ -50165,13 +50163,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|Blizzard": {
-   "blob_sha": "7d364b072dd867ab246a343ee8976843d44d687f",
+   "blob_sha": "edc0d4fcf0a3559fe6676c5ac832353aacea5fb4",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/Blizzard/Blizzard.list",
    "rule_count": 62,
    "rule_types": {
@@ -50809,18 +50807,18 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|ChinaIPs": {
-   "blob_sha": "1da5a3d62349c5bb49a75401fc431ec4d98e48ac",
+   "blob_sha": "dcd03ec0bd403414674180942ce7ba40a7bc4a2b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/ChinaIPs/ChinaIPs.list",
-   "rule_count": 22852,
+   "rule_count": 22845,
    "rule_types": {
-    "ip_cidr": 17334,
-    "ip_cidr6": 5518
+    "ip_cidr": 17328,
+    "ip_cidr6": 5517
    },
    "slug": "ChinaIPs",
    "status": "available",
@@ -50846,21 +50844,21 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|ChinaMax": {
-   "blob_sha": "69a5605589d9ba42423b19ef72e248ac0bd71628",
+   "blob_sha": "462574676e40e5252cc0f39d0d82ce3960a68608",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/ChinaMax/ChinaMax.list",
-   "rule_count": 12594,
+   "rule_count": 12603,
    "rule_types": {
     "domain_keyword": 13,
     "domain_suffix": 51,
     "ip_asn": 1,
     "ip_cidr": 8253,
-    "ip_cidr6": 4199,
+    "ip_cidr6": 4208,
     "process_name": 12,
     "user_agent": 65
    },
@@ -50870,13 +50868,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|ChinaMaxNoIP": {
-   "blob_sha": "ba95ffea91de8f62e4f219c663f9ba2bd4a79c74",
+   "blob_sha": "f78796f0d0c81ae797b4848a88f48513ca116aaa",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/ChinaMaxNoIP/ChinaMaxNoIP.list",
    "rule_count": 137,
    "rule_types": {
@@ -50891,21 +50889,21 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|ChinaMaxNoMedia": {
-   "blob_sha": "d1a69f54d37aa386046a241f46da9b9824da4ca4",
+   "blob_sha": "ef0aa99478dabc9d33cff064ee268f7ad5fe4ee0",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia.list",
-   "rule_count": 12588,
+   "rule_count": 12597,
    "rule_types": {
     "domain_keyword": 11,
     "domain_suffix": 47,
     "ip_asn": 1,
     "ip_cidr": 8253,
-    "ip_cidr6": 4199,
+    "ip_cidr6": 4208,
     "process_name": 12,
     "user_agent": 65
    },
@@ -51016,13 +51014,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|ChinaTest": {
-   "blob_sha": "9f50cbcc89c19bada5fd4e92e1e35d112c5f048f",
+   "blob_sha": "19198bd29aa5e7a3be0083eee4674847b0396779",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/ChinaTest/ChinaTest.list",
    "rule_count": 106,
    "rule_types": {
@@ -51206,20 +51204,19 @@
   "blackmatrix7|surge|Cloudflarecn": {
    "blob_sha": "1c19a193683833e26bddd7c2bfc30a6203e56b51",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflarecn/Cloudflarecn.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/Cloudflarecn/Cloudflarecn.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 14,
+   "rule_types": {
+    "domain_suffix": 14
+   },
    "slug": "Cloudflarecn",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|Clubhouse": {
@@ -52772,13 +52769,13 @@
    "validation_mode": "standard"
   },
   "blackmatrix7|surge|Game": {
-   "blob_sha": "ec20e4fca51a51ed4cb64d7c9104362a8c53f153",
+   "blob_sha": "d2a4a0b5df589ca7a8766e15e7b2a6fa66e53293",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "rule/Surge/Game/Game.list",
    "rule_count": 597,
    "rule_types": {
@@ -60235,11 +60232,11 @@
    "validation_mode": "standard"
   }
  },
- "refreshed": 0,
+ "refreshed": 50,
  "removed": 0,
- "reused": 3265,
+ "reused": 3215,
  "source_id": "blackmatrix7",
- "source_sha": "72c410015dc99df6b54eca1386126f70268bf6bc",
+ "source_sha": null,
  "tier": "A",
  "validation_mode": "standard"
 }

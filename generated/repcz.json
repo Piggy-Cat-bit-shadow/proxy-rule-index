@@ -280,19 +280,19 @@
    "validation_mode": "standard"
   },
   "repcz|loon|CDN": {
-   "blob_sha": "9d74170c185a3fb7eb9ee92518e527189b9663ae",
+   "blob_sha": "67a607e1b2a1bbf963a0d23758ca5b18fd73f82d",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Loon/Rules/CDN.list",
-   "rule_count": 4655,
+   "rule_count": 4659,
    "rule_types": {
-    "domain": 3372,
+    "domain": 3374,
     "domain_keyword": 21,
-    "domain_suffix": 1203,
+    "domain_suffix": 1205,
     "domain_wildcard": 59
    },
    "slug": "CDN",
@@ -342,17 +342,17 @@
    "validation_mode": "standard"
   },
   "repcz|loon|ChinaIP": {
-   "blob_sha": "7b7fbb88ca3102718b6fab3b73b0c6e1afa2d487",
+   "blob_sha": "4e4469d89e4921cb54e888d2423631841321cc83",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Loon/Rules/ChinaIP.list",
-   "rule_count": 5526,
+   "rule_count": 5524,
    "rule_types": {
-    "ip_cidr": 3908,
+    "ip_cidr": 3906,
     "ip_cidr6": 1618
    },
    "slug": "ChinaIP",
@@ -1587,19 +1587,19 @@
    "validation_mode": "standard"
   },
   "repcz|mihomo|CDN": {
-   "blob_sha": "4655b6c2f34053d74c86faf93a928d3fa340ff4e",
+   "blob_sha": "4213527d5f1e5dbeb1c32a1cf9b8c8c11d556596",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "mihomo/Rules/CDN.list",
-   "rule_count": 4600,
+   "rule_count": 4604,
    "rule_types": {
-    "domain": 3372,
+    "domain": 3374,
     "domain_keyword": 21,
-    "domain_suffix": 1207
+    "domain_suffix": 1209
    },
    "slug": "CDN",
    "status": "available",
@@ -1648,17 +1648,17 @@
    "validation_mode": "standard"
   },
   "repcz|mihomo|ChinaIP": {
-   "blob_sha": "7b7fbb88ca3102718b6fab3b73b0c6e1afa2d487",
+   "blob_sha": "4e4469d89e4921cb54e888d2423631841321cc83",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "mihomo/Rules/ChinaIP.list",
-   "rule_count": 5526,
+   "rule_count": 5524,
    "rule_types": {
-    "ip_cidr": 3908,
+    "ip_cidr": 3906,
     "ip_cidr6": 1618
    },
    "slug": "ChinaIP",
@@ -2881,17 +2881,17 @@
    "validation_mode": "standard"
   },
   "repcz|quantumultx|CDN": {
-   "blob_sha": "417083b075464850e9178f2576550fcbcbada1f6",
+   "blob_sha": "d83a96cb90af97a3b731a11b7567a70b74319266",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "QuantumultX/Rules/CDN.list",
-   "rule_count": 4650,
+   "rule_count": 4654,
    "rule_types": {
-    "domain": 4650
+    "domain": 4654
    },
    "slug": "CDN",
    "status": "available",
@@ -2937,17 +2937,17 @@
    "validation_mode": "standard"
   },
   "repcz|quantumultx|ChinaIP": {
-   "blob_sha": "74780ec8a2589cd26b32d201703c4786395a8032",
+   "blob_sha": "4401cdd61c7c2c43392c14efa68a964ac656338b",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "QuantumultX/Rules/ChinaIP.list",
-   "rule_count": 3908,
+   "rule_count": 3906,
    "rule_types": {
-    "ip_cidr": 3908
+    "ip_cidr": 3906
    },
    "slug": "ChinaIP",
    "status": "available",
@@ -4135,19 +4135,19 @@
    "validation_mode": "standard"
   },
   "repcz|shadowrocket|CDN": {
-   "blob_sha": "9d74170c185a3fb7eb9ee92518e527189b9663ae",
+   "blob_sha": "67a607e1b2a1bbf963a0d23758ca5b18fd73f82d",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Shadowrocket/Rules/CDN.list",
-   "rule_count": 4655,
+   "rule_count": 4659,
    "rule_types": {
-    "domain": 3372,
+    "domain": 3374,
     "domain_keyword": 21,
-    "domain_suffix": 1203,
+    "domain_suffix": 1205,
     "domain_wildcard": 59
    },
    "slug": "CDN",
@@ -4197,17 +4197,17 @@
    "validation_mode": "standard"
   },
   "repcz|shadowrocket|ChinaIP": {
-   "blob_sha": "7b7fbb88ca3102718b6fab3b73b0c6e1afa2d487",
+   "blob_sha": "4e4469d89e4921cb54e888d2423631841321cc83",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Shadowrocket/Rules/ChinaIP.list",
-   "rule_count": 5526,
+   "rule_count": 5524,
    "rule_types": {
-    "ip_cidr": 3908,
+    "ip_cidr": 3906,
     "ip_cidr6": 1618
    },
    "slug": "ChinaIP",
@@ -4368,20 +4368,21 @@
   "repcz|shadowrocket|Emby": {
    "blob_sha": "1393a25b5e65676284a844f4dd02cf5cf62dc6b5",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Shadowrocket/Rules/Emby.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 195,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 177,
+    "ip_cidr": 9
+   },
    "slug": "Emby",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|shadowrocket|Epic": {
@@ -4769,20 +4770,24 @@
   "repcz|shadowrocket|Proxy": {
    "blob_sha": "609325fd19e296d179ac0af20a13c730cfb8e1bb",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out."
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "global",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Shadowrocket/Rules/Proxy.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 17544,
+   "rule_types": {
+    "domain": 57,
+    "domain_keyword": 16,
+    "domain_suffix": 16979,
+    "ip_cidr": 391,
+    "ip_cidr6": 96,
+    "user_agent": 5
+   },
    "slug": "Proxy",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|shadowrocket|ProxyGFW": {
@@ -5109,20 +5114,21 @@
   "repcz|shadowrocket|YouTube": {
    "blob_sha": "748589edde912e23899f708c1ed3b3f0fee2ab0e",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
-   "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "granularity": "app",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Shadowrocket/Rules/YouTube.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 14,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 1,
+    "domain_suffix": 11
+   },
    "slug": "YouTube",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|shadowrocket|iCloud": {
@@ -5433,19 +5439,19 @@
    "validation_mode": "standard"
   },
   "repcz|sing-box|CDN": {
-   "blob_sha": "17d41461d7d2c78edc9873b3aabc99124e12a101",
+   "blob_sha": "2c835bafe0be5ac0a425e8cf53efb23e85952e95",
    "count_available": true,
    "failure_count": 0,
    "format": "ruleset_json",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "sing-box/Rules/CDN.json",
-   "rule_count": 4596,
+   "rule_count": 4600,
    "rule_types": {
-    "domain": 3372,
+    "domain": 3374,
     "domain_keyword": 21,
-    "domain_suffix": 1203
+    "domain_suffix": 1205
    },
    "slug": "CDN",
    "status": "available",
@@ -5475,17 +5481,17 @@
    "validation_mode": "standard"
   },
   "repcz|sing-box|ChinaIP": {
-   "blob_sha": "d2e61324ac0a235c3ce5af67a2d2d29e3d7a3de3",
+   "blob_sha": "ae17e9b073252603a58bc6ce6c2b2faf34cc51ee",
    "count_available": true,
    "failure_count": 0,
    "format": "ruleset_json",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "sing-box/Rules/ChinaIP.json",
-   "rule_count": 5526,
+   "rule_count": 5524,
    "rule_types": {
-    "ip_cidr": 5526
+    "ip_cidr": 5524
    },
    "slug": "ChinaIP",
    "status": "available",
@@ -5951,20 +5957,20 @@
   "repcz|sing-box|PayPal": {
    "blob_sha": "ade11538111c97cc175bda2ef498291929817421",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/sing-box/Rules/PayPal.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "ruleset_json",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "sing-box/Rules/PayPal.json",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 247,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 246
+   },
    "slug": "PayPal",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|sing-box|Porn": {
@@ -6422,20 +6428,21 @@
   "repcz|stash|AI": {
    "blob_sha": "5d17b2cb5b93100090c3c9aa4154d31a3a2ce2f1",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/AI.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 50,
+   "rule_types": {
+    "domain": 14,
+    "domain_keyword": 2,
+    "domain_suffix": 34
+   },
    "slug": "AI",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|APNs": {
@@ -6501,20 +6508,23 @@
   "repcz|stash|Apple": {
    "blob_sha": "33eea3af353b9247410f6b27e5c8856bc75f13c1",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Apple.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 44,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 3,
+    "domain_suffix": 26,
+    "ip_cidr": 10,
+    "ip_cidr6": 4
+   },
    "slug": "Apple",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|AppleCN": {
@@ -6557,970 +6567,996 @@
   "repcz|stash|AppleMedia": {
    "blob_sha": "20465c6f6cbea6f8bae8d9292ee46d5a6e4f9659",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/AppleMedia.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 52,
+   "rule_types": {
+    "domain_suffix": 52
+   },
    "slug": "AppleMedia",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|AppleMusic": {
    "blob_sha": "335f31a34c6bbcc36b85bc767e46483343ed6bf7",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/AppleMusic.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 10,
+   "rule_types": {
+    "domain": 6,
+    "domain_suffix": 3,
+    "process_name": 1
+   },
    "slug": "AppleMusic",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|AppleProxy": {
    "blob_sha": "f9f4842862d8876e0de94a22f5680fe2d540fae8",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/AppleProxy.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 40,
+   "rule_types": {
+    "domain": 27,
+    "domain_suffix": 12,
+    "process_name": 1
+   },
    "slug": "AppleProxy",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|AppleServers": {
    "blob_sha": "934b82101b3f59e7194de274bb1706628836491b",
    "count_available": true,
-   "errors": [
-    "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/AppleServers.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 25,
+   "rule_types": {
+    "domain_suffix": 16,
+    "ip_cidr": 1,
+    "process_name": 8
+   },
    "slug": "AppleServers",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|stash|Bahamut": {
    "blob_sha": "f2ae0f5ba6228ff1d89157b8885cf35d9211ea65",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Bahamut.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 5,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 2
+   },
    "slug": "Bahamut",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Bilibili": {
    "blob_sha": "017d99ee1710622add93aafeb9ef0e2a19e6e7bb",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Bilibili.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 20,
+   "rule_types": {
+    "domain": 2,
+    "domain_suffix": 18
+   },
    "slug": "Bilibili",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Blizzard": {
    "blob_sha": "db3e78e00a0d151fad0f879bb7728551c6fdac55",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Blizzard.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 39,
+   "rule_types": {
+    "domain_suffix": 39
+   },
    "slug": "Blizzard",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|CDN": {
-   "blob_sha": "4655b6c2f34053d74c86faf93a928d3fa340ff4e",
+   "blob_sha": "4213527d5f1e5dbeb1c32a1cf9b8c8c11d556596",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/CDN.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/CDN.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 4604,
+   "rule_types": {
+    "domain": 3374,
+    "domain_keyword": 21,
+    "domain_suffix": 1209
+   },
    "slug": "CDN",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|ChinaASN": {
    "blob_sha": "b4a10709f03677accc9fc1b311a72e6ecdc4d226",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/ChinaASN.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/ChinaASN.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 5076,
+   "rule_types": {
+    "ip_asn": 5076
+   },
    "slug": "ChinaASN",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Other",
    "validation_mode": "standard"
   },
   "repcz|stash|ChinaDomain": {
    "blob_sha": "20e68a3bb0aa3c98e3ef553ce0193a235122c290",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/ChinaDomain.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/ChinaDomain.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 13199,
+   "rule_types": {
+    "domain": 57,
+    "domain_keyword": 1,
+    "domain_suffix": 12801,
+    "ip_cidr": 321,
+    "ip_cidr6": 9,
+    "process_name": 10
+   },
    "slug": "ChinaDomain",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|ChinaIP": {
-   "blob_sha": "7b7fbb88ca3102718b6fab3b73b0c6e1afa2d487",
+   "blob_sha": "4e4469d89e4921cb54e888d2423631841321cc83",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/ChinaIP.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/ChinaIP.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 5524,
+   "rule_types": {
+    "ip_cidr": 3906,
+    "ip_cidr6": 1618
+   },
    "slug": "ChinaIP",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|Claude": {
    "blob_sha": "26c656e287a768dd4feae340994d6e556d638c5e",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Claude.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Claude.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 2,
+   "rule_types": {
+    "domain_suffix": 2
+   },
    "slug": "Claude",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Cloudflare": {
    "blob_sha": "c523c7a9d056ca4dcf4a313edd7dd5b24dd59335",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Cloudflare.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Cloudflare.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 30,
+   "rule_types": {
+    "domain_suffix": 30
+   },
    "slug": "Cloudflare",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Crypto": {
    "blob_sha": "9fc7825bf12bcca47a822710df56a9a8c51e3833",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Crypto.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Crypto.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 36,
+   "rule_types": {
+    "domain": 6,
+    "domain_keyword": 1,
+    "domain_suffix": 29
+   },
    "slug": "Crypto",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Direct": {
    "blob_sha": "badaffdcdc38d0e2b71ec58b10b78204e9f25994",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Direct.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "global",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Direct.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 36,
+   "rule_types": {
+    "domain": 28,
+    "domain_suffix": 7,
+    "dst_port": 1
+   },
    "slug": "Direct",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Disney": {
    "blob_sha": "8ce8923a393f351b2aa4059c30ee5c917a2beb5c",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Disney.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Disney.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 174,
+   "rule_types": {
+    "domain_suffix": 172,
+    "process_name": 2
+   },
    "slug": "Disney",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|DownloadCDN_CN": {
    "blob_sha": "9c918a1f5cf8d05dd8ad1b2d6c45729633f2a059",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/DownloadCDN_CN.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/DownloadCDN_CN.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 17,
+   "rule_types": {
+    "domain": 17
+   },
    "slug": "DownloadCDN_CN",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|DownloadCDN_Global": {
    "blob_sha": "7a9f128d5dc89ce4b8e446e1d51061697f31cef1",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/DownloadCDN_Global.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/DownloadCDN_Global.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 176,
+   "rule_types": {
+    "domain": 172,
+    "domain_keyword": 1,
+    "domain_suffix": 3
+   },
    "slug": "DownloadCDN_Global",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|EA": {
    "blob_sha": "8404458d68d11c4a28db2de841e2d194c8526883",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/EA.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/EA.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 168,
+   "rule_types": {
+    "domain": 3,
+    "domain_suffix": 165
+   },
    "slug": "EA",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Emby": {
    "blob_sha": "1393a25b5e65676284a844f4dd02cf5cf62dc6b5",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Emby.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Emby.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 195,
+   "rule_types": {
+    "domain": 9,
+    "domain_suffix": 177,
+    "ip_cidr": 9
+   },
    "slug": "Emby",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|stash|Epic": {
    "blob_sha": "569c30e12df3d1d324d7f466ff116d7a0ae4f53a",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Epic.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Epic.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 15,
+   "rule_types": {
+    "domain_suffix": 15
+   },
    "slug": "Epic",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|FILTER_REGION": {
    "blob_sha": "0c56e4765aba8ac5567753fbb75d56cf4f32c4e4",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/FILTER_REGION.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/FILTER_REGION.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 1,
+   "rule_types": {
+    "geoip": 1
+   },
    "slug": "FILTER_REGION",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Other",
    "validation_mode": "standard"
   },
   "repcz|stash|Facebook": {
    "blob_sha": "c5524e564b5cbf3c437d9df9cbf3722087875575",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Facebook.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
-   "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "granularity": "app",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Facebook.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 580,
+   "rule_types": {
+    "domain_suffix": 545,
+    "ip_cidr": 35
+   },
    "slug": "Facebook",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|stash|FitnessPlus": {
    "blob_sha": "84603f8c4465563235d540609adc33acd2148b8c",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/FitnessPlus.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/FitnessPlus.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 2,
+   "rule_types": {
+    "domain": 2
+   },
    "slug": "FitnessPlus",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Game": {
    "blob_sha": "f8c1a3cda9c3563b06781fed2714bb06c5b10292",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Game.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Game.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 547,
+   "rule_types": {
+    "domain": 3,
+    "domain_keyword": 3,
+    "domain_suffix": 541
+   },
    "slug": "Game",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Github": {
    "blob_sha": "d3143f3cd2a126bf7bab1229817dd2823901e459",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Github.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
-   "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "granularity": "app",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Github.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 6,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 5
+   },
    "slug": "Github",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Google": {
    "blob_sha": "242a0652da741fc76cd341986479b9ba51ebc3cd",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Google.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Google.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 25,
+   "rule_types": {
+    "domain_keyword": 2,
+    "domain_suffix": 21,
+    "ip_cidr": 2
+   },
    "slug": "Google",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|stash|HBO": {
    "blob_sha": "1e49845b2729e189003b97aa04c39d7180b9c33b",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/HBO.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/HBO.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 48,
+   "rule_types": {
+    "domain_suffix": 47,
+    "process_name": 1
+   },
    "slug": "HBO",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Instagram": {
    "blob_sha": "c17669bab5d6d04b7524d88d96d87c971ad931d6",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Instagram.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
-   "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "granularity": "app",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Instagram.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 4,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 3
+   },
    "slug": "Instagram",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Lan": {
    "blob_sha": "8482ed94e4c097574063b97e89a6ec7beccfb25d",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Lan.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Lan.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 14,
+   "rule_types": {
+    "domain_suffix": 3,
+    "ip_cidr": 8,
+    "ip_cidr6": 3
+   },
    "slug": "Lan",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|Microsoft": {
    "blob_sha": "3938d0eb14a1a1119e9edb898349f7467d62f7df",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Microsoft.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Microsoft.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 669,
+   "rule_types": {
+    "domain_suffix": 669
+   },
    "slug": "Microsoft",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Netflix": {
    "blob_sha": "90f9b64d4b890acbcc60e8be666b390999d9a7e2",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Netflix.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
-   "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "granularity": "app",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Netflix.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 498,
+   "rule_types": {
+    "domain_keyword": 4,
+    "domain_suffix": 28,
+    "ip_cidr": 266,
+    "ip_cidr6": 199,
+    "process_name": 1
+   },
    "slug": "Netflix",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|Nintendo": {
    "blob_sha": "b33fb90b01a4466a98d043e93d58dd1e5e00f53c",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Nintendo.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Nintendo.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 124,
+   "rule_types": {
+    "domain_suffix": 124
+   },
    "slug": "Nintendo",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|OneDrive": {
    "blob_sha": "89e4dcf3899b947b4d064c25c4ada11bfc886c63",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/OneDrive.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/OneDrive.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 17,
+   "rule_types": {
+    "domain_keyword": 3,
+    "domain_suffix": 12,
+    "process_name": 2
+   },
    "slug": "OneDrive",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|OpenAI": {
    "blob_sha": "f0656b9355fc95caecd83d26d75c3413452c7bed",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/OpenAI.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/OpenAI.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 17,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 16
+   },
    "slug": "OpenAI",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Oracle": {
    "blob_sha": "2241f3ed08a4cfe5cca11c8c9401ca3d6acb74bd",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Oracle.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Oracle.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 25,
+   "rule_types": {
+    "domain_suffix": 25
+   },
    "slug": "Oracle",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|PayPal": {
    "blob_sha": "d1b5255f0afb46481648f8fdf5cb098546897f24",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/PayPal.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/PayPal.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 247,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 246
+   },
    "slug": "PayPal",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Porn": {
    "blob_sha": "64a934c952875d09e3029fea1107a5b22db38955",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Porn.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Porn.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 26,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 25
+   },
    "slug": "Porn",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Prevent_DNS_Leaks": {
    "blob_sha": "eb94d606c439c9f57e19862eb4f6e51f6cfabfc8",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Prevent_DNS_Leaks.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Prevent_DNS_Leaks.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 21,
+   "rule_types": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 19
+   },
    "slug": "Prevent_DNS_Leaks",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|PrimeVideo": {
    "blob_sha": "1ccaa8afdb0a277d71b31ee463eb319cfa144cd8",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/PrimeVideo.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/PrimeVideo.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 16,
+   "rule_types": {
+    "domain": 9,
+    "domain_keyword": 1,
+    "domain_suffix": 6
+   },
    "slug": "PrimeVideo",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Proxy": {
    "blob_sha": "397dad9a0113abd0342fd1a09ccfee7e67435ab6",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Proxy.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "global",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Proxy.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 17557,
+   "rule_types": {
+    "domain": 57,
+    "domain_keyword": 16,
+    "domain_suffix": 16979,
+    "ip_cidr": 391,
+    "ip_cidr6": 96,
+    "process_name": 18
+   },
    "slug": "Proxy",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|ProxyGFW": {
    "blob_sha": "66de708f8d0b81e7dbcccc5aa620df8aad6a1dfe",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/ProxyGFW.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/ProxyGFW.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 7603,
+   "rule_types": {
+    "domain": 14,
+    "domain_keyword": 28,
+    "domain_suffix": 7478,
+    "ip_cidr": 80,
+    "ip_cidr6": 3
+   },
    "slug": "ProxyGFW",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|ProxyMedia": {
    "blob_sha": "16791c99b20e349af8b520d8896b78a12d5f572a",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/ProxyMedia.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "global",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/ProxyMedia.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 286,
+   "rule_types": {
+    "domain": 59,
+    "domain_keyword": 14,
+    "domain_suffix": 199,
+    "process_name": 14
+   },
    "slug": "ProxyMedia",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Reddit": {
    "blob_sha": "94535b1c84d4cdac4e3b775cc98c073a98de0afe",
    "count_available": true,
-   "errors": [
-    "('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Reddit.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 8,
+   "rule_types": {
+    "domain_suffix": 8
+   },
    "slug": "Reddit",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Reject": {
    "blob_sha": "b43e493e03acee0a4498a5d6e9f0f1d99739c186",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Reject.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "global",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Reject.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 6202,
+   "rule_types": {
+    "domain": 291,
+    "domain_keyword": 5,
+    "domain_suffix": 5897,
+    "ip_cidr": 9
+   },
    "slug": "Reject",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|stash|Spotify": {
    "blob_sha": "4cebff7a1076008d00658bd7f9798455dfec8774",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Spotify.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Spotify.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 20,
+   "rule_types": {
+    "domain_keyword": 1,
+    "domain_suffix": 17,
+    "ip_cidr": 1,
+    "process_name": 1
+   },
    "slug": "Spotify",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|stash|Steam": {
    "blob_sha": "9b2e85005341d8793c6a2b0cc57d5c8a2e853e31",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Steam.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Steam.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 20,
+   "rule_types": {
+    "domain_suffix": 20
+   },
    "slug": "Steam",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|Talkatone": {
    "blob_sha": "50d56c31f10cbdd09ebe0207156d92643f04d604",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Talkatone.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Talkatone.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 16,
+   "rule_types": {
+    "domain_suffix": 11,
+    "ip_cidr": 5
+   },
    "slug": "Talkatone",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4",
    "validation_mode": "standard"
   },
   "repcz|stash|Telegram": {
    "blob_sha": "2f4e0a4b3ea26ec5c91f38e1d7001ad049770e52",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/Telegram.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
-   "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "granularity": "app",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/Telegram.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 51,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 2,
+    "domain_suffix": 26,
+    "ip_asn": 5,
+    "ip_cidr": 11,
+    "ip_cidr6": 5
+   },
    "slug": "Telegram",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain + IPv4 + IPv6",
    "validation_mode": "standard"
   },
   "repcz|stash|TestFlight": {
    "blob_sha": "b7abea339029b5c9978aacf2b08e49e895dafd26",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/TestFlight.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/TestFlight.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 3,
+   "rule_types": {
+    "domain": 2,
+    "domain_keyword": 1
+   },
    "slug": "TestFlight",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|TikTok": {
    "blob_sha": "67ca089e84cf2077501e38369263dfab7006b81b",
    "count_available": true,
-   "errors": [
-    "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Repcz/Tool/X/Stash/Rules/TikTok.list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
-   ],
-   "failure_count": 1,
+   "failure_count": 0,
    "format": "plain_ruleset",
-   "granularity": "category",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": null,
+   "granularity": "app",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Stash/Rules/TikTok.list",
-   "rule_count": null,
-   "rule_types": null,
+   "rule_count": 83,
+   "rule_types": {
+    "domain": 19,
+    "domain_keyword": 7,
+    "domain_suffix": 55,
+    "ip_asn": 2
+   },
    "slug": "TikTok",
-   "status": "unavailable",
-   "summary": null,
+   "status": "available",
+   "summary": "Domain",
    "validation_mode": "standard"
   },
   "repcz|stash|TronLink": {
@@ -7976,19 +8012,19 @@
    "validation_mode": "standard"
   },
   "repcz|surge|CDN": {
-   "blob_sha": "9d74170c185a3fb7eb9ee92518e527189b9663ae",
+   "blob_sha": "67a607e1b2a1bbf963a0d23758ca5b18fd73f82d",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "app",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Surge/Rules/CDN.list",
-   "rule_count": 4655,
+   "rule_count": 4659,
    "rule_types": {
-    "domain": 3372,
+    "domain": 3374,
     "domain_keyword": 21,
-    "domain_suffix": 1203,
+    "domain_suffix": 1205,
     "domain_wildcard": 59
    },
    "slug": "CDN",
@@ -8039,17 +8075,17 @@
    "validation_mode": "standard"
   },
   "repcz|surge|ChinaIP": {
-   "blob_sha": "7b7fbb88ca3102718b6fab3b73b0c6e1afa2d487",
+   "blob_sha": "4e4469d89e4921cb54e888d2423631841321cc83",
    "count_available": true,
    "failure_count": 0,
    "format": "plain_ruleset",
    "granularity": "geo",
-   "last_checked_at": "2026-08-07T17:47:26.561301+00:00",
-   "last_success_at": "2026-08-07T17:47:26.561301+00:00",
+   "last_checked_at": "2026-08-08T07:14:13.980868+00:00",
+   "last_success_at": "2026-08-08T07:14:13.980868+00:00",
    "path": "Surge/Rules/ChinaIP.list",
-   "rule_count": 5526,
+   "rule_count": 5524,
    "rule_types": {
-    "ip_cidr": 3908,
+    "ip_cidr": 3906,
     "ip_cidr6": 1618
    },
    "slug": "ChinaIP",
@@ -9018,11 +9054,11 @@
    "validation_mode": "standard"
   }
  },
- "refreshed": 0,
+ "refreshed": 69,
  "removed": 0,
- "reused": 467,
+ "reused": 398,
  "source_id": "repcz",
- "source_sha": "3141de2acfcd8a12bcb4da72e159ee6b168f0ae7",
+ "source_sha": null,
  "tier": "A",
  "validation_mode": "standard"
 }
